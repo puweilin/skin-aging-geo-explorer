@@ -1,0 +1,96 @@
+name: Daily Skin Aging GEO Update
+
+on:
+  schedule:
+    # UTC 16:00 = Asia/Shanghai 00:00
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Search GEO and apply two-stage rules
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/search_geo.py --days 30
+
+      - name: Generate summaries for newly included records
+        id: ai_summary
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-v4-flash
+        run: python scripts/generate_ai_summaries.py
+
+      - name: Run rule and summary safety tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Verify frontend build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          if [[ -z "$(git status --porcelain -- data/geo_data.json public/data/geo_data.json data/relevance_review_queue.json data/relevance_decision_log.json)" ]]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add -- data/geo_data.json public/data/geo_data.json data/relevance_review_queue.json data/relevance_decision_log.json
+          git commit -m "Auto-update Skin Aging GEO data $(date -u +%Y-%m-%d)"
+
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i..."
+            git pull --rebase origin main
+            if git push origin main; then
+              echo "Push succeeded!"
+              exit 0
+            fi
+            echo "Push failed, retrying in 5 seconds..."
+            sleep 5
+          done
+
+          echo "All push attempts failed"
+          exit 1
+
+      - name: Report complete AI summary failure
+        if: steps.ai_summary.outcome == 'failure'
+        run: |
+          echo "GEO/rule updates were preserved, but all pending AI summaries failed."
+          exit 1

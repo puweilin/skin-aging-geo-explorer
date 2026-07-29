@@ -1,0 +1,11 @@
+{
+  "include": {
+    "GSE151601": "Skin-Specific DNA methylation age predictor 的细胞传代验证子集，直接用于皮肤生物年龄测量。",
+    "GSE151603": "Skin-Specific DNA methylation age predictor 的 senotherapeutic 干预验证子集，直接服务于皮肤老化研究。"
+  },
+  "exclude": {
+    "GSE141950": "实验仅研究 Hutchinson-Gilford progeria syndrome 患者成纤维细胞，主问题是系统性早老疾病而非皮肤老化。",
+    "GSE211839": "实验终点是 HFDPC 毛发生长，anti-aging 仅为材料属性描述，未设置皮肤或毛囊老化模型。"
+  }
+}
+
