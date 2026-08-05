@@ -6,7 +6,7 @@
     "Data_Type": "spatial transcriptomics",
     "GEO_DataSet_Type": "Genome binding/occupancy profiling by high throughput sequencing",
     "Sample_Count": 15,
-    "Sample_Titles": "BJ fibroblast, Targeted ATAC-see, LaminB1, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminB1, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl)",
+    "Sample_Titles": "BJ fibroblast, Targeted ATAC-see, LaminB1, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminB1, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl)",
     "Platform": "30173",
     "Country": "USA",
     "Lab": "",
@@ -45,7 +45,7 @@
       "off_topic_signals": [],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-04T17:27:58"
+    "Decided_At": "2026-08-05T17:16:59"
   },
   {
     "Accession": "GSE206070",
