@@ -1,5 +1,56 @@
 [
   {
+    "Accession": "GSE343822",
+    "Title": "Hyaluronic acid microneedle delivery of frog skin-derived small extracellular vesicles for UVR-induced photoaging repair",
+    "Organism": "Mus musculus",
+    "Data_Type": "miRNA/ncRNA profiling",
+    "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
+    "Sample_Count": 9,
+    "Sample_Titles": "mDFs, OA_UVR_sEV2; mDFs, UVR2; mDFs, Vehicle2; mDFs, Vehicle3; mDFs, OA_UVR_sEV3; mDFs, UVR3; mDFs, OA_UVR_sEV1; mDFs, UVR1; mDFs, Vehicle1",
+    "Platform": "34290",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "kunming medical university",
+    "Contributors": "Yutong,,Wu; Xinwang,,Yang",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Photoaging-induced deterioration of skin structural integrity and barrier function represents a critical challenge in dermatological health. While small extracellular vesicles (sEVs) hold therapeutic potential, their source diversity remains underexplored. Here, we report a novel sEV, designated OA-UVR-sEV, isolated from ultraviolet irradiation (UVR)-stimulated skin secretions of the amphibian Odorrana andersonii. Characterization confirmed its typical vesicular ultrastructure and excellent biocompatibility. Integrated multi-omics analysis revealed enrichment of functional miRNAs, proteins, and small-molecule metabolites with anti-photoaging potential. In vitro, OA-UVR-sEV substantially reduced reactive oxygen species accumulation, UVR-associated DNA damage marker expression, and pro-inflammatory cytokines in human immortalized keratinocytes and mouse dermal fibroblasts. For in vivo delivery, we developed a hyaluronic acid microneedle system, which enabled OA-UVR-sEV to attenuate wrinkle formation, stimulate dermal collagen synthesis, improve skin hydration, and reduce transepidermal water loss in photoaged mice. Analyses in dermal fibroblasts showed that these protective effects were associated with reduced activation of the MAPK and NF-κB signaling pathways. Collectively, our results establish OA-UVR-sEV as an effective anti-photoaging agent and highlight amphibian-derived sEVs as a promising new avenue for combating skin aging.",
+    "Overall_Design": "Primary mouse dermal fibroblasts were assigned to three experimental groups: Vehicle (no UVR), UVR (UVR exposure only), and UVR+OA-UVR-sEV (UVR exposure followed by OA-UVR-sEV treatment). Each group contained three independent biological replicates, yielding nine RNA-seq libraries in total. For induction of photoaging, cells were exposed to combined UVA (6 J/cm2) and UVB (20 mJ/cm2) irradiation for three consecutive days. Cells in the UVR+OA-UVR-sEV group were subsequently treated with OA-UVR-sEV for 24 h before total RNA extraction and RNA sequencing.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343822",
+    "Submission_Date": "2026/08/18",
+    "Relevance_Decision": "include",
+    "Relevance_Score": 12,
+    "Relevance_Reason": "明确包含皮肤样本，并设置年龄、衰老或光老化对照",
+    "Scope_Category": "photoaging",
+    "Relevance_Evidence": {
+      "skin": [
+        "skin",
+        "dermis",
+        "dermal_fibroblast",
+        "keratinocyte"
+      ],
+      "aging": [
+        "skin_aging",
+        "photoaging",
+        "aging_generic"
+      ],
+      "sample": [
+        "dermal_sample"
+      ],
+      "age_contrast": [
+        "photoaging_model"
+      ],
+      "intervention": [
+        "anti_aging_intervention"
+      ],
+      "incidental": [],
+      "off_topic": []
+    },
+    "Relevance_Final_Source": "two_stage_rule"
+  },
+  {
     "Accession": "GSE315794",
     "Title": "Non-ablative fractional laser 1940nm treatment series modulates epigenetic pathways and signs of skin aging: a split face investigation",
     "Organism": "Homo sapiens",
