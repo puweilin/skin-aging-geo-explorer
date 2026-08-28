@@ -1,12 +1,63 @@
 [
   {
+    "Accession": "GSE293695",
+    "Title": "Senotherapeutic potential against xeroderma pigmentosum",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
+    "Sample_Count": 42,
+    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, cisplatin+EF24, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; HC-iMC, UV, rep2; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, noUV, rep2; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, UV, rep1; XP-iMC, cisplatin, rep1; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, cisplatin+EF24, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV, rep2; XP-iMC, UV + EF24 Day6, rep1; XP-iMC, UV + Upadacitinib Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, cisplatin, rep2; XP-iMC, non-treatment, rep1; XP-iMC, control, rep1; XP-iMC, UV Day3, rep2; HC-iMC, UV, rep1; XP-iMC, UV + Baricitinib Day3, rep2; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, UV + Curcumin Day3, rep1; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, UV Day6, rep1; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2; HC-iMC, noUV, rep2",
+    "Platform": "30173",
+    "Country": "Japan",
+    "Lab": "Division of Genome Biology",
+    "Institute": "Hokkaido University",
+    "Contributors": "Xuebing,,Wang; Masako,,Nishida; Ai,,Yoshioka; Claire Yik-Lok,,Chung; Shinya,,Hashimoto; Hideki,,Tanizawa; Shinya,,Ohta; Ken-ichi,,Noma; Takeshi,,Fukumoto",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Background: Xeroderma pigmentosum (XP) is an inherited photoaging syndrome caused by mutations in genes involved in the nucleotide excision repair (NER) pathway. XP patients exhibit hypersensitivity to ultraviolet (UV) radiation, leading to accelerated skin aging and requiring lifelong sun avoidance. In this study, we aimed to investigate UV-induced cellular senescence in XP melanocytes and explore potential senotherapeutic strategies. Methods: Melanocytes differentiated from iPSCs derived from an XP-A patient and a healthy individual, respectively, were used to induce senescence. Senescence was assessed by SA-β-gal and γH2AX staining. The drug screening tested a panel of 12 senolytic agents and 15 senomorphic agents for their ability to target senescent XP-iMCs. The effects of these agents were evaluated through cell viability assays and SPiDER-βGal staining followed by flow cytometry. RNA sequencing was performed to analyze transcriptional changes induced by senomorphic treatments. Results: We demonstrate that UV-induced DNA damage triggers cellular senescence and up-regulates senescence-associated secretory phenotype (SASP) genes in melanocytes derived from an XP patient. The drug screening identified JAK inhibitors and curcuminoids as promising senomorphic agents. In addition, two classes of senolytic agents, BCL-2-like protein inhibitors and HSP90 inhibitors, effectively eliminate senescent melanocytes. Further analysis demonstrates that senomorphic treatment effectively counteracts senescence and reduces SASP gene expression in XP-derived melanocytes. Moreover, genes in senescence-related pathways, including the cytokine-cytokine receptor interaction, JAK/STAT, and PI3K/AKT pathways, which are activated in senescent cells, are down-regulated by senomorphic treatment. Conclusions: This study highlights a potential senotherapeutic strategy for XP, which may help alleviate photoaging symptoms in XP patients.",
+    "Overall_Design": "To understand how treatment with cisplatin, UV, and senomorphic agents affects gene expression in XP-iMCs and HC-iMCs, we collected RNA samples from cells treated with indicated conditions and performed gene expression profiling analysis.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE293695",
+    "Submission_Date": "2026/08/25",
+    "Final_Decision": "exclude",
+    "Decision_Source": "two_stage_rule",
+    "Assessment": {
+      "decision": "exclude",
+      "score": 6,
+      "stage1_pass": true,
+      "reason": "同时命中皮肤和老化词，但缺少主研究问题与样本证据",
+      "scope_category": "photoaging",
+      "skin_terms": [
+        "skin",
+        "melanocyte"
+      ],
+      "aging_terms": [
+        "skin_aging",
+        "photoaging",
+        "aging_generic",
+        "senescence",
+        "rejuvenation"
+      ],
+      "sample_terms": [],
+      "age_contrast_terms": [],
+      "intervention_terms": [
+        "anti_aging_intervention"
+      ],
+      "incidental_signals": [],
+      "off_topic_signals": [],
+      "central_sentences": 3
+    },
+    "Decided_At": "2026-08-28T00:39:38"
+  },
+  {
     "Accession": "GSE338034",
     "Title": "Targeted ATAC-see (tATAC-see): A Visual Assay for Target-Specific Chromatin Profiling",
     "Organism": "Homo sapiens",
     "Data_Type": "spatial transcriptomics",
     "GEO_DataSet_Type": "Genome binding/occupancy profiling by high throughput sequencing",
     "Sample_Count": 15,
-    "Sample_Titles": "BJ fibroblast, Targeted ATAC-see, LaminB1, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminB1, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl)",
+    "Sample_Titles": "BJ fibroblast, Targeted ATAC-see, LaminB1, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K27ac, high-salt (300mM NaCl); Human dermal fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl); Human dermal fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, low-salt (0mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminB1, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, LaminAC, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, IgG, high-salt (300mM NaCl); BJ fibroblast, Targeted ATAC-see, H3K4me3, low-salt (0mM NaCl)",
     "Platform": "30173",
     "Country": "USA",
     "Lab": "",
@@ -45,7 +96,7 @@
       "off_topic_signals": [],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-26T16:40:35"
+    "Decided_At": "2026-08-28T00:39:38"
   },
   {
     "Accession": "GSE206070",
