@@ -1,12 +1,108 @@
 [
   {
+    "Accession": "GSE235459",
+    "Title": "p63 and p73 cooperate to promote cutaneous squamous cell carcinoma through largely overlapping transcriptional programs [RNA-Seq]",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
+    "Sample_Count": 12,
+    "Sample_Titles": "RNAseq sip73 exp2; RNAseq siCTRL exp2; RNAseq sip63 exp1; RNAseq sip63 exp4; RNAseq sip73 exp3; RNAseq siCTRL exp3; RNAseq sip73 exp4; RNAseq sip63 exp2; RNAseq sip73 exp1; RNAseq siCTRL exp4; RNAseq sip63 exp3; RNAseq siCTRL exp1",
+    "Platform": "20301",
+    "Country": "Italy",
+    "Lab": "",
+    "Institute": "University of Naples \"Federico II\"",
+    "Contributors": "Dario,,Antonini; Marco,,Ferniani; Claudia,,Russo; Dania,,Al-Labban; Jieqiong,,Qu; Paola,,Ostano; Marco,,Franciosi; Ludovica,,D'Auria; Andrew,,South; Huiqing,,Zhou; Madhavi,,Kadakia; Caterina,,Missero",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Aberrant expression of transcriptional regulators can affect oncogenic gene expression programs in cancer. Mutations in the tumor suppressor p53 are commonly found in UV-damaged skin and protect damaged epidermal cells from senescence and or oncogene-induced apoptosis, favoring cancer formation. In contrast, the other p53 family members p63 and p73 are rarely mutated in cancer and p63 is often amplified or overexpressed in lung, esophagus, and head and neck squamous cell carcinoma (SCC). Here, we demonstrate that both p63 and p73 are required for cell proliferation in epidermal cells and in skin SCC and are overexpressed in preneoplastic lesions and in skin SCCs. p63/p73 form heterotetramers and co-occupy thousands of regulatory regions, jointly controlling a transcriptional program that promotes cell proliferation and tumorigenesis. The combination of gene knockdown with transcriptomic and epigenetic analyses revealed that p63 and p73 control a transcriptional feed-forward circuit that sustains cell proliferation. We find that in skin SCC a key signaling pathway downstream of p63/p73 is the Epidermal Growth Factor Receptor (EGFR)/MAP kinase. p63/p73 directly and positively control transcription of the EGFR ligands, among which amphiregulin (AREG) is the most highly expressed in skin SCC. Like p63/p73, AREG is critical to maintain skin SCC proliferative potential, anchorage independent growth, and to promote tumorigenesis. Thus, p63 and p73 act as oncogenic drivers in skin SCC, with AREG being a crucial non-cell-autonomous effector downstream of p63 and p73 in skin SCC formation.",
+    "Overall_Design": "Whole transcriptome upon p63 or p73 knockdown using specific siRNA in SCC13 cell line",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235459",
+    "Submission_Date": "2026/08/28",
+    "Final_Decision": "exclude",
+    "Decision_Source": "two_stage_rule",
+    "Assessment": {
+      "decision": "exclude",
+      "score": -1,
+      "stage1_pass": true,
+      "reason": "研究核心为肿瘤，缺少皮肤老化样本与年龄对照的共同证据",
+      "scope_category": "cellular_senescence",
+      "skin_terms": [
+        "skin",
+        "cutaneous",
+        "epidermis"
+      ],
+      "aging_terms": [
+        "senescence"
+      ],
+      "sample_terms": [],
+      "age_contrast_terms": [],
+      "intervention_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [
+        "cancer"
+      ],
+      "central_sentences": 0
+    },
+    "Decided_At": "2026-08-29T00:12:20"
+  },
+  {
+    "Accession": "GSE235461",
+    "Title": "p63 and p73 cooperate to promote cutaneous squamous cell carcinoma through largely overlapping transcriptional programs [ChIP-Seq]",
+    "Organism": "Homo sapiens",
+    "Data_Type": "ChIP/CUT&RUN",
+    "GEO_DataSet_Type": "Genome binding/occupancy profiling by high throughput sequencing",
+    "Sample_Count": 6,
+    "Sample_Titles": "ChIP anti-p73, experiment 1; ChIP anti-p73, experiment 2; ChIP input, experiment 1; ChIP input, experiment 2; ChIP anti-p63, experiment 1; ChIP anti-p63, experiment 2",
+    "Platform": "18573",
+    "Country": "Italy",
+    "Lab": "",
+    "Institute": "University of Naples \"Federico II\"",
+    "Contributors": "Dario,,Antonini; Marco,,Ferniani; Claudia,,Russo; Dania,,Al-Labban; Jieqiong,,Qu; Paola,,Ostano; Marco,,Franciosi; Ludovica,,D'Auria; Andrew,,South; Huiqing,,Zhou; Madhavi,,Kadakia; Caterina,,Missero",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Aberrant expression of transcriptional regulators can affect oncogenic gene expression programs in cancer. Mutations in the tumor suppressor p53 are commonly found in UV-damaged skin and protect damaged epidermal cells from senescence and or oncogene-induced apoptosis, favoring cancer formation. In contrast, the other p53 family members p63 and p73 are rarely mutated in cancer and p63 is often amplified or overexpressed in lung, esophagus, and head and neck squamous cell carcinoma (SCC). Here, we demonstrate that both p63 and p73 are required for cell proliferation in epidermal cells and in skin SCC and are overexpressed in preneoplastic lesions and in skin SCCs. p63/p73 form heterotetramers and co-occupy thousands of regulatory regions, jointly controlling a transcriptional program that promotes cell proliferation and tumorigenesis. The combination of gene knockdown with transcriptomic and epigenetic analyses revealed that p63 and p73 control a transcriptional feed-forward circuit that sustains cell proliferation. We find that in skin SCC a key signaling pathway downstream of p63/p73 is the Epidermal Growth Factor Receptor (EGFR)/MAP kinase. p63/p73 directly and positively control transcription of the EGFR ligands, among which amphiregulin (AREG) is the most highly expressed in skin SCC. Like p63/p73, AREG is critical to maintain skin SCC proliferative potential, anchorage independent growth, and to promote tumorigenesis. Thus, p63 and p73 act as oncogenic drivers in skin SCC, with AREG being a crucial non-cell-autonomous effector downstream of p63 and p73 in skin SCC formation.",
+    "Overall_Design": "p63 and p73 binding occupancy was assessed by ChIP-seq with anti-p63 or anti-p73 antibodies in SCC13 cell line",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235461",
+    "Submission_Date": "2026/08/28",
+    "Final_Decision": "exclude",
+    "Decision_Source": "two_stage_rule",
+    "Assessment": {
+      "decision": "exclude",
+      "score": -1,
+      "stage1_pass": true,
+      "reason": "研究核心为肿瘤，缺少皮肤老化样本与年龄对照的共同证据",
+      "scope_category": "cellular_senescence",
+      "skin_terms": [
+        "skin",
+        "cutaneous",
+        "epidermis"
+      ],
+      "aging_terms": [
+        "senescence"
+      ],
+      "sample_terms": [],
+      "age_contrast_terms": [],
+      "intervention_terms": [],
+      "incidental_signals": [],
+      "off_topic_signals": [
+        "cancer"
+      ],
+      "central_sentences": 0
+    },
+    "Decided_At": "2026-08-29T00:12:20"
+  },
+  {
     "Accession": "GSE293695",
     "Title": "Senotherapeutic potential against xeroderma pigmentosum",
     "Organism": "Homo sapiens",
     "Data_Type": "bulk RNA-seq",
     "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
     "Sample_Count": 42,
-    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, cisplatin+EF24, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; HC-iMC, UV, rep2; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, noUV, rep2; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, UV, rep1; XP-iMC, cisplatin, rep1; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, cisplatin+EF24, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV, rep2; XP-iMC, UV + EF24 Day6, rep1; XP-iMC, UV + Upadacitinib Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, cisplatin, rep2; XP-iMC, non-treatment, rep1; XP-iMC, control, rep1; XP-iMC, UV Day3, rep2; HC-iMC, UV, rep1; XP-iMC, UV + Baricitinib Day3, rep2; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, UV + Curcumin Day3, rep1; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, UV Day6, rep1; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2; HC-iMC, noUV, rep2",
+    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; HC-iMC, UV, rep2; XP-iMC, cisplatin+EF24, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, noUV, rep2; XP-iMC, UV Day6, rep2; XP-iMC, UV, rep1; XP-iMC, cisplatin, rep1; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, cisplatin+EF24, rep2; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV + EF24 Day6, rep1; XP-iMC, cisplatin, rep2; XP-iMC, UV + Upadacitinib Day6, rep1; XP-iMC, control, rep1; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV Day3, rep2; XP-iMC, UV, rep2; XP-iMC, UV + Baricitinib Day3, rep2; XP-iMC, UV + Curcumin Day3, rep1; HC-iMC, UV, rep1; XP-iMC, UV Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, non-treatment, rep1; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2; HC-iMC, noUV, rep2",
     "Platform": "30173",
     "Country": "Japan",
     "Lab": "Division of Genome Biology",
@@ -48,7 +144,7 @@
       "off_topic_signals": [],
       "central_sentences": 3
     },
-    "Decided_At": "2026-08-28T00:39:38"
+    "Decided_At": "2026-08-29T00:12:20"
   },
   {
     "Accession": "GSE338034",
@@ -96,7 +192,7 @@
       "off_topic_signals": [],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-28T00:39:38"
+    "Decided_At": "2026-08-29T00:12:20"
   },
   {
     "Accession": "GSE206070",
