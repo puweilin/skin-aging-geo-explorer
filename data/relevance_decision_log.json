@@ -8,14 +8,14 @@
     "Sample_Count": 12,
     "Sample_Titles": "RNAseq sip73 exp2; RNAseq siCTRL exp2; RNAseq sip63 exp1; RNAseq sip63 exp4; RNAseq sip73 exp3; RNAseq siCTRL exp3; RNAseq sip73 exp4; RNAseq sip63 exp2; RNAseq sip73 exp1; RNAseq siCTRL exp4; RNAseq sip63 exp3; RNAseq siCTRL exp1",
     "Platform": "20301",
-    "Country": "Italy",
+    "Country": "",
     "Lab": "",
-    "Institute": "University of Naples \"Federico II\"",
-    "Contributors": "Dario,,Antonini; Marco,,Ferniani; Claudia,,Russo; Dania,,Al-Labban; Jieqiong,,Qu; Paola,,Ostano; Marco,,Franciosi; Ludovica,,D'Auria; Andrew,,South; Huiqing,,Zhou; Madhavi,,Kadakia; Caterina,,Missero",
+    "Institute": "",
+    "Contributors": "",
     "PubMed_IDs": "",
     "Supplementary_Size": "N/A",
     "Summary": "Aberrant expression of transcriptional regulators can affect oncogenic gene expression programs in cancer. Mutations in the tumor suppressor p53 are commonly found in UV-damaged skin and protect damaged epidermal cells from senescence and or oncogene-induced apoptosis, favoring cancer formation. In contrast, the other p53 family members p63 and p73 are rarely mutated in cancer and p63 is often amplified or overexpressed in lung, esophagus, and head and neck squamous cell carcinoma (SCC). Here, we demonstrate that both p63 and p73 are required for cell proliferation in epidermal cells and in skin SCC and are overexpressed in preneoplastic lesions and in skin SCCs. p63/p73 form heterotetramers and co-occupy thousands of regulatory regions, jointly controlling a transcriptional program that promotes cell proliferation and tumorigenesis. The combination of gene knockdown with transcriptomic and epigenetic analyses revealed that p63 and p73 control a transcriptional feed-forward circuit that sustains cell proliferation. We find that in skin SCC a key signaling pathway downstream of p63/p73 is the Epidermal Growth Factor Receptor (EGFR)/MAP kinase. p63/p73 directly and positively control transcription of the EGFR ligands, among which amphiregulin (AREG) is the most highly expressed in skin SCC. Like p63/p73, AREG is critical to maintain skin SCC proliferative potential, anchorage independent growth, and to promote tumorigenesis. Thus, p63 and p73 act as oncogenic drivers in skin SCC, with AREG being a crucial non-cell-autonomous effector downstream of p63 and p73 in skin SCC formation.",
-    "Overall_Design": "Whole transcriptome upon p63 or p73 knockdown using specific siRNA in SCC13 cell line",
+    "Overall_Design": "",
     "AI_Summary_CN": "",
     "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235459",
@@ -45,7 +45,7 @@
       ],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-29T18:58:11"
+    "Decided_At": "2026-08-30T18:53:44"
   },
   {
     "Accession": "GSE235461",
@@ -56,14 +56,14 @@
     "Sample_Count": 6,
     "Sample_Titles": "ChIP anti-p73, experiment 1; ChIP anti-p73, experiment 2; ChIP input, experiment 1; ChIP input, experiment 2; ChIP anti-p63, experiment 1; ChIP anti-p63, experiment 2",
     "Platform": "18573",
-    "Country": "Italy",
+    "Country": "",
     "Lab": "",
-    "Institute": "University of Naples \"Federico II\"",
-    "Contributors": "Dario,,Antonini; Marco,,Ferniani; Claudia,,Russo; Dania,,Al-Labban; Jieqiong,,Qu; Paola,,Ostano; Marco,,Franciosi; Ludovica,,D'Auria; Andrew,,South; Huiqing,,Zhou; Madhavi,,Kadakia; Caterina,,Missero",
+    "Institute": "",
+    "Contributors": "",
     "PubMed_IDs": "",
     "Supplementary_Size": "N/A",
     "Summary": "Aberrant expression of transcriptional regulators can affect oncogenic gene expression programs in cancer. Mutations in the tumor suppressor p53 are commonly found in UV-damaged skin and protect damaged epidermal cells from senescence and or oncogene-induced apoptosis, favoring cancer formation. In contrast, the other p53 family members p63 and p73 are rarely mutated in cancer and p63 is often amplified or overexpressed in lung, esophagus, and head and neck squamous cell carcinoma (SCC). Here, we demonstrate that both p63 and p73 are required for cell proliferation in epidermal cells and in skin SCC and are overexpressed in preneoplastic lesions and in skin SCCs. p63/p73 form heterotetramers and co-occupy thousands of regulatory regions, jointly controlling a transcriptional program that promotes cell proliferation and tumorigenesis. The combination of gene knockdown with transcriptomic and epigenetic analyses revealed that p63 and p73 control a transcriptional feed-forward circuit that sustains cell proliferation. We find that in skin SCC a key signaling pathway downstream of p63/p73 is the Epidermal Growth Factor Receptor (EGFR)/MAP kinase. p63/p73 directly and positively control transcription of the EGFR ligands, among which amphiregulin (AREG) is the most highly expressed in skin SCC. Like p63/p73, AREG is critical to maintain skin SCC proliferative potential, anchorage independent growth, and to promote tumorigenesis. Thus, p63 and p73 act as oncogenic drivers in skin SCC, with AREG being a crucial non-cell-autonomous effector downstream of p63 and p73 in skin SCC formation.",
-    "Overall_Design": "p63 and p73 binding occupancy was assessed by ChIP-seq with anti-p63 or anti-p73 antibodies in SCC13 cell line",
+    "Overall_Design": "",
     "AI_Summary_CN": "",
     "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235461",
@@ -93,7 +93,7 @@
       ],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-29T18:58:11"
+    "Decided_At": "2026-08-30T18:53:44"
   },
   {
     "Accession": "GSE293695",
@@ -102,16 +102,16 @@
     "Data_Type": "bulk RNA-seq",
     "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
     "Sample_Count": 42,
-    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; HC-iMC, UV, rep2; XP-iMC, cisplatin+EF24, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, noUV, rep2; XP-iMC, UV Day6, rep2; XP-iMC, UV, rep1; XP-iMC, cisplatin, rep1; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, cisplatin+EF24, rep2; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV + EF24 Day6, rep1; XP-iMC, cisplatin, rep2; XP-iMC, UV + Upadacitinib Day6, rep1; XP-iMC, control, rep1; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV Day3, rep2; XP-iMC, UV, rep2; XP-iMC, UV + Baricitinib Day3, rep2; XP-iMC, UV + Curcumin Day3, rep1; HC-iMC, UV, rep1; XP-iMC, UV Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, non-treatment, rep1; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2; HC-iMC, noUV, rep2",
+    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; XP-iMC, cisplatin+EF24, rep1; HC-iMC, UV, rep2; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, noUV, rep2; XP-iMC, cisplatin, rep1; XP-iMC, UV, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, cisplatin+EF24, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, UV, rep2; XP-iMC, UV + EF24 Day6, rep1; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, UV + Upadacitinib Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, non-treatment, rep1; XP-iMC, cisplatin, rep2; XP-iMC, control, rep1; XP-iMC, UV Day3, rep2; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day3, rep2; HC-iMC, noUV, rep2; HC-iMC, UV, rep1; XP-iMC, UV + Curcumin Day3, rep1; XP-iMC, UV Day6, rep1; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2",
     "Platform": "30173",
-    "Country": "Japan",
-    "Lab": "Division of Genome Biology",
-    "Institute": "Hokkaido University",
-    "Contributors": "Xuebing,,Wang; Masako,,Nishida; Ai,,Yoshioka; Claire Yik-Lok,,Chung; Shinya,,Hashimoto; Hideki,,Tanizawa; Shinya,,Ohta; Ken-ichi,,Noma; Takeshi,,Fukumoto",
+    "Country": "",
+    "Lab": "",
+    "Institute": "",
+    "Contributors": "",
     "PubMed_IDs": "",
     "Supplementary_Size": "N/A",
     "Summary": "Background: Xeroderma pigmentosum (XP) is an inherited photoaging syndrome caused by mutations in genes involved in the nucleotide excision repair (NER) pathway. XP patients exhibit hypersensitivity to ultraviolet (UV) radiation, leading to accelerated skin aging and requiring lifelong sun avoidance. In this study, we aimed to investigate UV-induced cellular senescence in XP melanocytes and explore potential senotherapeutic strategies. Methods: Melanocytes differentiated from iPSCs derived from an XP-A patient and a healthy individual, respectively, were used to induce senescence. Senescence was assessed by SA-β-gal and γH2AX staining. The drug screening tested a panel of 12 senolytic agents and 15 senomorphic agents for their ability to target senescent XP-iMCs. The effects of these agents were evaluated through cell viability assays and SPiDER-βGal staining followed by flow cytometry. RNA sequencing was performed to analyze transcriptional changes induced by senomorphic treatments. Results: We demonstrate that UV-induced DNA damage triggers cellular senescence and up-regulates senescence-associated secretory phenotype (SASP) genes in melanocytes derived from an XP patient. The drug screening identified JAK inhibitors and curcuminoids as promising senomorphic agents. In addition, two classes of senolytic agents, BCL-2-like protein inhibitors and HSP90 inhibitors, effectively eliminate senescent melanocytes. Further analysis demonstrates that senomorphic treatment effectively counteracts senescence and reduces SASP gene expression in XP-derived melanocytes. Moreover, genes in senescence-related pathways, including the cytokine-cytokine receptor interaction, JAK/STAT, and PI3K/AKT pathways, which are activated in senescent cells, are down-regulated by senomorphic treatment. Conclusions: This study highlights a potential senotherapeutic strategy for XP, which may help alleviate photoaging symptoms in XP patients.",
-    "Overall_Design": "To understand how treatment with cisplatin, UV, and senomorphic agents affects gene expression in XP-iMCs and HC-iMCs, we collected RNA samples from cells treated with indicated conditions and performed gene expression profiling analysis.",
+    "Overall_Design": "",
     "AI_Summary_CN": "",
     "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE293695",
@@ -122,7 +122,7 @@
       "decision": "exclude",
       "score": 6,
       "stage1_pass": true,
-      "reason": "同时命中皮肤和老化词，但缺少主研究问题与样本证据",
+      "reason": "SuperSeries 的实际子研究指向非皮肤细胞，皮肤老化仅为背景",
       "scope_category": "photoaging",
       "skin_terms": [
         "skin",
@@ -144,7 +144,7 @@
       "off_topic_signals": [],
       "central_sentences": 3
     },
-    "Decided_At": "2026-08-29T18:58:11"
+    "Decided_At": "2026-08-30T18:53:44"
   },
   {
     "Accession": "GSE338034",
