@@ -6,7 +6,7 @@
     "Data_Type": "bulk RNA-seq",
     "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
     "Sample_Count": 12,
-    "Sample_Titles": "RNAseq sip73 exp2; RNAseq siCTRL exp2; RNAseq sip63 exp1; RNAseq sip63 exp4; RNAseq sip73 exp3; RNAseq siCTRL exp3; RNAseq sip73 exp4; RNAseq sip63 exp2; RNAseq sip73 exp1; RNAseq siCTRL exp4; RNAseq sip63 exp3; RNAseq siCTRL exp1",
+    "Sample_Titles": "RNAseq siCTRL exp2; RNAseq sip73 exp2; RNAseq sip63 exp1; RNAseq sip63 exp4; RNAseq sip73 exp3; RNAseq siCTRL exp3; RNAseq sip73 exp4; RNAseq sip63 exp2; RNAseq sip73 exp1; RNAseq siCTRL exp4; RNAseq sip63 exp3; RNAseq siCTRL exp1",
     "Platform": "20301",
     "Country": "",
     "Lab": "",
@@ -45,7 +45,7 @@
       ],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-30T18:53:44"
+    "Decided_At": "2026-08-31T21:10:25"
   },
   {
     "Accession": "GSE235461",
@@ -93,7 +93,7 @@
       ],
       "central_sentences": 0
     },
-    "Decided_At": "2026-08-30T18:53:44"
+    "Decided_At": "2026-08-31T21:10:25"
   },
   {
     "Accession": "GSE293695",
@@ -102,7 +102,7 @@
     "Data_Type": "bulk RNA-seq",
     "GEO_DataSet_Type": "Expression profiling by high throughput sequencing",
     "Sample_Count": 42,
-    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; XP-iMC, cisplatin+EF24, rep1; HC-iMC, UV, rep2; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, noUV, rep2; XP-iMC, cisplatin, rep1; XP-iMC, UV, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, cisplatin+EF24, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, UV, rep2; XP-iMC, UV + EF24 Day6, rep1; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, UV + Upadacitinib Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, non-treatment, rep1; XP-iMC, cisplatin, rep2; XP-iMC, control, rep1; XP-iMC, UV Day3, rep2; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day3, rep2; HC-iMC, noUV, rep2; HC-iMC, UV, rep1; XP-iMC, UV + Curcumin Day3, rep1; XP-iMC, UV Day6, rep1; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2",
+    "Sample_Titles": "XP-iMC, non-treatment, rep2; XP-iMC, control, rep2; XP-iMC, UV + Curcumin Day3, rep2; XP-iMC, cisplatin+curcumin, rep2; XP-iMC, cisplatin+EF24, rep1; XP-iMC, UV + EF24 Day3, rep1; XP-iMC, UV + Upadacitinib Day6, rep2; HC-iMC, UV, rep2; XP-iMC, UV + Upadacitinib Day3, rep1; XP-iMC, cisplatin+Upadacitinib, rep1; XP-iMC, UV Day6, rep2; XP-iMC, UV + Baricitinib Day6, rep2; XP-iMC, UV Day3, rep1; XP-iMC, noUV, rep2; XP-iMC, UV + Curcumin Day6, rep1; XP-iMC, UV, rep1; XP-iMC, cisplatin, rep1; XP-iMC, UV + Baricitinib Day3, rep1; XP-iMC, cisplatin+Baricitinib, rep1; XP-iMC, UV + EF24 Day3, rep2; XP-iMC, cisplatin+EF24, rep2; XP-iMC, cisplatin+Upadacitinib, rep2; XP-iMC, UV + Upadacitinib Day3, rep2; XP-iMC, UV, rep2; XP-iMC, UV + Curcumin Day6, rep2; XP-iMC, UV + EF24 Day6, rep1; HC-iMC, noUV, rep1; XP-iMC, cisplatin, rep2; XP-iMC, non-treatment, rep1; XP-iMC, UV + Upadacitinib Day6, rep1; XP-iMC, control, rep1; XP-iMC, UV Day3, rep2; HC-iMC, UV, rep1; XP-iMC, UV + Baricitinib Day3, rep2; XP-iMC, UV + Curcumin Day3, rep1; XP-iMC, cisplatin+Baricitinib, rep2; XP-iMC, UV Day6, rep1; XP-iMC, cisplatin+curcumin, rep1; XP-iMC, noUV, rep1; XP-iMC, UV + Baricitinib Day6, rep1; XP-iMC, UV + EF24 Day6, rep2; HC-iMC, noUV, rep2",
     "Platform": "30173",
     "Country": "",
     "Lab": "",
@@ -144,7 +144,7 @@
       "off_topic_signals": [],
       "central_sentences": 3
     },
-    "Decided_At": "2026-08-30T18:53:44"
+    "Decided_At": "2026-08-31T21:10:25"
   },
   {
     "Accession": "GSE338034",
