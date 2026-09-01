@@ -111,7 +111,10 @@ def accession_sequence(records: list[Mapping[str, Any]]) -> list[str]:
 
 
 def is_formally_included(record: Mapping[str, Any]) -> bool:
-    return record.get("Relevance_Final_Decision") == "include"
+    return (
+        record.get("Relevance_Final_Decision") == "include"
+        and record.get("Curation_Status", "active") == "active"
+    )
 
 
 def needs_summary(record: Mapping[str, Any], *, force: bool = False) -> bool:
@@ -140,6 +143,11 @@ def build_prompt(record: Mapping[str, Any]) -> str:
         "原始摘要": _truncate(record.get("Summary"), 5000),
         "Overall Design": _truncate(record.get("Overall_Design"), 4000),
         "规则主题分层": record.get("Scope_Category", ""),
+        "老化情境": record.get("Aging_Contexts", []),
+        "组织区室": record.get("Tissue_Compartments", []),
+        "细胞类型": record.get("Cell_Types", []),
+        "比较设计": record.get("Comparison_Designs", []),
+        "数据集角色": record.get("Dataset_Role", ""),
     }
     return (
         "请为以下已经通过两阶段规则筛选的数据集生成中文摘要。"

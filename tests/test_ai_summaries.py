@@ -39,6 +39,15 @@ class AISummaryTests(unittest.TestCase):
         self.assertFalse(needs_summary(record))
         self.assertTrue(needs_summary(record, force=True))
 
+    def test_deprecated_record_is_not_eligible(self):
+        record = {
+            "Accession": "GSE3",
+            "Relevance_Final_Decision": "include",
+            "Curation_Status": "deprecated",
+            "AI_Summary_CN": "",
+        }
+        self.assertFalse(needs_summary(record))
+
     def test_prompt_forbids_relevance_redecision(self):
         prompt = build_prompt({
             "Accession": "GSE1",

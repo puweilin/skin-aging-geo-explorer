@@ -1,4 +1,4 @@
-/* GEO Hair Follicle & AGA Dataset Explorer */
+/* Skin Aging GEO Dataset Explorer v2 */
 
 :root {
   --ink: #1d2924;
@@ -229,6 +229,44 @@ body {
   margin-top: 38px;
 }
 
+.scope-note {
+  padding: 13px 16px;
+  color: var(--muted);
+  background: #f7f6f1;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--copper);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.scope-note strong {
+  color: var(--ink);
+}
+
+.view-switch {
+  display: inline-flex;
+  padding: 3px;
+  background: #e8e9e3;
+  border: 1px solid var(--line);
+}
+
+.view-switch button {
+  appearance: none;
+  padding: 8px 13px;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.view-switch button.active {
+  color: var(--surface);
+  background: var(--brand);
+}
+
 /* Summary cards */
 .stats-card {
   position: relative;
@@ -367,6 +405,55 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.8fr);
+  gap: 28px;
+}
+
+.study-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.tag-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.study-related-list {
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.study-related-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.study-related-item:last-child {
+  border-bottom: 0;
+}
+
+.related-title {
+  margin-left: 10px;
+  color: #38453f;
+  font-size: 12px;
+}
+
+.related-samples {
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
 .detail-section {
   margin-bottom: 18px;
 }
@@ -476,6 +563,10 @@ body {
     text-align: left;
   }
 
+  .view-switch {
+    margin-top: 14px;
+  }
+
   .filter-bar {
     align-items: stretch;
   }
@@ -495,6 +586,16 @@ body {
     margin-right: 8px;
     margin-left: 8px;
     padding: 16px;
+  }
+
+  .detail-grid,
+  .study-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .study-related-item {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .page-footer {

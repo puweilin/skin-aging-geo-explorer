@@ -49,7 +49,9 @@ jobs:
         run: python scripts/generate_ai_summaries.py
 
       - name: Run rule and summary safety tests
-        run: python -m unittest discover -s tests -v
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate_data.py
 
       - name: Set up Node.js
         uses: actions/setup-node@v5
@@ -67,12 +69,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          if [[ -z "$(git status --porcelain -- data/geo_data.json public/data/geo_data.json data/relevance_review_queue.json data/relevance_decision_log.json)" ]]; then
+          if [[ -z "$(git status --porcelain -- data/geo_data.json public/data/geo_data.json data/study_families.json public/data/study_families.json data/relevance_review_queue.json data/relevance_decision_log.json)" ]]; then
             echo "No changes to commit"
             exit 0
           fi
 
-          git add -- data/geo_data.json public/data/geo_data.json data/relevance_review_queue.json data/relevance_decision_log.json
+          git add -- data/geo_data.json public/data/geo_data.json data/study_families.json public/data/study_families.json data/relevance_review_queue.json data/relevance_decision_log.json
           git commit -m "Auto-update Skin Aging GEO data $(date -u +%Y-%m-%d)"
 
           for i in 1 2 3 4 5; do

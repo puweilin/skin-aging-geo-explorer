@@ -110,6 +110,40 @@ class SkinAgingRelevanceTests(unittest.TestCase):
         })
         self.assertEqual(result.decision, "exclude")
 
+    def test_rejects_chondrocyte_assay_with_skin_aging_title(self):
+        result = assess_relevance({
+            "Title": "Aged skin exacerbates osteoarthritis",
+            "Summary": "Skin aging conditioned medium was used to model OA.",
+            "Overall_Design": "RNA-seq of control and treated articular chondrocytes.",
+            "Sample_Titles": "Control CCs; aging SNL CCs",
+        })
+        self.assertEqual(result.decision, "exclude")
+
+    def test_rejects_oral_keratinocyte_senescence(self):
+        result = assess_relevance({
+            "Title": "Senescence in human oral keratinocytes",
+            "Summary": "RNA-seq and secretome analysis of senescent oral cells.",
+            "Overall_Design": "Proliferating and senescent oral keratinocytes.",
+        })
+        self.assertEqual(result.decision, "exclude")
+
+    def test_oral_administration_does_not_mean_oral_tissue(self):
+        result = assess_relevance({
+            "Title": "Single-cell transcriptomics of aged human epidermis",
+            "Summary": "Young and old epidermal keratinocytes were compared.",
+            "Overall_Design": "Skin samples from young and old women; none used oral contraceptives.",
+        })
+        self.assertEqual(result.decision, "include")
+
+    def test_includes_skin_assay_in_cross_tissue_disease_study(self):
+        result = assess_relevance({
+            "Title": "Aged skin exacerbates experimental osteoarthritis",
+            "Summary": "The study tests skin aging as a driver of disease.",
+            "Overall_Design": "RNA-seq of epidermal skin tissues from control and conditional knockout mice.",
+            "Sample_Titles": "epidermal skin control; epidermal skin knockout",
+        })
+        self.assertEqual(result.decision, "include")
+
     def test_includes_photoaging_mechanism_with_direct_skin_cells(self):
         result = assess_relevance({
             "Title": "UV response in primary human dermal fibroblasts",

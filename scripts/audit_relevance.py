@@ -13,6 +13,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Mapping
 
+from curation_model import apply_corpus_model
 from relevance_filter import assess_relevance, with_relevance_metadata
 
 
@@ -30,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--manual-review",
         type=Path,
-        default=REPO_ROOT / "reports" / f"relevance_manual_review_{STAMP}.json",
+        default=REPO_ROOT / "data" / "manual_curation_overrides.json",
     )
     return parser.parse_args()
 
@@ -136,6 +137,7 @@ def save_markdown(
     production: list[Mapping[str, Any]],
     review_queue: list[Mapping[str, Any]],
     decision_log: list[Mapping[str, Any]],
+    study_families: list[Mapping[str, Any]],
 ) -> None:
     automated = Counter(row["Automated_Decision"] for row in rows)
     final = Counter(row["Final_Decision"] for row in rows)
@@ -158,6 +160,7 @@ def save_markdown(
         f"- 最终整理：include {final.get('include', 0)} / "
         f"review {final.get('review', 0)} / exclude {final.get('exclude', 0)}",
         f"- 正式生产数据：{len(production)}",
+        f"- 独立 Study Families：{len(study_families)}",
         f"- 未决复核队列：{len(review_queue)}",
         f"- 第一阶段候选排除日志：{len(decision_log)}",
         "",
@@ -195,6 +198,11 @@ def main() -> int:
     args = parse_args()
     raw_records = load_json(args.input)
     overrides = load_overrides(args.manual_review)
+    existing_path = REPO_ROOT / "data" / "geo_data.json"
+    existing_records = load_json(existing_path) if existing_path.exists() else []
+    existing_by_id = {
+        record.get("Accession"): record for record in existing_records
+    }
     raw_ids = {record["Accession"] for record in raw_records}
     missing_overrides = sorted(set(overrides) - raw_ids)
     if missing_overrides:
@@ -212,15 +220,24 @@ def main() -> int:
     for record in raw_records:
         row, context = audit_record(record, overrides)
         audit_rows.append(row)
+        accession = str(record.get("Accession", ""))
         assessment = context["assessment"]
         final_decision = context["final_decision"]
         source = context["source"]
         final_reason = context["final_reason"]
         if final_decision == "include":
             enriched = with_relevance_metadata(record, assessment)
+            previous = existing_by_id.get(accession, {})
+            for field in (
+                "AI_Summary", "AI_Summary_CN", "AI_Summary_Generated_At",
+                "AI_Summary_Model",
+            ):
+                if previous.get(field):
+                    enriched[field] = previous[field]
             enriched["Relevance_Final_Decision"] = "include"
             enriched["Relevance_Final_Source"] = source
             enriched["Relevance_Final_Reason"] = final_reason
+            enriched["Curation_Status"] = "active"
             production.append(enriched)
         elif final_decision == "review":
             review_queue.append({
@@ -240,7 +257,7 @@ def main() -> int:
                     "Decided_At": datetime.now().isoformat(timespec="seconds"),
                 })
 
-    production.sort(key=_sort_key, reverse=True)
+    production, study_families = apply_corpus_model(production)
     review_queue.sort(key=_sort_key, reverse=True)
     decision_log.sort(key=_sort_key, reverse=True)
     audit_rows.sort(key=_sort_key, reverse=True)
@@ -258,6 +275,11 @@ def main() -> int:
     save_json_atomic(
         REPO_ROOT / "public" / "data" / "geo_data.json",
         production,
+    )
+    save_json_atomic(data_dir / "study_families.json", study_families)
+    save_json_atomic(
+        REPO_ROOT / "public" / "data" / "study_families.json",
+        study_families,
     )
     save_json_atomic(
         data_dir / f"geo_data_curated_{STAMP}.json",
@@ -277,12 +299,14 @@ def main() -> int:
         production,
         review_queue,
         decision_log,
+        study_families,
     )
     counts = Counter(row["Final_Decision"] for row in audit_rows)
     print(
         f"回溯完成：include {counts.get('include', 0)} / "
         f"review {counts.get('review', 0)} / "
-        f"exclude {counts.get('exclude', 0)}"
+        f"exclude {counts.get('exclude', 0)}；"
+        f"独立研究 {len(study_families)}"
     )
     return 0
 

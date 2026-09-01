@@ -7,6 +7,8 @@ import re
 from dataclasses import asdict, dataclass
 from typing import Any, Iterable, Mapping, Sequence
 
+from curation_model import classify_dimensions
+
 
 PatternSpec = tuple[str, str]
 
@@ -134,14 +136,18 @@ OFF_TOPIC_PATTERNS: Sequence[PatternSpec] = (
     ("renal", r"\b(?:kidney|renal|nephro|tubular)\w*\b"),
     ("hepatic", r"\b(?:liver|hepatic|hepatocyte)\w*\b"),
     ("muscle", r"\b(?:skeletal[\s-]+muscle|myoblast|myotube|muscular)\w*\b"),
-    ("skeletal_repair", r"\b(?:bone|cartilage|osteogenic|chondrogenic)\b"),
+    ("skeletal_repair", r"\b(?:bone|cartilage|chondrocytes?|osteoarthritis|"
+     r"osteogenic|chondrogenic|synovial)\b"),
     ("blood", r"\b(?:whole[\s-]+blood|pbmcs?|hematopoietic|leukocyte)\w*\b"),
     ("lung", r"\b(?:lung|pulmonary)\w*\b"),
     ("dental", r"\b(?:dental|tooth|odontogenic)\w*\b"),
+    ("oral_mucosa", r"\b(?:oral[\s-]+(?:mucosa\w*|keratinocytes?|"
+     r"fibroblasts?|epitheli\w*)|gingiv\w*|buccal\w*)\b"),
     ("cancer", r"\b(?:cancer|carcinoma|melanoma|tumou?r|sarcoma|leukemia|"
      r"braf\w*|nevi|nevus|dld[\s-]?1|mcf[\s-]?7)\w*\b"),
     ("other_disease", r"\b(?:diabetic[\s-]+foot|diabetes|psorias\w*|"
-     r"epidermolysis[\s-]+bullosa|trisom(?:y|ic)|hyaline[\s-]+fibromatosis)\w*\b"),
+     r"alopecia[\s-]+areata|cole[\s-]+disease|epidermolysis[\s-]+bullosa|"
+     r"trisom(?:y|ic)|hyaline[\s-]+fibromatosis)\w*\b"),
     ("pluripotent", r"\b(?:induced[\s-]+pluripotent|iPSCs?|"
      r"embryonic[\s-]+stem[\s-]+cells?)\b"),
     ("embryonic_development", r"\b(?:embryonic|embryo|e\d{1,2}\.\d|"
@@ -269,9 +275,11 @@ def assess_relevance(record: Mapping[str, Any]) -> RelevanceAssessment:
     )
     if design_sample_terms:
         sample_terms = design_sample_terms
-    elif title_sample_terms:
-        sample_terms = title_sample_terms
     elif generic_design:
+        sample_terms = sample_title_terms or title_sample_terms
+    elif sample_title_terms and not _matches(design, OFF_TOPIC_PATTERNS):
+        # Sample titles can rescue a terse design, but a skin-aging title must
+        # never override an explicit non-skin assay design.
         sample_terms = sample_title_terms
     else:
         sample_terms = []
@@ -330,7 +338,7 @@ def assess_relevance(record: Mapping[str, Any]) -> RelevanceAssessment:
         and not contrast_terms
     )
     disease_central = (
-        "skeletal_repair" in off_topic_title
+        ("skeletal_repair" in off_topic_title and not direct_sample)
         or (
             "other_disease" in off_topic_title
             and not explicit_skin_aging_title
@@ -347,6 +355,10 @@ def assess_relevance(record: Mapping[str, Any]) -> RelevanceAssessment:
     other_organ_central = bool(
         set(off_topic_title)
         & {"reproductive", "neurologic", "renal", "hepatic", "muscle", "blood", "dental"}
+    )
+    oral_central = (
+        "oral_mucosa" in off_topic_title
+        and not re.search(r"\b(?:skin|cutaneous|dermal|epiderm)\w*\b", title, re.I)
     )
 
     score = 0
@@ -368,6 +380,9 @@ def assess_relevance(record: Mapping[str, Any]) -> RelevanceAssessment:
     elif disease_central:
         decision = "exclude"
         reason = "研究核心为特定疾病模型，未直接研究皮肤老化"
+    elif oral_central:
+        decision = "exclude"
+        reason = "实际研究对象为口腔/黏膜细胞，而非皮肤组织或皮肤来源细胞"
     elif generic_off_topic_series:
         decision = "exclude"
         reason = "SuperSeries 的实际子研究指向非皮肤细胞，皮肤老化仅为背景"
@@ -421,7 +436,7 @@ def assess_relevance(record: Mapping[str, Any]) -> RelevanceAssessment:
         score=score,
         stage1_pass=stage1_pass,
         reason=reason,
-        scope_category=_scope_category(combined),
+        scope_category=classify_dimensions(record)["Primary_Scope_Category"],
         skin_terms=skin_terms,
         aging_terms=aging_terms,
         sample_terms=sample_terms,
@@ -442,6 +457,7 @@ def with_relevance_metadata(
     enriched["Relevance_Score"] = assessment.score
     enriched["Relevance_Reason"] = assessment.reason
     enriched["Scope_Category"] = assessment.scope_category
+    enriched["Primary_Scope_Category"] = assessment.scope_category
     enriched["Relevance_Evidence"] = {
         "skin": assessment.skin_terms,
         "aging": assessment.aging_terms,

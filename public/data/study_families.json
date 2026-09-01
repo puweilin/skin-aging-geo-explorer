@@ -1,0 +1,5312 @@
+[
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-343822",
+    "Title": "Hyaluronic acid microneedle delivery of frog skin-derived small extracellular vesicles for UVR-induced photoaging repair",
+    "Primary_Accession": "GSE343822",
+    "Related_GSEs": [
+      "GSE343822"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/08/18",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343822"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-42380171",
+    "Title": "Non-ablative fractional laser 1940nm treatment series modulates epigenetic pathways and signs of skin aging: a split face investigation",
+    "Primary_Accession": "GSE315794",
+    "Related_GSEs": [
+      "GSE315794"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 45,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "42380171"
+    ],
+    "Submission_Date": "2026/07/08",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315794"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-TITLE-E9E86CAF2A",
+    "Title": "In vivo single-cell ribosome profiling reveals cell-type-specific translational programs during aging",
+    "Primary_Accession": "GSE280255",
+    "Related_GSEs": [
+      "GSE280255",
+      "GSE280330"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 13,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/07/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE280255"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-336400",
+    "Title": "Age-related changes in the phenotype and function of mouse skin macrophages",
+    "Primary_Accession": "GSE336400",
+    "Related_GSEs": [
+      "GSE336400"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/07/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE336400"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-TITLE-1EA4E3899C",
+    "Title": "BMAL1 and YAP cooperate to hijack enhancers and promote inflammation in the aged epidermis",
+    "Primary_Accession": "GSE294069",
+    "Related_GSEs": [
+      "GSE294069",
+      "GSE294070",
+      "GSE294336",
+      "GSE294339",
+      "GSE294389",
+      "GSE329010",
+      "GSE329011"
+    ],
+    "Dataset_Count": 7,
+    "Primary_Dataset_Count": 6,
+    "Nominal_Sample_Total": 274,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "ChIP/CUT&RUN",
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/06/29",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294069"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-42459655",
+    "Title": "Single-Cell Atlas of Photoaged Skin Reveals JAK-STAT Blockade as a Strategy to Reverse Dermal Remodeling",
+    "Primary_Accession": "GSE334230",
+    "Related_GSEs": [
+      "GSE334230"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 3,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "42459655"
+    ],
+    "Submission_Date": "2026/06/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334230"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-42165632",
+    "Title": "Effect of sauchinone on gene expression in UVB-induced photoaging of dermal fibroblasts",
+    "Primary_Accession": "GSE326951",
+    "Related_GSEs": [
+      "GSE326951"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "42165632"
+    ],
+    "Submission_Date": "2026/05/27",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326951"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-294378",
+    "Title": "Comprehensive analysis of the biological properties of BIOGF1K via the construction of a competing endogenous RNA network",
+    "Primary_Accession": "GSE294378",
+    "Related_GSEs": [
+      "GSE294378"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "photoaging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/04/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294378"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-264314",
+    "Title": "Topical application of Urolithin A slows intrinsic skin aging and protects from UVB-mediated photodamage: Findings from Randomized Clinical Trials",
+    "Primary_Accession": "GSE264314",
+    "Related_GSEs": [
+      "GSE264314"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 57,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "microbiome"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/04/18",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE264314"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41938013",
+    "Title": "Transcriptomic profiling of chlorogenic acid and taurine treatment in human skin cells provides insights into cellular senescence mechanisms",
+    "Primary_Accession": "GSE302932",
+    "Related_GSEs": [
+      "GSE302932"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 36,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41938013"
+    ],
+    "Submission_Date": "2026/03/23",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302932"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-311942",
+    "Title": "Transcriptome profiling of human dermal fibroblasts transfected with tRF-34 mimics or negative control under UVA1 exposure",
+    "Primary_Accession": "GSE311942",
+    "Related_GSEs": [
+      "GSE311942"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/03/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE311942"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41000743",
+    "Title": "Bulk RNA-seq analysis of primary human dermal fibroblasts from young and aged donors",
+    "Primary_Accession": "GSE307377",
+    "Related_GSEs": [
+      "GSE307377"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41000743",
+      "41333395"
+    ],
+    "Submission_Date": "2026/03/02",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307377"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-320415",
+    "Title": "Paeonia delavayi seed oil alleviates UVB-induced inflammation, oxidative stress and photoaging in keratinocytes through inhibition of PI3K/Akt/mTOR and NF-κB signaling pathways",
+    "Primary_Accession": "GSE320415",
+    "Related_GSEs": [
+      "GSE320415"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/02/27",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320415"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41667860",
+    "Title": "Convergence of aging- and rejuvenation-related epigenetic alterations on PRC2 targets",
+    "Primary_Accession": "GSE231658",
+    "Related_GSEs": [
+      "GSE231658",
+      "GSE288574"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 39,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "rejuvenation_intervention"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41667860"
+    ],
+    "Submission_Date": "2026/02/02",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231658"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41644086",
+    "Title": "Study on the Effects of Retinoids on UVR-Induced Skin Photoaging",
+    "Primary_Accession": "GSE294119",
+    "Related_GSEs": [
+      "GSE294119",
+      "GSE294120",
+      "GSE294121"
+    ],
+    "Dataset_Count": 3,
+    "Primary_Dataset_Count": 3,
+    "Nominal_Sample_Total": 21,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq",
+      "scRNA-seq",
+      "spatial transcriptomics"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41644086"
+    ],
+    "Submission_Date": "2026/01/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294119"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41547977",
+    "Title": "Decreased S100A7 expression is linked to altered differentiation-, autophagy- and senescence-related programs during skin aging",
+    "Primary_Accession": "GSE312362",
+    "Related_GSEs": [
+      "GSE312362"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41547977"
+    ],
+    "Submission_Date": "2026/01/18",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE312362"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-302754",
+    "Title": "Transcriptome analysis of Mus musculus skin from experimental studies on grape seed extract NSPCC1 intervention in skin aging",
+    "Primary_Accession": "GSE302754",
+    "Related_GSEs": [
+      "GSE302754"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2026/01/12",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302754"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-288449",
+    "Title": "Metformin as an early intervention for melanocyte senescence through autophagy-redox balance",
+    "Primary_Accession": "GSE288449",
+    "Related_GSEs": [
+      "GSE288449"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 1,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/12/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288449"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41309663",
+    "Title": "Space radiation induces distinct senescent phenotypes: Implications for space travel",
+    "Primary_Accession": "GSE297560",
+    "Related_GSEs": [
+      "GSE297560"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 21,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41309663"
+    ],
+    "Submission_Date": "2025/12/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297560"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41342690",
+    "Title": "Single-cell transcriptomic comparison of young and aged dermal macrophages",
+    "Primary_Accession": "GSE275826",
+    "Related_GSEs": [
+      "GSE275826"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41342690"
+    ],
+    "Submission_Date": "2025/12/07",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275826"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41175301",
+    "Title": "Ageing-induced cell type-specific transcriptomic changes in the skin are associated with abnormal early healing responses to injury",
+    "Primary_Accession": "GSE267091",
+    "Related_GSEs": [
+      "GSE267091"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 23,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41175301"
+    ],
+    "Submission_Date": "2025/12/03",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267091"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-42073386",
+    "Title": "UVA irradiation promotes ROS-mediated formation of the common deletion in mitochondrial DNA",
+    "Primary_Accession": "GSE302943",
+    "Related_GSEs": [
+      "GSE302943"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 10,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging",
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "42073386"
+    ],
+    "Submission_Date": "2025/11/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302943"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-310833",
+    "Title": "Beta vulgaris-Derived Exosome-like Nanovesicles Mitigate Photoaging by Attenuating Oxidative Stress and Promoting Collagen Biosynthesis Abstract",
+    "Primary_Accession": "GSE310833",
+    "Related_GSEs": [
+      "GSE310833"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/11/25",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310833"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-310020",
+    "Title": "TGFα is Required for Hair Follicle Function During Aging and its Loss Leads to Progressive Alopecia",
+    "Primary_Accession": "GSE310020",
+    "Related_GSEs": [
+      "GSE310020"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/11/21",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310020"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-215878",
+    "Title": "Effect of removal the skin macrophage on gene expression during aging",
+    "Primary_Accession": "GSE215878",
+    "Related_GSEs": [
+      "GSE215878"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/10/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215878"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-138249",
+    "Title": "VEGF-mediated signaling is required and sufficient for the rejuvenation of aged human skin in vivo",
+    "Primary_Accession": "GSE138249",
+    "Related_GSEs": [
+      "GSE138249"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 14,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "rejuvenation_intervention"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/09/26",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138249"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41797915",
+    "Title": "scRNA-seq Analysis of Dmp1cre-DTAki/wt and wt skin",
+    "Primary_Accession": "GSE305068",
+    "Related_GSEs": [
+      "GSE305068"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41797915"
+    ],
+    "Submission_Date": "2025/08/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305068"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-290637",
+    "Title": "RNA-seq of aging mouse skin treated with red light, compared to untreated controls",
+    "Primary_Accession": "GSE290637",
+    "Related_GSEs": [
+      "GSE290637"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/07/19",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290637"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-299729",
+    "Title": "Overexpression of NPY leads to a progressive, cutaneous inflammatory fibrotic response in mouse skin",
+    "Primary_Accession": "GSE299729",
+    "Related_GSEs": [
+      "GSE299729"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/06/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299729"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-40628739",
+    "Title": "Unveiling Aging Heterogeneities in Human Dermal Fibroblasts via Nanosensor Chemical Cytometry",
+    "Primary_Accession": "GSE297406",
+    "Related_GSEs": [
+      "GSE297406"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "40628739"
+    ],
+    "Submission_Date": "2025/06/19",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297406"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-40539048",
+    "Title": "Targeting inflammatory macrophages with hyaluronan tetrasaccharide: effects on fibroblast collagen degradation and synthesis [2]",
+    "Primary_Accession": "GSE298076",
+    "Related_GSEs": [
+      "GSE298076"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "40539048"
+    ],
+    "Submission_Date": "2025/06/05",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298076"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-40429909",
+    "Title": "Changes in gene expression patterns in young and senescent fibroblasts in glycated three-dimensional collagen matrices",
+    "Primary_Accession": "GSE293225",
+    "Related_GSEs": [
+      "GSE293225"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 36,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "exposome_aging"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "40429909"
+    ],
+    "Submission_Date": "2025/06/04",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE293225"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-296578",
+    "Title": "Transcriptional characterisation of skin tissues from photoaged mice and mice treated with alpha-ketobutyrate (α-KB)",
+    "Primary_Accession": "GSE296578",
+    "Related_GSEs": [
+      "GSE296578"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 24,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/05/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296578"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-295189",
+    "Title": "Fibulin-5, an integrin-binging matricellular protein, maintains epidermal stem cell heterogeneity during skin aging",
+    "Primary_Accession": "GSE295189",
+    "Related_GSEs": [
+      "GSE295189"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/05/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295189"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-40224640",
+    "Title": "Unveiling a Novel in-vitro Model of Skin Inflamm-Aging: Validation of Terminalia chebula Extract and Supermolecular Bakuchiol for Reversal of Inflamm-Aging",
+    "Primary_Accession": "GSE286316",
+    "Related_GSEs": [
+      "GSE286316"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 16,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "40224640"
+    ],
+    "Submission_Date": "2025/04/16",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286316"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-292398",
+    "Title": "An Improved Human 3D Skin Model for Aging Research",
+    "Primary_Accession": "GSE292398",
+    "Related_GSEs": [
+      "GSE292398"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2025/03/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292398"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-39698891",
+    "Title": "A subset of human dermal fibroblasts overexpressing Cockayne syndrome group B protein resist UVB radiation-mediated premature senescence",
+    "Primary_Accession": "GSE268564",
+    "Related_GSEs": [
+      "GSE268564"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "39698891"
+    ],
+    "Submission_Date": "2025/03/19",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268564"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-40312996",
+    "Title": "TFEB Orchestrates Stress Recovery and Paves the Way for Senescence Induction in Human Dermal Fibroblasts",
+    "Primary_Accession": "GSE290476",
+    "Related_GSEs": [
+      "GSE290476"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "40312996"
+    ],
+    "Submission_Date": "2025/03/02",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290476"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41233777",
+    "Title": "The Therapeutic Potential of mRNA-Mediated Type III Collagen Delivery for Photoaged Skin",
+    "Primary_Accession": "GSE284483",
+    "Related_GSEs": [
+      "GSE284483"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41233777"
+    ],
+    "Submission_Date": "2025/03/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284483"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-39630941",
+    "Title": "Topical ABT-263 treatment reduces aged skin senescence and improves subsequent wound healing",
+    "Primary_Accession": "GSE271149",
+    "Related_GSEs": [
+      "GSE271149"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 7,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "cellular_senescence",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "39630941"
+    ],
+    "Submission_Date": "2024/12/17",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE271149"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-283543",
+    "Title": "The heterogeneity of demal mesenchymal cells reproduced in skin equivalents regulate barrier function and elasticity",
+    "Primary_Accession": "GSE283543",
+    "Related_GSEs": [
+      "GSE283543"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 3,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/12/12",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283543"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-39810225",
+    "Title": "SenPred: A single-cell RNA sequencing-based machine learning pipeline to classify deeply senescent dermal fibroblast cells for the detection of an in vivo senescent cell burden",
+    "Primary_Accession": "GSE282425",
+    "Related_GSEs": [
+      "GSE282425"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "39810225"
+    ],
+    "Submission_Date": "2024/12/05",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282425"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-274955",
+    "Title": "An mRNA treatment for human skin rejuvenation",
+    "Primary_Accession": "GSE274955",
+    "Related_GSEs": [
+      "GSE274955"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging",
+      "photoaging",
+      "rejuvenation_intervention",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "rejuvenation_intervention"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/11/18",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274955"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-39756533",
+    "Title": "Single-Cell RNA Sequencing Reveals Age-Related Changes in Epidermal Cell Populations and Interactions",
+    "Primary_Accession": "GSE281449",
+    "Related_GSEs": [
+      "GSE281449"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "39756533"
+    ],
+    "Submission_Date": "2024/11/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281449"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-279221",
+    "Title": "YAP-TEAD complex inhibits photoaging via transcriptional regulation of homologous recombination repair in mouse (smal) - lncRNA-seq",
+    "Primary_Accession": "GSE279221",
+    "Related_GSEs": [
+      "GSE279221"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/10/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279221"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-279220",
+    "Title": "YAP-TEAD complex inhibits photoaging via transcriptional regulation of homologous recombination repair in mouse (smal) - miRNA-seq",
+    "Primary_Accession": "GSE279220",
+    "Related_GSEs": [
+      "GSE279220"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/10/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279220"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-243204",
+    "Title": "RNA sequencing of HDFs(Human dermal fibroblasts) with or without Sal-B and UVB treatment",
+    "Primary_Accession": "GSE243204",
+    "Related_GSEs": [
+      "GSE243204"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 3,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/09/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243204"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-39540047",
+    "Title": "Differences in cell subsets between sun-exposed and unexposed skin: preliminary single-cell sequencing and biological analysis from a single case",
+    "Primary_Accession": "GSE275491",
+    "Related_GSEs": [
+      "GSE275491"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "39540047"
+    ],
+    "Submission_Date": "2024/08/28",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275491"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-275846",
+    "Title": "Single cell transcriptomics of human epidermis shows decreased expression of several structural genes associated with skin barrier development in aged skin",
+    "Primary_Accession": "GSE275846",
+    "Related_GSEs": [
+      "GSE275846"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/08/28",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275846"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-38959897",
+    "Title": "CUT & RUN for P63, Gata3, Jun in murine keratinocytes and Tcf1 and Jun in murine CD8 Naive T-cells across two age stages, young (2 months) and aged (20-24 months)",
+    "Primary_Accession": "GSE268766",
+    "Related_GSEs": [
+      "GSE268766"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 30,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "ChIP/CUT&RUN"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "38959897"
+    ],
+    "Submission_Date": "2024/07/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268766"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-38848986",
+    "Title": "SASH1 S519N variant links skin hyperpigmentation and premature hair graying to dysfunction of melanocyte lineage",
+    "Primary_Accession": "GSE266293",
+    "Related_GSEs": [
+      "GSE266293"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "38848986"
+    ],
+    "Submission_Date": "2024/06/17",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE266293"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-41530151",
+    "Title": "Aged skin exacerbates experimental osteoarthritis via enhanced IL-36R signaling",
+    "Primary_Accession": "GSE263907",
+    "Related_GSEs": [
+      "GSE263907"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "41530151"
+    ],
+    "Submission_Date": "2024/05/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263907"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-39329281",
+    "Title": "Systemic comparison of molecular characteristics in different skin fibroblast senescent models",
+    "Primary_Accession": "GSE262932",
+    "Related_GSEs": [
+      "GSE262932"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "39329281"
+    ],
+    "Submission_Date": "2024/04/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262932"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-261101",
+    "Title": "Quietly hiding: PD-L1 checkpoint expression in melanocyte stem cell quiescence and aging",
+    "Primary_Accession": "GSE261101",
+    "Related_GSEs": [
+      "GSE261101"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/04/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261101"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37933912",
+    "Title": "Dietary restriction delays but cannot heal irradiation-induced hair graying by preserving hair follicle stem cells in quiescence",
+    "Primary_Accession": "GSE156014",
+    "Related_GSEs": [
+      "GSE156014"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "37933912"
+    ],
+    "Submission_Date": "2024/02/21",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156014"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-240486",
+    "Title": "Anti-aging and Rejuvenating Effects and Potential Mechanism of Dead Sea Water in Skin",
+    "Primary_Accession": "GSE240486",
+    "Related_GSEs": [
+      "GSE240486"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "cellular_senescence",
+      "photoaging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "rejuvenation_intervention"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2024/02/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240486"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-163178",
+    "Title": "Transcriptome analysis among young and senescent fibroblasts expressing shLuciferase or shFbxo22",
+    "Primary_Accession": "GSE163178",
+    "Related_GSEs": [
+      "GSE163178"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2023/12/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163178"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-38274286",
+    "Title": "RNA-seq profiling of epidermal tissues of visually younger and older women in the Youngster-Oldie (Y-O) study",
+    "Primary_Accession": "GSE249225",
+    "Related_GSEs": [
+      "GSE249225"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 25,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "38274286"
+    ],
+    "Submission_Date": "2023/12/04",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249225"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37727050",
+    "Title": "Single-cell analysis of human dermal fibroblasts isolated from a single male donor over 35 years",
+    "Primary_Accession": "GSE203034",
+    "Related_GSEs": [
+      "GSE203034"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "37727050"
+    ],
+    "Submission_Date": "2023/09/21",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203034"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-240226",
+    "Title": "Effect of rice fermentation and succinic acid on gene expression of human dermal fibroblasts irradiated with UVA",
+    "Primary_Accession": "GSE240226",
+    "Related_GSEs": [
+      "GSE240226"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging",
+      "photoaging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2023/08/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240226"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-226189",
+    "Title": "Transcriptomes of human primary skin fibroblasts reveal age-associated mRNAs and long noncoding RNAs",
+    "Primary_Accession": "GSE226189",
+    "Related_GSEs": [
+      "GSE226189"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 82,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2023/07/06",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226189"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37465120",
+    "Title": "Single cell analysis of transcriptome and open chromatin reveals the dynamics of hair follicle stem cell aging",
+    "Primary_Accession": "GSE227782",
+    "Related_GSEs": [
+      "GSE227782",
+      "GSE227783",
+      "GSE227784"
+    ],
+    "Dataset_Count": 3,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scATAC-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "37465120"
+    ],
+    "Submission_Date": "2023/06/25",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227782"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37254625",
+    "Title": "Accelerated replicative senescence of ataxia-telangiectasia skin fibroblasts is retained at physiologic oxygen levels, with unique and common transcriptional patterns",
+    "Primary_Accession": "GSE182410",
+    "Related_GSEs": [
+      "GSE182410"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 33,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "37254625"
+    ],
+    "Submission_Date": "2023/05/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182410"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-230026",
+    "Title": "Senotherapeutic peptide treatment reduces biological age and senescence burden in human skin models",
+    "Primary_Accession": "GSE230026",
+    "Related_GSEs": [
+      "GSE230026"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2023/04/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230026"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37554281",
+    "Title": "Senescent melanocytes driven by glycolytic changes are characterized by melanosome transfer dysfunction",
+    "Primary_Accession": "GSE228470",
+    "Related_GSEs": [
+      "GSE228470",
+      "GSE228471"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 7,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq",
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "37554281"
+    ],
+    "Submission_Date": "2023/04/03",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE228470"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37001502",
+    "Title": "Young and old breast skin, and fibroblast cell line RNA seq data",
+    "Primary_Accession": "GSE191055",
+    "Related_GSEs": [
+      "GSE191055"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 10,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "37001502"
+    ],
+    "Submission_Date": "2023/03/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE191055"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37291218",
+    "Title": "Local IL-17 orchestrates skin aging",
+    "Primary_Accession": "GSE190182",
+    "Related_GSEs": [
+      "GSE190182",
+      "GSE190393",
+      "GSE193920"
+    ],
+    "Dataset_Count": 3,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 46,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq",
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "37291218"
+    ],
+    "Submission_Date": "2023/03/24",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190182"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-200002",
+    "Title": "Fibroblast heterogeneity: a new phenotype associated with photoaging/solar elastosis",
+    "Primary_Accession": "GSE200002",
+    "Related_GSEs": [
+      "GSE200002"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 24,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2023/03/22",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200002"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-36979663",
+    "Title": "Aging-related changes of facial skin microbiome in healthy women",
+    "Primary_Accession": "GSE225848",
+    "Related_GSEs": [
+      "GSE225848"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 15,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "microbiome"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "36979663"
+    ],
+    "Submission_Date": "2023/02/24",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225848"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-197588",
+    "Title": "Wound memory of epidermal stem cells",
+    "Primary_Accession": "GSE197588",
+    "Related_GSEs": [
+      "GSE197588"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 310,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2023/02/02",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197588"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-36609486",
+    "Title": "Highly concentrated trehalose induces prohealing senescence-like state in fibroblasts via CDKN1A/p21",
+    "Primary_Accession": "GSE184892",
+    "Related_GSEs": [
+      "GSE184892"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 24,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "36609486"
+    ],
+    "Submission_Date": "2023/01/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184892"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-38345344",
+    "Title": "RiboMeth-seq profiling of ribose methylations in ribosomal RNA of proliferating, quiescent and senescent primary human dermal fibroblasts",
+    "Primary_Accession": "GSE171050",
+    "Related_GSEs": [
+      "GSE171050"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "38345344"
+    ],
+    "Submission_Date": "2023/01/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171050"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-206495",
+    "Title": "Exploratory Study to Identify Skin Anti-Aging Biomarkers as a Result of a Non-ablative Fractional Laser Treatment",
+    "Primary_Accession": "GSE206495",
+    "Related_GSEs": [
+      "GSE206495"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 119,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "photoaging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2022/12/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206495"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-206141",
+    "Title": "ANT2 accelerates cutaneous wound healing in aged skin by reverse senescence",
+    "Primary_Accession": "GSE206141",
+    "Related_GSEs": [
+      "GSE206141"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2022/11/21",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206141"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34534377",
+    "Title": "RAS induced senescence of skin keratinocytes is mediated through Rho kinase",
+    "Primary_Accession": "GSE178545",
+    "Related_GSEs": [
+      "GSE178545"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 20,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34534377"
+    ],
+    "Submission_Date": "2022/10/27",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178545"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35817661",
+    "Title": "Expression data from actinic lentigines in European volunteers",
+    "Primary_Accession": "GSE192564",
+    "Related_GSEs": [
+      "GSE192564",
+      "GSE192565"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 76,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35817661",
+      "38438410"
+    ],
+    "Submission_Date": "2022/10/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192564"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-36278510",
+    "Title": "RNA sequencing of epidermal stem cells in Fbln7 WT vs Fbln7 KO mice",
+    "Primary_Accession": "GSE185086",
+    "Related_GSEs": [
+      "GSE185086",
+      "GSE185087"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 37,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "36278510"
+    ],
+    "Submission_Date": "2022/10/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185086"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35926463",
+    "Title": "Wound healing in aged skin exhibits systems-level alterations in cellular composition and cell-cell communication",
+    "Primary_Accession": "GSE188432",
+    "Related_GSEs": [
+      "GSE188432"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 11,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35926463"
+    ],
+    "Submission_Date": "2022/08/02",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188432"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35874681",
+    "Title": "Age-related alterations in macrophage distribution and function impair cutaneous wound healing",
+    "Primary_Accession": "GSE199763",
+    "Related_GSEs": [
+      "GSE199763"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35874681"
+    ],
+    "Submission_Date": "2022/06/24",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199763"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35835838",
+    "Title": "Synergistic chemical combination for cell cycle restoration in senescent cells via FoxM1 and E2F1 activation",
+    "Primary_Accession": "GSE178115",
+    "Related_GSEs": [
+      "GSE178115"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 39,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35835838"
+    ],
+    "Submission_Date": "2022/06/22",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178115"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35577040",
+    "Title": "Single-cell RNA-seq of UVB-radiated Skin Reveals Landscape of Photoaging-related Inflammation and Protection by Vitamin D",
+    "Primary_Accession": "GSE173385",
+    "Related_GSEs": [
+      "GSE173385"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 3,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35577040"
+    ],
+    "Submission_Date": "2022/05/16",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173385"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-171035",
+    "Title": "Global transcriptional profiles of plantar epidermal basal cells from normal diet-fed, HFD-fed, and aged mice",
+    "Primary_Accession": "GSE171035",
+    "Related_GSEs": [
+      "GSE171035"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2022/05/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171035"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-TITLE-33FE682C7E",
+    "Title": "Identification of new microRNA-22-5p and -199a-5p/MMP1 functional interactions in stress-induced senescent human dermal fibroblasts",
+    "Primary_Accession": "GSE77406",
+    "Related_GSEs": [
+      "GSE77406",
+      "GSE77407"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 24,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2022/01/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77406"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-77074",
+    "Title": "Identification of new microRNA-22-5p and -199a-5p/MMP1 functional interactions in stress-induced senescent human dermal fibroblasts [mRNA]",
+    "Primary_Accession": "GSE77074",
+    "Related_GSEs": [
+      "GSE77074"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2022/01/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77074"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35680564",
+    "Title": "Histone deacetylase 4 reverses cellular senescence via DDIT4 in dermal fibroblasts",
+    "Primary_Accession": "GSE181329",
+    "Related_GSEs": [
+      "GSE181329"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35680564"
+    ],
+    "Submission_Date": "2021/12/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181329"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34843523",
+    "Title": "Transcriptomic Analysis of Wound Healing and Skin Rejuvenation Following Ablative Fractional Laser Treatment of Human Skin",
+    "Primary_Accession": "GSE168760",
+    "Related_GSEs": [
+      "GSE168760"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 140,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "rejuvenation_intervention"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34843523"
+    ],
+    "Submission_Date": "2021/11/07",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168760"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34722509",
+    "Title": "Transcriptome analysis of mice dermal white adipose tissue during aging",
+    "Primary_Accession": "GSE134893",
+    "Related_GSEs": [
+      "GSE134893"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "34722509"
+    ],
+    "Submission_Date": "2021/11/03",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134893"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-120570",
+    "Title": "Sequencing of Mus musculus skin of two different age groups",
+    "Primary_Accession": "GSE120570",
+    "Related_GSEs": [
+      "GSE120570"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 10,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2021/10/19",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120570"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-111282",
+    "Title": "Sequencing of Mus musculus skin of five different age groups (smallRNA)",
+    "Primary_Accession": "GSE111282",
+    "Related_GSEs": [
+      "GSE111282"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 25,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2021/10/19",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111282"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-185679",
+    "Title": "A transcriptomic analysis of primary fibroblasts isolated from young donors identifies a subset of donors displaying features of early senescence",
+    "Primary_Accession": "GSE185679",
+    "Related_GSEs": [
+      "GSE185679"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2021/10/12",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185679"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-185416",
+    "Title": "Unveiling E2F4, TEAD1 and AP-1 as regulatory transcription factors of the replicative senescence program by multiomics analysis",
+    "Primary_Accession": "GSE185416",
+    "Related_GSEs": [
+      "GSE185416"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2021/10/08",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185416"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34665817",
+    "Title": "Newborn infant skin gene expression: Remarkable differences versus adults",
+    "Primary_Accession": "GSE181022",
+    "Related_GSEs": [
+      "GSE181022"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 70,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34665817"
+    ],
+    "Submission_Date": "2021/10/06",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181022"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-35023014",
+    "Title": "Unveiling E2F4, TEAD1 and AP-1 as regulatory transcription factors of the replicative senescence program by multi-omics analysis",
+    "Primary_Accession": "GSE179880",
+    "Related_GSEs": [
+      "GSE179880"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 75,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "35023014"
+    ],
+    "Submission_Date": "2021/10/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE179880"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37118327",
+    "Title": "Single cell transcriptomic analysis of aging hair follicles",
+    "Primary_Accession": "GSE145654",
+    "Related_GSEs": [
+      "GSE145654"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "37118327"
+    ],
+    "Submission_Date": "2021/09/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE145654"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-184084",
+    "Title": "Small RNA sequencing of small extracellular vesicles derived from senescent vs. nonsenescent human dermal fibroblasts (HDFs)",
+    "Primary_Accession": "GSE184084",
+    "Related_GSEs": [
+      "GSE184084"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2021/09/16",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184084"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34469740",
+    "Title": "Persistent JunB Activation in Fibroblasts Disrupts Stem Cell Niche Interactions Enforcing Skin Aging",
+    "Primary_Accession": "GSE180007",
+    "Related_GSEs": [
+      "GSE180007",
+      "GSE180008",
+      "GSE180009"
+    ],
+    "Dataset_Count": 3,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 48,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "ATAC-seq",
+      "ChIP/CUT&RUN",
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34469740"
+    ],
+    "Submission_Date": "2021/07/16",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180007"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30946891",
+    "Title": "Transcriptomics Expression Analysis of the effects of UV radiations on Normal Human Dermal Fibroblast Cells",
+    "Primary_Accession": "GSE119009",
+    "Related_GSEs": [
+      "GSE119009"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging",
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "30946891"
+    ],
+    "Submission_Date": "2021/07/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119009"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34206704",
+    "Title": "Expression data from eggshell membrane powder (pESM)-supplemented IL-10 KO mice",
+    "Primary_Accession": "GSE178595",
+    "Related_GSEs": [
+      "GSE178595"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 3,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34206704"
+    ],
+    "Submission_Date": "2021/06/22",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178595"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34239060",
+    "Title": "Niche stiffening compromises stem cell potential during aging by reducing chromatin accessibility at bivalent promoters",
+    "Primary_Accession": "GSE148619",
+    "Related_GSEs": [
+      "GSE148619"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 28,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "ATAC-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34239060"
+    ],
+    "Submission_Date": "2021/05/06",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148619"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34163066",
+    "Title": "Obesity accelerates hair thinning in stem cell-centric converging mechanism",
+    "Primary_Accession": "GSE131958",
+    "Related_GSEs": [
+      "GSE131958",
+      "GSE169173"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 24,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq",
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "34163066"
+    ],
+    "Submission_Date": "2021/04/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131958"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-33279585",
+    "Title": "miR-127-3p is an epigenetic activator of myofibroblast senescence situated within the miRNA enriched Dlk1-Dio3 imprinted domain on mouse chromosome 12 [mRNA array]",
+    "Primary_Accession": "GSE160920",
+    "Related_GSEs": [
+      "GSE160920"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "33279585"
+    ],
+    "Submission_Date": "2021/01/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE160920"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-34113611",
+    "Title": "Gene expression changes during senenscence in primary dermal human fibroblasts",
+    "Primary_Accession": "GSE164446",
+    "Related_GSEs": [
+      "GSE164446"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "34113611"
+    ],
+    "Submission_Date": "2021/01/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164446"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-124119",
+    "Title": "Distinct types of stem cell divisions determine organ regeneration and aging in hair follicles",
+    "Primary_Accession": "GSE124119",
+    "Related_GSEs": [
+      "GSE124119"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 16,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2020/12/25",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124119"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-36284901",
+    "Title": "Effects of losmapimod on antigen-specific response in aged skin",
+    "Primary_Accession": "GSE130633",
+    "Related_GSEs": [
+      "GSE130633",
+      "GSE156212"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 232,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "36284901",
+      "38287646"
+    ],
+    "Submission_Date": "2020/11/17",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130633"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-106940",
+    "Title": "Gene expression profile of dermis and epidermis from young and old age group",
+    "Primary_Accession": "GSE106940",
+    "Related_GSEs": [
+      "GSE106940"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 20,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2020/11/11",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106940"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32990346",
+    "Title": "Disrupted mitochondrial function in aged human dermal fibroblasts",
+    "Primary_Accession": "GSE131938",
+    "Related_GSEs": [
+      "GSE131938"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 10,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32990346"
+    ],
+    "Submission_Date": "2020/10/26",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131938"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32939877",
+    "Title": "Impact of cigarette smoke on physical-chemical and molecular proprieties of human skin in an ex vivo model",
+    "Primary_Accession": "GSE148221",
+    "Related_GSEs": [
+      "GSE148221"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 22,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "exposome_aging",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32939877"
+    ],
+    "Submission_Date": "2020/09/21",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148221"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-134204",
+    "Title": "Expression data from whole human skin samples",
+    "Primary_Accession": "GSE134204",
+    "Related_GSEs": [
+      "GSE134204"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2020/07/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134204"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32660606",
+    "Title": "Highly accurate Skin-Specific methylome analysis algorithm as a platform to screen and validate therapeutics for healthy aging",
+    "Primary_Accession": "GSE151600",
+    "Related_GSEs": [
+      "GSE151600",
+      "GSE151601",
+      "GSE151602",
+      "GSE151603",
+      "GSE151604",
+      "GSE151617"
+    ],
+    "Dataset_Count": 6,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 100,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32660606"
+    ],
+    "Submission_Date": "2020/07/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151600"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-132383",
+    "Title": "Validation of small molecule activators and identification of altered signaling pathways underlying the age-related decline in proliferative capacity in human dermal progenitors",
+    "Primary_Accession": "GSE132383",
+    "Related_GSEs": [
+      "GSE132383"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2020/06/06",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132383"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32386350",
+    "Title": "Solar UVR and exosomal miRNAs effect pre-mature senescence in melanocytes",
+    "Primary_Accession": "GSE141618",
+    "Related_GSEs": [
+      "GSE141618",
+      "GSE141619",
+      "GSE141620"
+    ],
+    "Dataset_Count": 3,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 20,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens",
+      "synthetic construct; Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32386350"
+    ],
+    "Submission_Date": "2020/06/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141618"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32315612",
+    "Title": "Dysfunction of hair follicle mesenchymal progenitors contributes to age related hair loss",
+    "Primary_Accession": "GSE115424",
+    "Related_GSEs": [
+      "GSE115424"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32315612"
+    ],
+    "Submission_Date": "2020/04/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115424"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32327715",
+    "Title": "Single-cell transcriptomes of the aging human skin reveal loss of fibroblast priming",
+    "Primary_Accession": "GSE130973",
+    "Related_GSEs": [
+      "GSE130973"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 5,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32327715"
+    ],
+    "Submission_Date": "2020/03/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130973"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-31936599",
+    "Title": "Time-driven molding of the epidermal stem cell transcriptome",
+    "Primary_Accession": "GSE137176",
+    "Related_GSEs": [
+      "GSE137176"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "31936599",
+      "37822868"
+    ],
+    "Submission_Date": "2020/01/23",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137176"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-124901",
+    "Title": "Functional stem cell aging dictated by skin tissue microenvironment",
+    "Primary_Accession": "GSE124901",
+    "Related_GSEs": [
+      "GSE124901"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 14,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2019/12/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124901"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-31564613",
+    "Title": "Niche-specific factors dynamically regulate sebaceous gland stem cells during skin homeostasis and aging",
+    "Primary_Accession": "GSE125737",
+    "Related_GSEs": [
+      "GSE125737"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "31564613"
+    ],
+    "Submission_Date": "2019/08/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125737"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-32843583",
+    "Title": "Long-term Y-27632 treatment promotes senescence of primary human dermal fibroblasts by increasing IGFBP-5",
+    "Primary_Accession": "GSE135934",
+    "Related_GSEs": [
+      "GSE135934"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "32843583"
+    ],
+    "Submission_Date": "2019/08/19",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135934"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28024114",
+    "Title": "Expression data from young and senescent melanocytes",
+    "Primary_Accession": "GSE83922",
+    "Related_GSEs": [
+      "GSE83922"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28024114"
+    ],
+    "Submission_Date": "2019/06/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83922"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-83856",
+    "Title": "Autophagy deficient melanocytes display a senescence associated secretory phenotype that includes oxidized lipid mediators",
+    "Primary_Accession": "GSE83856",
+    "Related_GSEs": [
+      "GSE83856"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2019/06/29",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83856"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-31243280",
+    "Title": "In vivo gene signature of human skin with CO2 laser treatment",
+    "Primary_Accession": "GSE131789",
+    "Related_GSEs": [
+      "GSE131789"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 32,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "photoaging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "31243280"
+    ],
+    "Submission_Date": "2019/05/28",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131789"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30944469",
+    "Title": "Stem cell competition orchestrates skin homeostasis and ageing",
+    "Primary_Accession": "GSE111825",
+    "Related_GSEs": [
+      "GSE111825"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "30944469"
+    ],
+    "Submission_Date": "2019/04/05",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111825"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-29155150",
+    "Title": "Effects of losmapimod on non-specific inflammatory response in aged skin",
+    "Primary_Accession": "GSE123112",
+    "Related_GSEs": [
+      "GSE123112"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 30,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "29155150"
+    ],
+    "Submission_Date": "2018/11/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123112"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30567591",
+    "Title": "Predicting age from the transcriptome of human dermal fibroblasts",
+    "Primary_Accession": "GSE113957",
+    "Related_GSEs": [
+      "GSE113957"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 143,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "30567591"
+    ],
+    "Submission_Date": "2018/11/16",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113957"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30415840",
+    "Title": "scRNAseq of aging dermal fibroblasts",
+    "Primary_Accession": "GSE110978",
+    "Related_GSEs": [
+      "GSE110978",
+      "GSE110980",
+      "GSE110981",
+      "GSE110982",
+      "GSE111136",
+      "GSE117762",
+      "GSE117763"
+    ],
+    "Dataset_Count": 7,
+    "Primary_Dataset_Count": 7,
+    "Nominal_Sample_Total": 1117,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "scRNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "30415840"
+    ],
+    "Submission_Date": "2018/11/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110978"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30467144",
+    "Title": "Gene expression profiling of myofibroblasts in young and aged day 5 wound beds",
+    "Primary_Accession": "GSE105790",
+    "Related_GSEs": [
+      "GSE105790"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 16,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "30467144"
+    ],
+    "Submission_Date": "2018/11/06",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105790"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30594464",
+    "Title": "Age-related loss of innate immune antimicrobial function of dermal fat is mediated by TGFβ",
+    "Primary_Accession": "GSE121460",
+    "Related_GSEs": [
+      "GSE121460"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 15,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "30594464"
+    ],
+    "Submission_Date": "2018/10/18",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121460"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28259685",
+    "Title": "Glucocorticoid induced gene signature in human skin",
+    "Primary_Accession": "GSE120783",
+    "Related_GSEs": [
+      "GSE120783"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 34,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28259685"
+    ],
+    "Submission_Date": "2018/10/04",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120783"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30154427",
+    "Title": "miRNA expression data from sun-exposed and sun- protected skin of young (18-25 years) and old (>70 years) females",
+    "Primary_Accession": "GSE114006",
+    "Related_GSEs": [
+      "GSE114006"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 60,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "synthetic construct; Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "30154427"
+    ],
+    "Submission_Date": "2018/08/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114006"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-30016619",
+    "Title": "Gene expression changes in fibroblasts with constitutively active Nrf2 reflect a senescence-associated secretory phenotype (SASP)",
+    "Primary_Accession": "GSE106097",
+    "Related_GSEs": [
+      "GSE106097"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "30016619"
+    ],
+    "Submission_Date": "2018/08/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106097"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-117545",
+    "Title": "Comparison of expression profile between fibroblasts taken from young (23 years old) and aged (70 years old) donors",
+    "Primary_Accession": "GSE117545",
+    "Related_GSEs": [
+      "GSE117545"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2018/07/24",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117545"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-93833",
+    "Title": "Basal hair follicle stem cell mRNA expression levels of mice at 3, 19 and 24 months of age",
+    "Primary_Accession": "GSE93833",
+    "Related_GSEs": [
+      "GSE93833"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2018/07/18",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93833"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-29779019",
+    "Title": "Differentially transcribed miRNAs in stress-induced premature senecence (SIPS)",
+    "Primary_Accession": "GSE95354",
+    "Related_GSEs": [
+      "GSE95354"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "29779019"
+    ],
+    "Submission_Date": "2018/06/08",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95354"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-29675264",
+    "Title": "RNAseq of quiescent (Q) and stress induced premature senescent (SIPS) fibroblasts treated with plant extract (1201) from Solidago vigaurea subspecies alpestris",
+    "Primary_Accession": "GSE93535",
+    "Related_GSEs": [
+      "GSE93535"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "29675264"
+    ],
+    "Submission_Date": "2018/03/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93535"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-104764",
+    "Title": "Chip-chip from human epidermis with H3ac",
+    "Primary_Accession": "GSE104764",
+    "Related_GSEs": [
+      "GSE104764"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 2,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "ChIP/CUT&RUN"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2018/02/28",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104764"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37009228",
+    "Title": "Expression data in human young and old primary keratinocytes",
+    "Primary_Accession": "GSE108674",
+    "Related_GSEs": [
+      "GSE108674"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "37009228"
+    ],
+    "Submission_Date": "2018/01/03",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108674"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-29165315",
+    "Title": "microRNA expression in human keratinocytes from infant, adult and ederly skin",
+    "Primary_Accession": "GSE101493",
+    "Related_GSEs": [
+      "GSE101493"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens; synthetic construct"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "29165315"
+    ],
+    "Submission_Date": "2017/12/31",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE101493"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28802040",
+    "Title": "Circadian expression data from epidermal stem cells from young and aged mice",
+    "Primary_Accession": "GSE84510",
+    "Related_GSEs": [
+      "GSE84510",
+      "GSE84511",
+      "GSE84521"
+    ],
+    "Dataset_Count": 3,
+    "Primary_Dataset_Count": 3,
+    "Nominal_Sample_Total": 191,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28802040"
+    ],
+    "Submission_Date": "2017/08/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84510"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28765155",
+    "Title": "Real-time quantitative PCR analysis of primary human dermal fibroblasts: young, old and treated with GC4419",
+    "Primary_Accession": "GSE100920",
+    "Related_GSEs": [
+      "GSE100920",
+      "GSE100921"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "Expression profiling by RT-PCR"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28765155"
+    ],
+    "Submission_Date": "2017/07/08",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100920"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28647344",
+    "Title": "Oncogene-Expressing senescent melanocytes upregulate MHC Class II, re-localize to the lymph nodes and activate T cells",
+    "Primary_Accession": "GSE99397",
+    "Related_GSEs": [
+      "GSE99397"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 9,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28647344"
+    ],
+    "Submission_Date": "2017/06/09",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99397"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-97034",
+    "Title": "Changes in miRNA expression during wound healing in mouse aged skin",
+    "Primary_Accession": "GSE97034",
+    "Related_GSEs": [
+      "GSE97034"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 5,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2017/03/25",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97034"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-27272654",
+    "Title": "RNA-sequencing of non-senescent and senescent mouse skin fibroblast",
+    "Primary_Accession": "GSE78128",
+    "Related_GSEs": [
+      "GSE78128"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 6,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "27272654"
+    ],
+    "Submission_Date": "2017/02/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78128"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28201987",
+    "Title": "Metabolic alterations in aged human skin in vivo",
+    "Primary_Accession": "GSE85358",
+    "Related_GSEs": [
+      "GSE85358"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 48,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28201987"
+    ],
+    "Submission_Date": "2017/01/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85358"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-28143833",
+    "Title": "Oncogene-induced senescence in primary mouse keratinocytes",
+    "Primary_Accession": "GSE93564",
+    "Related_GSEs": [
+      "GSE93564"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 7,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "28143833"
+    ],
+    "Submission_Date": "2017/01/13",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93564"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-74283",
+    "Title": "Epithelial cell RNA-seq in aged skin",
+    "Primary_Accession": "GSE74283",
+    "Related_GSEs": [
+      "GSE74283"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 14,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "aged_skin_repair"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [],
+    "Submission_Date": "2016/10/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74283"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-72264",
+    "Title": "The comparison of MicroRNA profile of the dermis between young and old human",
+    "Primary_Accession": "GSE72264",
+    "Related_GSEs": [
+      "GSE72264"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2016/02/05",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72264"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-26912707",
+    "Title": "Hair follicle aging is driven by transepidermal stem cell elimination via COL17A1 proteolysis",
+    "Primary_Accession": "GSE72863",
+    "Related_GSEs": [
+      "GSE72863"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 12,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "26912707"
+    ],
+    "Submission_Date": "2015/12/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72863"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-26620638",
+    "Title": "RNA-seq of Danio rerio and Mus musculus skin for three different age groups",
+    "Primary_Accession": "GSE46916",
+    "Related_GSEs": [
+      "GSE46916"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 35,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus; Danio rerio"
+    ],
+    "Data_Types": [
+      "bulk RNA-seq"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "26620638"
+    ],
+    "Submission_Date": "2015/12/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46916"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-26685868",
+    "Title": "The effect of progerin expression on alternative splicing in keratinocytes of HGPS mice",
+    "Primary_Accession": "GSE67288",
+    "Related_GSEs": [
+      "GSE67288"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 16,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "premature_aging_model"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "26685868"
+    ],
+    "Submission_Date": "2015/11/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67288"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-25886480",
+    "Title": "Expression data from epidermal samples",
+    "Primary_Accession": "GSE51954",
+    "Related_GSEs": [
+      "GSE51954",
+      "GSE52972",
+      "GSE52980",
+      "GSE67098"
+    ],
+    "Dataset_Count": 4,
+    "Primary_Dataset_Count": 4,
+    "Nominal_Sample_Total": 225,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "25886480"
+    ],
+    "Submission_Date": "2015/03/23",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51954"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-26477890",
+    "Title": "AMPK activation exerts anti-senescence effect in human follicle dermal papilla cells",
+    "Primary_Accession": "GSE62798",
+    "Related_GSEs": [
+      "GSE62798"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 8,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "26477890"
+    ],
+    "Submission_Date": "2014/11/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62798"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-25977295",
+    "Title": "RNA-seq from primary skin fibroblasts, derived of matched pairs of middle and late donor age",
+    "Primary_Accession": "GSE51517",
+    "Related_GSEs": [
+      "GSE51517",
+      "GSE51518"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 76,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "25977295"
+    ],
+    "Submission_Date": "2014/10/23",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51517"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-25707437",
+    "Title": "Solar simulated ultraviolet radiation induces histone 3 methylation changes in the gene promoters of matrix metalloproteinases 1 and 3 in primary human dermal fibroblasts [I]",
+    "Primary_Accession": "GSE60794",
+    "Related_GSEs": [
+      "GSE60794",
+      "GSE60795"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 20,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "aged_skin_repair",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "25707437"
+    ],
+    "Submission_Date": "2014/08/27",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60794"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-37943888",
+    "Title": "Changes of genes in time-dependent photoaged mouse model",
+    "Primary_Accession": "GSE58915",
+    "Related_GSEs": [
+      "GSE58915"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 21,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "37943888"
+    ],
+    "Submission_Date": "2014/07/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58915"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-24699405",
+    "Title": "Inadequate mito-biogenesis in primary dermal fibroblasts from old humans is associated with impairment of PGC1A-independent stimulation",
+    "Primary_Accession": "GSE55118",
+    "Related_GSEs": [
+      "GSE55118"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 15,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence",
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "24699405"
+    ],
+    "Submission_Date": "2014/04/08",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55118"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-55299",
+    "Title": "miRNA expression in aging skin",
+    "Primary_Accession": "GSE55299",
+    "Related_GSEs": [
+      "GSE55299"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 15,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "synthetic construct; Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2014/02/25",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55299"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-23637934",
+    "Title": "Whole genome expression data from pre-auricular and post-auricular skin tissues",
+    "Primary_Accession": "GSE38308",
+    "Related_GSEs": [
+      "GSE38308"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 42,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "23637934"
+    ],
+    "Submission_Date": "2014/02/07",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE38308"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-24279375",
+    "Title": "Age-related methylation changes are associated with altered transcriptional circuitry",
+    "Primary_Accession": "GSE46450",
+    "Related_GSEs": [
+      "GSE46450",
+      "GSE46486"
+    ],
+    "Dataset_Count": 2,
+    "Primary_Dataset_Count": 2,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "24279375"
+    ],
+    "Submission_Date": "2013/12/20",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46450"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-24282298",
+    "Title": "Nfatc1 Orchestrates Aging in Hair Follicle Stem Cells",
+    "Primary_Accession": "GSE52328",
+    "Related_GSEs": [
+      "GSE52328"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 1,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "ChIP/CUT&RUN"
+    ],
+    "Aging_Contexts": [
+      "skin_appendage_aging"
+    ],
+    "Scope_Categories": [
+      "skin_appendage_aging"
+    ],
+    "Evidence_Tier": "extension",
+    "PubMed_IDs": [
+      "24282298"
+    ],
+    "Submission_Date": "2013/11/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52328"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-22931923",
+    "Title": "Molecular Rejuvenation of Gene Expression Pattern of Photoaged and Intrinsically Aged Human Skin by Broadband Light Treatment",
+    "Primary_Accession": "GSE39170",
+    "Related_GSEs": [
+      "GSE39170"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 15,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "miRNA/ncRNA profiling"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging",
+      "rejuvenation_intervention"
+    ],
+    "Scope_Categories": [
+      "photoaging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "22931923"
+    ],
+    "Submission_Date": "2012/07/30",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39170"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-GSE-30473",
+    "Title": "Myc and Miz-1 control melanocyte senescence by regulating intracellular cystathionase levels",
+    "Primary_Accession": "GSE30473",
+    "Related_GSEs": [
+      "GSE30473"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 4,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "cellular_senescence"
+    ],
+    "Scope_Categories": [
+      "cellular_senescence"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [],
+    "Submission_Date": "2012/07/03",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30473"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-22413003",
+    "Title": "Expression data from tail skin in young (5 months) and old (30 months) CB6F1 mice",
+    "Primary_Accession": "GSE35322",
+    "Related_GSEs": [
+      "GSE35322"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 20,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Mus musculus"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "22413003"
+    ],
+    "Submission_Date": "2012/03/15",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35322"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-21347436",
+    "Title": "Methylation Pattern of Human Dermal Fibroblasts",
+    "Primary_Accession": "GSE22595",
+    "Related_GSEs": [
+      "GSE22595"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 15,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "DNA methylation"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "21347436"
+    ],
+    "Submission_Date": "2012/02/14",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22595"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-27229172",
+    "Title": "Transcriptional Profile of Aging in Healthy Human Skin",
+    "Primary_Accession": "GSE18876",
+    "Related_GSEs": [
+      "GSE18876"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 98,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "27229172"
+    ],
+    "Submission_Date": "2011/11/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18876"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-22721680",
+    "Title": "Microarray-based identification of age-dependent differences in gene expression of human dermal fibroblasts",
+    "Primary_Accession": "GSE28300",
+    "Related_GSEs": [
+      "GSE28300"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 1,
+    "Nominal_Sample_Total": 36,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "22721680"
+    ],
+    "Submission_Date": "2011/04/01",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28300"
+  },
+  {
+    "Schema_Version": "2.0.0",
+    "Curation_Version": "2026-09-01",
+    "Study_Family_ID": "SA-PMID-20130591",
+    "Title": "Analysis of the Infrared-A radiation induced transcriptom of human skin fibroblasts",
+    "Primary_Accession": "GSE17046",
+    "Related_GSEs": [
+      "GSE17046"
+    ],
+    "Dataset_Count": 1,
+    "Primary_Dataset_Count": 0,
+    "Nominal_Sample_Total": 18,
+    "Sample_Count_Interpretation": "GEO Series 名义样本数之和；尚未跨 GSE/GSM 去重",
+    "Organisms": [
+      "Homo sapiens"
+    ],
+    "Data_Types": [
+      "expression microarray"
+    ],
+    "Aging_Contexts": [
+      "intrinsic_skin_aging",
+      "photoaging"
+    ],
+    "Scope_Categories": [
+      "intrinsic_skin_aging"
+    ],
+    "Evidence_Tier": "core",
+    "PubMed_IDs": [
+      "20130591"
+    ],
+    "Submission_Date": "2010/07/10",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE17046"
+  }
+]

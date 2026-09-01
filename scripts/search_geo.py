@@ -19,6 +19,11 @@ from typing import Any, Iterable, Mapping
 import requests
 from Bio import Entrez
 
+from curation_model import (
+    apply_corpus_model,
+    classify_data_type,
+    normalize_pubmed_ids,
+)
 from relevance_filter import (
     RelevanceAssessment,
     assess_relevance,
@@ -32,8 +37,11 @@ DATA_DIR = REPO_ROOT / "data"
 REPORT_DIR = REPO_ROOT / "reports"
 DATA_FILE = DATA_DIR / "geo_data.json"
 PUBLIC_DATA_FILE = REPO_ROOT / "public" / "data" / "geo_data.json"
+STUDY_FILE = DATA_DIR / "study_families.json"
+PUBLIC_STUDY_FILE = REPO_ROOT / "public" / "data" / "study_families.json"
 REVIEW_FILE = DATA_DIR / "relevance_review_queue.json"
 DECISION_LOG_FILE = DATA_DIR / "relevance_decision_log.json"
+MANUAL_OVERRIDES_FILE = DATA_DIR / "manual_curation_overrides.json"
 
 ORGANISM_QUERY = (
     '("Homo sapiens"[Organism] OR "Mus musculus"[Organism])'
@@ -51,7 +59,25 @@ SEARCH_QUERIES = {
     "skin_senescence": (
         '("skin senescence" OR "cutaneous senescence" OR "dermal senescence" OR '
         '"epidermal senescence" OR "senescent skin" OR "senescent dermis" OR '
-        '"senescent epidermis")'
+        '"senescent epidermis" OR "senescent dermal fibroblasts" OR '
+        '"replicative senescence" OR "stress induced premature senescence") '
+        'AND (skin OR cutaneous OR epidermal OR dermal OR keratinocyte OR melanocyte)'
+    ),
+    "broad_skin_age_contrast": (
+        '(skin OR cutaneous OR epidermis OR epidermal OR dermis OR dermal OR '
+        'keratinocyte OR melanocyte OR "dermal fibroblast") AND '
+        '(aging OR ageing OR aged OR senescence OR "young and old" OR '
+        '"old and young" OR rejuvenation)'
+    ),
+    "skin_appendage_aging": (
+        '("hair follicle aging" OR "hair follicle ageing" OR '
+        '"aged hair follicle" OR "hair graying" OR "hair greying" OR '
+        '"sebaceous gland aging" OR "dermal adipose aging")'
+    ),
+    "aging_intervention": (
+        '(skin OR cutaneous OR epidermal OR dermal OR keratinocyte OR '
+        '"dermal fibroblast") AND (rejuvenation OR senolytic OR '
+        '"anti-aging" OR "anti-ageing")'
     ),
 }
 
@@ -106,6 +132,53 @@ def load_json(path: Path, default: Any) -> Any:
         return default
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def load_manual_overrides() -> dict[str, dict[str, str]]:
+    raw = load_json(MANUAL_OVERRIDES_FILE, {})
+    overrides: dict[str, dict[str, str]] = {}
+    for decision in ("include", "exclude"):
+        for accession, reason in raw.get(decision, {}).items():
+            overrides[str(accession)] = {
+                "decision": decision,
+                "reason": str(reason),
+            }
+    return overrides
+
+
+def merge_previous_raw_snapshots(
+    current_records: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Union historical full-history snapshots so query drift cannot erase GSEs."""
+
+    def merge_record(
+        previous: Mapping[str, Any] | None,
+        incoming: Mapping[str, Any],
+    ) -> dict[str, Any]:
+        combined = dict(previous or {})
+        for key, value in incoming.items():
+            if value not in (None, "", [], {}):
+                combined[key] = value
+            elif key not in combined:
+                combined[key] = value
+        return combined
+
+    merged: dict[str, dict[str, Any]] = {}
+    for path in sorted(DATA_DIR.glob("search_results_raw_*.json")):
+        payload = load_json(path, [])
+        if not isinstance(payload, list):
+            continue
+        for record in payload:
+            accession = str(record.get("Accession", ""))
+            if accession.startswith("GSE"):
+                merged[accession] = merge_record(merged.get(accession), record)
+    for record in current_records:
+        accession = str(record["Accession"])
+        merged[accession] = merge_record(merged.get(accession), record)
+    print(
+        f"历史 raw snapshots 并集: {len(current_records)} → {len(merged)} 个 GSE"
+    )
+    return list(merged.values())
 
 
 def _search_one(
@@ -169,8 +242,7 @@ def fetch_summaries(ids: list[str]) -> list[Mapping[str, Any]]:
 
 
 def _pubmed_ids(record: Mapping[str, Any]) -> str:
-    values = record.get("PubMedIds", [])
-    return "; ".join(str(value) for value in values)
+    return normalize_pubmed_ids(record.get("PubMedIds", []))
 
 
 def _sample_titles(record: Mapping[str, Any]) -> str:
@@ -183,26 +255,7 @@ def _sample_titles(record: Mapping[str, Any]) -> str:
 
 
 def _classify_data_type(gds_type: str, title: str, summary: str) -> str:
-    text = " ".join((gds_type, title, summary)).lower()
-    if re.search(r"\bspatial\b|visium|slide[\s-]?seq", text):
-        return "spatial transcriptomics"
-    if re.search(r"single[\s-]?(?:cell|nucleus)|\bscrna\b|\bsnrna\b", text):
-        return "scRNA-seq"
-    if "methylation" in text or "bisulfite" in text or "wgbs" in text:
-        return "DNA methylation"
-    if re.search(r"\bscatac\b|single[\s-]+cell.{0,30}\batac\b", text):
-        return "scATAC-seq"
-    if "atac-seq" in text or "chromatin accessibility" in text:
-        return "ATAC-seq"
-    if re.search(r"\bchip[\s-]?seq\b|cut&run|cut&tag|genome binding", text):
-        return "ChIP/CUT&RUN"
-    if "non-coding rna" in text or "mirna" in text or "microrna" in text:
-        return "miRNA/ncRNA profiling"
-    if "expression profiling by array" in text or "microarray" in text:
-        return "expression microarray"
-    if "high throughput sequencing" in text or "rna-seq" in text:
-        return "bulk RNA-seq"
-    return gds_type or "Other"
+    return classify_data_type(gds_type, title, summary)
 
 
 def normalize_summary_record(record: Mapping[str, Any]) -> dict[str, Any] | None:
@@ -227,6 +280,8 @@ def normalize_summary_record(record: Mapping[str, Any]) -> dict[str, Any] | None
         "Contributors": "",
         "PubMed_IDs": _pubmed_ids(record),
         "Supplementary_Size": "N/A",
+        "Supplementary_Files": [],
+        "Series_Relations": [],
         "Summary": summary,
         "Overall_Design": "",
         "AI_Summary_CN": "",
@@ -263,6 +318,8 @@ def fetch_geo_soft(accession: str) -> dict[str, Any]:
         "lab": "",
         "institute": "",
         "country": "",
+        "series_relations": [],
+        "supplementary_files": [],
     }
     design_parts: list[str] = []
     for raw_line in response.text.splitlines():
@@ -281,6 +338,12 @@ def fetch_geo_soft(accession: str) -> dict[str, Any]:
             info["institute"] = value
         elif key == "!Series_contact_country":
             info["country"] = value
+        elif key == "!Series_relation":
+            if value not in info["series_relations"]:
+                info["series_relations"].append(value)
+        elif key == "!Series_supplementary_file":
+            if value not in info["supplementary_files"]:
+                info["supplementary_files"].append(value)
     info["overall_design"] = " ".join(design_parts)
     return info
 
@@ -304,6 +367,8 @@ def enrich_soft_records(
             record["Lab"] = info.get("lab", "")
             record["Institute"] = info.get("institute", "")
             record["Country"] = info.get("country", "")
+            record["Series_Relations"] = info.get("series_relations", [])
+            record["Supplementary_Files"] = info.get("supplementary_files", [])
             if index % 25 == 0 or index == len(candidates):
                 print(f"已获取实验设计: {index}/{len(candidates)}")
 
@@ -427,10 +492,37 @@ def curate(
     existing = load_json(DATA_FILE, [])
     review_queue = load_json(REVIEW_FILE, [])
     decision_log = load_json(DECISION_LOG_FILE, [])
+    overrides = load_manual_overrides()
     existing_ids = {item["Accession"] for item in existing}
     original_ids = set(existing_ids)
     review_by_id = {item["Accession"]: item for item in review_queue}
     logged_by_id = {item["Accession"]: item for item in decision_log}
+
+    # Existing records may only be removed from the active corpus by an
+    # explicit, versioned human override. Automated daily rules remain
+    # append-only.
+    explicitly_excluded = {
+        accession
+        for accession, override in overrides.items()
+        if override["decision"] == "exclude"
+    }
+    retained: list[dict[str, Any]] = []
+    for item in existing:
+        accession = item["Accession"]
+        if accession not in explicitly_excluded:
+            retained.append(item)
+            continue
+        override = overrides[accession]
+        logged_by_id[accession] = {
+            **item,
+            "Final_Decision": "exclude",
+            "Final_Reason": override["reason"],
+            "Decision_Source": "manual_override",
+            "Decided_At": datetime.now().isoformat(timespec="seconds"),
+        }
+        review_by_id.pop(accession, None)
+    existing = retained
+    existing_ids = {item["Accession"] for item in existing}
 
     audit_rows: list[dict[str, Any]] = []
     added = 0
@@ -438,28 +530,36 @@ def curate(
         assessment = assess_relevance(record)
         audit_rows.append(_audit_row(record, assessment))
         accession = record["Accession"]
+        override = overrides.get(accession)
+        final_decision = override["decision"] if override else assessment.decision
+        final_reason = override["reason"] if override else assessment.reason
+        final_source = "manual_override" if override else "two_stage_rule"
         if accession in existing_ids:
             continue
-        if assessment.decision == "include":
+        if final_decision == "include":
             enriched = with_relevance_metadata(record, assessment)
-            enriched["Relevance_Final_Source"] = "two_stage_rule"
+            enriched["Relevance_Final_Decision"] = "include"
+            enriched["Relevance_Final_Source"] = final_source
+            enriched["Relevance_Final_Reason"] = final_reason
+            enriched["Curation_Status"] = "active"
             existing.append(enriched)
             existing_ids.add(accession)
             review_by_id.pop(accession, None)
             logged_by_id.pop(accession, None)
             added += 1
-        elif assessment.decision == "review":
+        elif final_decision == "review":
             if accession not in logged_by_id:
                 review_by_id[accession] = {
                     **record,
                     "Assessment": assessment.to_dict(),
-                    "Decision_Source": "two_stage_rule",
+                    "Decision_Source": final_source,
                 }
-        elif assessment.stage1_pass and accession not in review_by_id:
+        elif (assessment.stage1_pass or override) and accession not in review_by_id:
             logged_by_id[accession] = {
                 **record,
                 "Final_Decision": "exclude",
-                "Decision_Source": "two_stage_rule",
+                "Final_Reason": final_reason,
+                "Decision_Source": final_source,
                 "Assessment": assessment.to_dict(),
                 "Decided_At": datetime.now().isoformat(timespec="seconds"),
             }
@@ -467,11 +567,12 @@ def curate(
     final_ids = [item["Accession"] for item in existing]
     if len(final_ids) != len(set(final_ids)):
         raise RuntimeError("安全检查失败：生产数据出现重复 accession")
-    if not original_ids.issubset(set(final_ids)):
-        removed = sorted(original_ids - set(final_ids))
+    protected_ids = original_ids - explicitly_excluded
+    if not protected_ids.issubset(set(final_ids)):
+        removed = sorted(protected_ids - set(final_ids))
         raise RuntimeError("安全检查失败：daily update 不得删除 " + ", ".join(removed))
 
-    existing.sort(key=_date_sort_key, reverse=True)
+    existing, study_families = apply_corpus_model(existing)
     review_values = sorted(
         review_by_id.values(), key=_date_sort_key, reverse=True
     )
@@ -482,6 +583,8 @@ def curate(
 
     save_json_atomic(DATA_FILE, existing)
     save_json_atomic(PUBLIC_DATA_FILE, existing)
+    save_json_atomic(STUDY_FILE, study_families)
+    save_json_atomic(PUBLIC_STUDY_FILE, study_families)
     save_json_atomic(REVIEW_FILE, review_values)
     save_json_atomic(DECISION_LOG_FILE, log_values)
 
@@ -501,7 +604,8 @@ def curate(
         )
     print(
         f"策展完成：本次新增 {added}；生产数据 {len(existing)}；"
-        f"复核队列 {len(review_values)}；排除日志 {len(log_values)}"
+        f"独立研究 {len(study_families)}；复核队列 {len(review_values)}；"
+        f"排除日志 {len(log_values)}"
     )
 
 
@@ -521,6 +625,8 @@ def main() -> int:
         unique = {record["Accession"]: record for record in records}
         records = list(unique.values())
         enrich_soft_records(records, args.soft_workers)
+        if args.full_history:
+            records = merge_previous_raw_snapshots(records)
         curate(
             records,
             query_counts,

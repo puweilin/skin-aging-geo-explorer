@@ -18,8 +18,8 @@
     "Series_Relations": [],
     "Summary": "Photoaging-induced deterioration of skin structural integrity and barrier function represents a critical challenge in dermatological health. While small extracellular vesicles (sEVs) hold therapeutic potential, their source diversity remains underexplored. Here, we report a novel sEV, designated OA-UVR-sEV, isolated from ultraviolet irradiation (UVR)-stimulated skin secretions of the amphibian Odorrana andersonii. Characterization confirmed its typical vesicular ultrastructure and excellent biocompatibility. Integrated multi-omics analysis revealed enrichment of functional miRNAs, proteins, and small-molecule metabolites with anti-photoaging potential. In vitro, OA-UVR-sEV substantially reduced reactive oxygen species accumulation, UVR-associated DNA damage marker expression, and pro-inflammatory cytokines in human immortalized keratinocytes and mouse dermal fibroblasts. For in vivo delivery, we developed a hyaluronic acid microneedle system, which enabled OA-UVR-sEV to attenuate wrinkle formation, stimulate dermal collagen synthesis, improve skin hydration, and reduce transepidermal water loss in photoaged mice. Analyses in dermal fibroblasts showed that these protective effects were associated with reduced activation of the MAPK and NF-κB signaling pathways. Collectively, our results establish OA-UVR-sEV as an effective anti-photoaging agent and highlight amphibian-derived sEVs as a promising new avenue for combating skin aging.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于小鼠皮肤成纤维细胞进行bulk RNA-seq分析，共9个样本，包含紫外线照射、透明质酸微针递送两栖类蛙皮来源小细胞外囊泡处理及空白对照三组。研究旨在探索该囊泡对光老化皮肤损伤的修复作用，通过转录组测序揭示其调控机制。该数据为理解两栖类来源囊泡在皮肤光老化修复中的应用价值提供了分子层面的证据支持。",
-    "AI_Summary": "该数据集基于小鼠皮肤成纤维细胞进行bulk RNA-seq分析，共9个样本，包含紫外线照射、透明质酸微针递送两栖类蛙皮来源小细胞外囊泡处理及空白对照三组。研究旨在探索该囊泡对光老化皮肤损伤的修复作用，通过转录组测序揭示其调控机制。该数据为理解两栖类来源囊泡在皮肤光老化修复中的应用价值提供了分子层面的证据支持。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343822",
     "Submission_Date": "2026/08/18",
     "Relevance_Decision": "include",
@@ -100,9 +100,7 @@
     "Study_Family_Title": "Hyaluronic acid microneedle delivery of frog skin-derived small extracellular vesicles for UVR-induced photoaging repair",
     "Related_GSEs": [
       "GSE343822"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE315794",
@@ -539,8 +537,8 @@
     "Series_Relations": [],
     "Summary": "This SuperSeries is composed of the SubSeries listed below.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于小鼠表皮组织，采用ChIP/CUT&RUN技术，包含131个样本，旨在探究BMAL1与YAP在老年表皮中协同作用并促进炎症的机制。研究比较了年轻与年老样本，并涉及COLXIV基因敲除及昼夜节律时间点分析，涵盖H3K4me1、H3K4me3、H3K27ac、YAP、p65等组蛋白修饰和转录因子的结合图谱。该数据为揭示皮肤内在老化过程中表观遗传调控和炎症通路的分子机制提供了重要资源。",
-    "AI_Summary": "该数据集基于小鼠表皮组织，采用ChIP/CUT&RUN技术，包含131个样本，旨在探究BMAL1与YAP在老年表皮中协同作用并促进炎症的机制。研究比较了年轻与年老样本，并涉及COLXIV基因敲除及昼夜节律时间点分析，涵盖H3K4me1、H3K4me3、H3K27ac、YAP、p65等组蛋白修饰和转录因子的结合图谱。该数据为揭示皮肤内在老化过程中表观遗传调控和炎症通路的分子机制提供了重要资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294389",
     "Submission_Date": "2026/06/29",
     "Relevance_Decision": "include",
@@ -611,9 +609,7 @@
       "GSE294389",
       "GSE329010",
       "GSE329011"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE294339",
@@ -2705,8 +2701,8 @@
     "Series_Relations": [],
     "Summary": "To investigated the functional characteristics and molecular mechanisms underlying senescence in UV irradiated melanocytes. We performed gene expression profiling analysis using data obtained from scRNA-seq of UV-irradiated senescent melanocytes.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用单细胞RNA测序技术，对经紫外线照射后发生衰老的人黑色素细胞进行基因表达谱分析，旨在探究紫外线诱导黑色素细胞衰老的功能特征及分子机制。研究物种为人，样本为1例经紫外线照射的衰老黑色素细胞。该数据为理解皮肤细胞衰老过程，尤其是黑色素细胞在光老化中的作用提供了分子层面的参考，对皮肤老化机制研究具有基础性价值。",
-    "AI_Summary": "该数据集利用单细胞RNA测序技术，对经紫外线照射后发生衰老的人黑色素细胞进行基因表达谱分析，旨在探究紫外线诱导黑色素细胞衰老的功能特征及分子机制。研究物种为人，样本为1例经紫外线照射的衰老黑色素细胞。该数据为理解皮肤细胞衰老过程，尤其是黑色素细胞在光老化中的作用提供了分子层面的参考，对皮肤老化机制研究具有基础性价值。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288449",
     "Submission_Date": "2025/12/31",
     "Relevance_Decision": "include",
@@ -2770,9 +2766,7 @@
     "Study_Family_Title": "Metformin as an early intervention for melanocyte senescence through autophagy-redox balance",
     "Related_GSEs": [
       "GSE288449"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE297560",
@@ -2882,8 +2876,8 @@
     "Series_Relations": [],
     "Summary": "Previously, in a meta-analysis of public single-cell transcriptomes profiling various healthy and disease tissues, we demonstrated that macrophage heterogeneity in skin, as well as in other mouse tissues, could be described into 5 distinct identities (S1-5) with a defined transcriptomic fingerprint, regardless of tissue origins. We established a general identity scheme for tissue macrophages, MIKA (Macrophage Identity Kinetics Archive) as an alternative to the conventional M1/M2 scheme which shows limitations in annotating in vivo tissue macrophages. (PMID: 39720957) MIKA was recently updated to finetune identity definition, and to include more tissues and pathophysiological conditions. (PMID: 41342690) Under the current MIKA framework, tissue macrophages are classified to 6 core identities (S1-S6, common to various tissues) and/or tissue-specific macrophages. This dataset is a part of the raw data sources of the latest version of MIKA profiling single-cell transcriptomes of F4/80+MHCII-hi macrophages FACS-isolated from dorsal skin of young (9 week-old) and old (108 week-old) C57BL/6 male mice.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用单细胞RNA测序技术，对9周龄和108周龄C57BL/6雄性小鼠背部皮肤中F4/80+MHCII-hi巨噬细胞进行转录组比较分析，旨在从单细胞水平揭示皮肤老化过程中巨噬细胞异质性的变化。研究基于MIKA巨噬细胞身份分类框架，为深入理解皮肤内在老化进程中免疫细胞的动态变化提供了重要的转录组数据资源，有助于阐明老化相关皮肤免疫微环境特征。",
-    "AI_Summary": "该数据集利用单细胞RNA测序技术，对9周龄和108周龄C57BL/6雄性小鼠背部皮肤中F4/80+MHCII-hi巨噬细胞进行转录组比较分析，旨在从单细胞水平揭示皮肤老化过程中巨噬细胞异质性的变化。研究基于MIKA巨噬细胞身份分类框架，为深入理解皮肤内在老化进程中免疫细胞的动态变化提供了重要的转录组数据资源，有助于阐明老化相关皮肤免疫微环境特征。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275826",
     "Submission_Date": "2025/12/07",
     "Relevance_Decision": "include",
@@ -2958,9 +2952,7 @@
     "Study_Family_Title": "Single-cell transcriptomic comparison of young and aged dermal macrophages",
     "Related_GSEs": [
       "GSE275826"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE267091",
@@ -3632,8 +3624,8 @@
     "Series_Relations": [],
     "Summary": "Using an aging mouse model (C57BL/6, 18-20 months), we applied red light irradiation (8 J/cm², once daily for 28 consecutive days) to investigate its potential in alleviating skin degeneration. Gene expression changes were analyzed by sequencing, comparing the light-exposed and control groups, and the involved regulatory signaling pathways were further explored.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用18至20月龄的老年C57BL/6小鼠背部皮肤组织，通过每日一次、连续28天的红光照射（8 J/cm²）处理，并与未处理老年对照组进行比较，开展bulk RNA-seq转录组测序，以探究红光照射对老年小鼠皮肤退行性变化的缓解作用及涉及的调控信号通路。该研究为理解红光干预在内在皮肤老化过程中的分子机制提供了转录组层面的数据资源。",
-    "AI_Summary": "该数据集利用18至20月龄的老年C57BL/6小鼠背部皮肤组织，通过每日一次、连续28天的红光照射（8 J/cm²）处理，并与未处理老年对照组进行比较，开展bulk RNA-seq转录组测序，以探究红光照射对老年小鼠皮肤退行性变化的缓解作用及涉及的调控信号通路。该研究为理解红光干预在内在皮肤老化过程中的分子机制提供了转录组层面的数据资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290637",
     "Submission_Date": "2025/07/19",
     "Relevance_Decision": "include",
@@ -3700,9 +3692,7 @@
     "Study_Family_Title": "RNA-seq of aging mouse skin treated with red light, compared to untreated controls",
     "Related_GSEs": [
       "GSE290637"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE299729",
@@ -3723,8 +3713,8 @@
     "Series_Relations": [],
     "Summary": "Neuropeptide Y (NPY) is a pleiotropic peptide produced in the central nervous system and peripheral organs and is upregulated in some human skin conditions like atopic dermatitis. We reported previously that a knock-in mouse with entopic NPY overexpression (NPYtet/tet) exhibits significantly elevated NPY gene and protein expression in the skin, accompanied by premature and progressive hair graying. However, the question remained whether NPY overexpression induces other skin pathologies. RNA-seq was used to show changes in the transcriptome in 35-week-old NPY overexressing mice, allowing us to highlight transcriptional changes using downstream analysis. Using a cross-sectional approach focused on timepoints before and after the onset of graying, we find that overexpression of NPY results in transcriptomic changes associated with inflammation and fibrosis. The histopathology of NPYtet/tet mice following hair graying included increased epidermal proliferation and an increase in CD3+ dendritic epidermal T cells. The dermis of NPYtet/tet mice exhibited enhanced fibrotic changes with abnormal rearrangement of collagen bundles and widespread dermal infiltration of degranulated mast cells and CD206+ M2 macrophages. NPYtet/tet mice also showed a thinning of the intradermal fat layer with focal areas of panniculitis. These results provide long-awaited evidence of NPY’s involvement in skin pathology, a background for defining the precise role of NPY in the regulation of skin homeostasis, and highlights its potential impact in inflammatory and/or fibrotic disorders.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用小鼠皮肤组织进行bulk RNA-seq分析，通过比较野生型与NPY过表达（NPYtet/tet）小鼠在35周龄时的转录组变化，探究神经肽Y过表达对皮肤病理的影响。研究发现NPY过表达引发与炎症和纤维化相关的转录组改变，并伴随表皮增殖增加、真皮胶原异常排列及肥大细胞和M2巨噬细胞浸润等组织学变化。该数据为理解神经肽在皮肤稳态维持及炎症性纤维化疾病中的作用提供了分子层面的参考依据。",
-    "AI_Summary": "该研究利用小鼠皮肤组织进行bulk RNA-seq分析，通过比较野生型与NPY过表达（NPYtet/tet）小鼠在35周龄时的转录组变化，探究神经肽Y过表达对皮肤病理的影响。研究发现NPY过表达引发与炎症和纤维化相关的转录组改变，并伴随表皮增殖增加、真皮胶原异常排列及肥大细胞和M2巨噬细胞浸润等组织学变化。该数据为理解神经肽在皮肤稳态维持及炎症性纤维化疾病中的作用提供了分子层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299729",
     "Submission_Date": "2025/06/20",
     "Relevance_Decision": "include",
@@ -3799,9 +3789,7 @@
     "Study_Family_Title": "Overexpression of NPY leads to a progressive, cutaneous inflammatory fibrotic response in mouse skin",
     "Related_GSEs": [
       "GSE299729"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE297406",
@@ -4276,8 +4264,8 @@
     "Series_Relations": [],
     "Summary": "Introduction: Sensitive skin is characterized by skin barrier disruption which is usually prone to react to external stimuli including UV, air pollution as well as cosmetic allergens. Sensitive skin tends to react with oxidative stress factors that could further lead to skin inflammation resulting in inflamm-aging. But almost no inflamm-aging models for sensitive skin, so it is worth constructing a method to screen anti-inflammaging ingredients and products. Methods: An in-vitro macrophages-fibroblasts model was established to evaluate the anti-inflammaging effect of ingredients. M1 phenotype and aging-associated gene expression were recorded by qPCR test to validate the inflamm-aging model. RNA sequencing was used to further elaborate the inflamm-aging mechanism of two validated ingredients. Results and conclusion: A novel in-vitro model of sensitive skin inflamm-aging was constructed by applying M1 phenotype of THP-1 culture medium supernatant to introduce the cellular senescence of the fibroblast cells, which could be used to screen out anti-inflammaging ingredients. In this model, supramolecular bakuchiol could promote collagen COL1A1 and COL3A3 production and inhibit inflammatory factors by increasing anti-inflammatory gene transcription (PTX3, ADAM33, and PDLIM1), while Terminalia chebula extract can inhibit cell senescence by reducing transcription of MAP4K2, and inflammatory factors CCL3 accumulation.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用人源THP-1巨噬细胞M1表型条件培养基诱导成纤维细胞衰老，构建敏感皮肤炎症性衰老的体外模型，并通过bulk RNA-seq对16个人源样本进行转录组测序，以评估两种候选成分对炎症性衰老的逆转作用。研究建立了可用于筛选抗炎性衰老成分的新型体外模型，并初步揭示了相关成分调控衰老及炎症相关基因表达的分子机制，为皮肤老化干预研究提供了有价值的实验基础。",
-    "AI_Summary": "该研究利用人源THP-1巨噬细胞M1表型条件培养基诱导成纤维细胞衰老，构建敏感皮肤炎症性衰老的体外模型，并通过bulk RNA-seq对16个人源样本进行转录组测序，以评估两种候选成分对炎症性衰老的逆转作用。研究建立了可用于筛选抗炎性衰老成分的新型体外模型，并初步揭示了相关成分调控衰老及炎症相关基因表达的分子机制，为皮肤老化干预研究提供了有价值的实验基础。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286316",
     "Submission_Date": "2025/04/16",
     "Relevance_Decision": "include",
@@ -4345,9 +4333,7 @@
     "Study_Family_Title": "Unveiling a Novel in-vitro Model of Skin Inflamm-Aging: Validation of Terminalia chebula Extract and Supermolecular Bakuchiol for Reversal of Inflamm-Aging",
     "Related_GSEs": [
       "GSE286316"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE292398",
@@ -5533,8 +5519,8 @@
     "Supplementary_Size": "N/A",
     "Summary": "Epidermal keratinocytes are continuously dividing cells which, upon differentiation establish the outer skin barrier, the stratum corneum. In older age the epidermis becomes thinner, papillary protrusions flatten and the capacity for skin barrier repair decreases. Here we performed single-cell RNA sequencing of epidermal keratinocytes obtained by suction blisters from the volar forearm of younger (20-30) and older (65-70) healthy female individuals.",
     "Overall_Design": "Eight healthy women participated in this study â 4 in the younger age group (24, 24, 29,29 yrs) and 4 in the older age group (71,67, 66, 71 yrs).  All women in the older age group were menopaused for at least 10 years and were not taking hormonal substitution therapies. None of the women in the younger age group was taking oral contraceptives. All women in both groups were non-smokers, none had a history of skin disease, none were visiting tanning parlors.",
-    "AI_Summary_CN": "该研究利用单细胞RNA测序技术，对8名健康女性（年轻组20-30岁与老年组65-70岁）前臂屈侧表皮角质形成细胞进行转录组分析，旨在探究皮肤老化过程中表皮结构基因表达的变化。研究通过吸疱法获取表皮样本，比较不同年龄组在皮肤屏障发育相关结构基因表达上的差异，为理解皮肤老化导致表皮变薄及屏障修复能力下降的分子机制提供单细胞层面的数据支持。",
-    "AI_Summary": "该研究利用单细胞RNA测序技术，对8名健康女性（年轻组20-30岁与老年组65-70岁）前臂屈侧表皮角质形成细胞进行转录组分析，旨在探究皮肤老化过程中表皮结构基因表达的变化。研究通过吸疱法获取表皮样本，比较不同年龄组在皮肤屏障发育相关结构基因表达上的差异，为理解皮肤老化导致表皮变薄及屏障修复能力下降的分子机制提供单细胞层面的数据支持。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275846",
     "Submission_Date": "2024/08/28",
     "Supplementary_Files": [],
@@ -5616,9 +5602,7 @@
     "Study_Family_Title": "Single cell transcriptomics of human epidermis shows decreased expression of several structural genes associated with skin barrier development in aged skin",
     "Related_GSEs": [
       "GSE275846"
-    ],
-    "AI_Summary_Generated_At": "2026-07-29T13:37:27+00:00",
-    "AI_Summary_Model": "deepseek-v4-flash"
+    ]
   },
   {
     "Accession": "GSE275491",
@@ -5726,8 +5710,8 @@
     "Series_Relations": [],
     "Summary": "We performed CUT&RUN and assessed cumulative TF binding signal shifts between age-opening and closing regions in young (2 months) and aged (20-24 months) murine samples.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用CUT&RUN技术对年轻（2月龄）和年老（20-24月龄）小鼠的角质形成细胞及CD8初始T细胞中多种转录因子（P63、Gata3、Jun、Tcf1）进行全基因组结合位点分析，共包含30个样本。研究旨在比较不同年龄阶段下转录因子结合信号的动态变化，并评估年龄相关开放与关闭染色质区域中转录因子结合信号的累积差异。该数据为揭示皮肤表皮角质形成细胞及免疫细胞在内在老化过程中转录调控变化提供了重要的表观基因组学资源，有助于理解皮肤老化过程中基因表达调控的分子基础。",
-    "AI_Summary": "该数据集利用CUT&RUN技术对年轻（2月龄）和年老（20-24月龄）小鼠的角质形成细胞及CD8初始T细胞中多种转录因子（P63、Gata3、Jun、Tcf1）进行全基因组结合位点分析，共包含30个样本。研究旨在比较不同年龄阶段下转录因子结合信号的动态变化，并评估年龄相关开放与关闭染色质区域中转录因子结合信号的累积差异。该数据为揭示皮肤表皮角质形成细胞及免疫细胞在内在老化过程中转录调控变化提供了重要的表观基因组学资源，有助于理解皮肤老化过程中基因表达调控的分子基础。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268766",
     "Submission_Date": "2024/07/15",
     "Relevance_Decision": "include",
@@ -5797,9 +5781,7 @@
     "Study_Family_Title": "CUT & RUN for P63, Gata3, Jun in murine keratinocytes and Tcf1 and Jun in murine CD8 Naive T-cells across two age stages, young (2 months) and aged (20-24 months)",
     "Related_GSEs": [
       "GSE268766"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE266293",
@@ -5820,8 +5802,8 @@
     "Series_Relations": [],
     "Summary": "A better understanding of human melanocyte and melanocyte stem cell (McSC) biology is essential for treating melanocyte-related diseases. This study employed an inherited pigmentation disorder carrying the SASH1S519N variant in a Hispanic family to investigate the SASH1 function in melanocyte lineage and the underlying mechanism for this disorder. We used a multidisciplinary approach, including clinical exams, human cell assays, yeast two-hybrid screening, and biochemical techniques. Results linked early hair graying to the SASH1S519N variant, a previously unrecognized clinical phenotype in hyperpigmentation disorders. We identified SASH1 as a novel regulator in McSC maintenance and discovered that TNKS2 is crucial for SASH1’s role in vitro. Additionally, the S519N variant is located in one of multiple tankyrase binding motifs and alters the binding kinetics and affinity of the interaction. In summary, this disorder showcases accelerated aging in human McSC, linking both gain and loss of pigmentation to McSC dysfunction in the same individuals. The findings offer new insights into the roles of SASH1 and TNKS2 in McSC maintenance and the molecular mechanisms of pigmentation disorders. We propose that a comprehensive clinical evaluation of patients with skin disorders should include an assessment and history of hair pigmentation loss.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用携带SASH1 S519N变异的一名西班牙裔家系，通过临床检查、人类黑素细胞球体实验、酵母双杂交及生化技术，探究SASH1在人类黑素细胞谱系中的功能。RNA-seq数据来自6例体外培养的人黑素细胞，分别进行siSASH1和siSCRAMBLE处理。研究发现该变异与早发性毛发灰白相关，并揭示SASH1是黑素细胞干细胞维持的新型调控因子，TNKS2对其功能至关重要。该数据为理解皮肤附属器衰老及色素紊乱机制提供了分子层面的支持。",
-    "AI_Summary": "该研究利用携带SASH1 S519N变异的一名西班牙裔家系，通过临床检查、人类黑素细胞球体实验、酵母双杂交及生化技术，探究SASH1在人类黑素细胞谱系中的功能。RNA-seq数据来自6例体外培养的人黑素细胞，分别进行siSASH1和siSCRAMBLE处理。研究发现该变异与早发性毛发灰白相关，并揭示SASH1是黑素细胞干细胞维持的新型调控因子，TNKS2对其功能至关重要。该数据为理解皮肤附属器衰老及色素紊乱机制提供了分子层面的支持。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE266293",
     "Submission_Date": "2024/06/17",
     "Relevance_Decision": "include",
@@ -5884,9 +5866,7 @@
     "Study_Family_Title": "SASH1 S519N variant links skin hyperpigmentation and premature hair graying to dysfunction of melanocyte lineage",
     "Related_GSEs": [
       "GSE266293"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE263907",
@@ -6002,8 +5982,8 @@
     "Series_Relations": [],
     "Summary": "Each senescent FB model exhibited different characteristics. Besides the upregulated expression of natural senescence features, FB-UVB and FB-ATV expressed high levels of senescence-related genes including SASP, and FB-P30 had the greatest similarity with FB-E. However, D-galactose-stimulated FB did not clearly present aging characteristics. It provides references for choosing senescent FB model in studying aging and related skin disease.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于人类皮肤成纤维细胞，通过bulk RNA-seq系统比较了多种体外衰老模型的分子特征，包括复制性衰老、D-半乳糖、UVB、依托泊苷及P30处理等诱导方式。研究旨在揭示不同衰老模型间基因表达差异及与自然衰老特征的相似性，为皮肤老化及相关疾病研究中衰老模型的选择提供参考依据。",
-    "AI_Summary": "该研究基于人类皮肤成纤维细胞，通过bulk RNA-seq系统比较了多种体外衰老模型的分子特征，包括复制性衰老、D-半乳糖、UVB、依托泊苷及P30处理等诱导方式。研究旨在揭示不同衰老模型间基因表达差异及与自然衰老特征的相似性，为皮肤老化及相关疾病研究中衰老模型的选择提供参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262932",
     "Submission_Date": "2024/04/10",
     "Relevance_Decision": "include",
@@ -6068,9 +6048,7 @@
     "Study_Family_Title": "Systemic comparison of molecular characteristics in different skin fibroblast senescent models",
     "Related_GSEs": [
       "GSE262932"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE261101",
@@ -6388,8 +6366,8 @@
     "Series_Relations": [],
     "Summary": "We carried out the analysis using human skin fibrobllast HCA2 (MJ90) cells dox-inducible shLuciferase or shFbxo22. Cells were indcued to be senescent cells by treatment with 10 Gy. As a result, Gene set enrichment analysis revealed a significant increase in the expression of lysomal-related and autophagosomal genes in control cells, whereas this gene ontology was not increased in cells depleted of Fbxo22",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用人皮肤成纤维细胞HCA2（MJ90）系，通过强力霉素诱导表达shLuciferase或shFbxo22，并以10 Gy照射诱导细胞衰老，开展bulk RNA-seq转录组分析，共12个样本，涵盖年轻与衰老状态及两种敲低处理。研究旨在探究Fbxo22缺失对衰老细胞基因表达的影响。结果显示，对照衰老细胞中溶酶体及自噬相关基因表达显著上调，而Fbxo22敲低细胞中该基因本体富集未增加。该数据为理解皮肤成纤维细胞衰老的分子机制及Fbxo22在衰老调控中的作用提供了转录组层面的参考。",
-    "AI_Summary": "该研究利用人皮肤成纤维细胞HCA2（MJ90）系，通过强力霉素诱导表达shLuciferase或shFbxo22，并以10 Gy照射诱导细胞衰老，开展bulk RNA-seq转录组分析，共12个样本，涵盖年轻与衰老状态及两种敲低处理。研究旨在探究Fbxo22缺失对衰老细胞基因表达的影响。结果显示，对照衰老细胞中溶酶体及自噬相关基因表达显著上调，而Fbxo22敲低细胞中该基因本体富集未增加。该数据为理解皮肤成纤维细胞衰老的分子机制及Fbxo22在衰老调控中的作用提供了转录组层面的参考。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163178",
     "Submission_Date": "2023/12/14",
     "Relevance_Decision": "include",
@@ -6456,9 +6434,7 @@
     "Study_Family_Title": "Transcriptome analysis among young and senescent fibroblasts expressing shLuciferase or shFbxo22",
     "Related_GSEs": [
       "GSE163178"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE249225",
@@ -7146,8 +7122,8 @@
     "Series_Relations": [],
     "Summary": "Genome instability enhances the pace of aging. Therefore, genome instability syndromes are usually associated with accelerated segmental aging. Genome integrity in the face of ongoing DNA damage is maintained primarily by the DNA damage response (DDR) – a complex signaling network that is induced by DNA lesions. Among the strongest DDR inducers are double-strand breaks (DSBs) – extremely cytotoxic lesions. The chief mobilizer of the DSB response is the ATM protein kinase. ATM loss in humans leads to a multisystem genome instability syndrome, ataxia-telangiectasia (A-T). Part of the complex A-T phenotype is segmental premature aging. Cellular senescence is a cell fate that includes cell cycle arrest, marked alterations in chromatin organization and metabolic circuits, and a multi-faceted senescence-associated secretory phenotype (SASP). This process plays a role in development and tissue homeostasis, as well as age-related degenerative and malignant diseases. Senescent cells increase with age in all tissues studied, and consequently, the SASP can disrupt the tissue microenvironment. Early studies demonstrated a rapid decline in the proliferation of cultured primary skin fibroblasts from A-T patients, which was attributed to premature senescence. Comparative RNA-sequencing analysis of A-T and control fibroblasts revealed unique transcriptional alterations in A-T cells and their dynamics over time in culture. Cluster analysis of differentially expressed genes (DEGs) allowed for the detection and categorization of these transcriptomic patterns. Functional enrichment analyses provided insight into the molecular pathways and cellular components associated with the premature senescence of A-T cells. The results were further corroborated by analyzing alterations in gene expression profiles using ‘gene set enrichment analysis’ (GSEA). Altogether, the analyses point to engagement of interferon signaling and extracellular matrix remodeling pathways, which are presumably caused by an accumulation of DNA damage. Notably, these pathways are known to be involved in cellular senescence and various age-related pathologies, including fibrosis and cancer. Our data provide a molecular dimension to the segmental premature aging observed in A-T patients",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用bulk RNA-seq技术，对来自共济失调-毛细血管扩张症（A-T）患者和正常对照的原代皮肤成纤维细胞进行转录组分析，共33个样本，旨在探究生理氧水平下A-T细胞加速复制性衰老的分子特征。研究比较了A-T细胞与对照细胞在培养过程中的基因表达动态变化，并通过差异表达基因聚类和功能富集分析揭示相关通路。该数据集为理解基因组不稳定导致的早衰机制及皮肤衰老的转录调控提供了分子层面的参考依据。",
-    "AI_Summary": "该研究利用bulk RNA-seq技术，对来自共济失调-毛细血管扩张症（A-T）患者和正常对照的原代皮肤成纤维细胞进行转录组分析，共33个样本，旨在探究生理氧水平下A-T细胞加速复制性衰老的分子特征。研究比较了A-T细胞与对照细胞在培养过程中的基因表达动态变化，并通过差异表达基因聚类和功能富集分析揭示相关通路。该数据集为理解基因组不稳定导致的早衰机制及皮肤衰老的转录调控提供了分子层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182410",
     "Submission_Date": "2023/05/09",
     "Relevance_Decision": "include",
@@ -7221,9 +7197,7 @@
     "Study_Family_Title": "Accelerated replicative senescence of ataxia-telangiectasia skin fibroblasts is retained at physiologic oxygen levels, with unique and common transcriptional patterns",
     "Related_GSEs": [
       "GSE182410"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE230026",
@@ -7244,8 +7218,8 @@
     "Series_Relations": [],
     "Summary": "this work shows the safe reduction of the biological age of ex vivo human skins by a senomorphic peptide.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于人类离体皮肤模型，采用DNA甲基化组学分析，评估衰老调节肽Pep14和雷帕霉素处理对皮肤生物学年龄及衰老负担的影响。研究共包含12个样本，设置对照组与两种药物处理组，旨在探索通过药物干预降低皮肤衰老程度的可行性。该数据为理解皮肤衰老的表观遗传调控机制及潜在抗衰老干预策略提供了参考依据。",
-    "AI_Summary": "该数据集基于人类离体皮肤模型，采用DNA甲基化组学分析，评估衰老调节肽Pep14和雷帕霉素处理对皮肤生物学年龄及衰老负担的影响。研究共包含12个样本，设置对照组与两种药物处理组，旨在探索通过药物干预降低皮肤衰老程度的可行性。该数据为理解皮肤衰老的表观遗传调控机制及潜在抗衰老干预策略提供了参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230026",
     "Submission_Date": "2023/04/20",
     "Relevance_Decision": "include",
@@ -7308,9 +7282,7 @@
     "Study_Family_Title": "Senotherapeutic peptide treatment reduces biological age and senescence burden in human skin models",
     "Related_GSEs": [
       "GSE230026"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE228471",
@@ -7331,8 +7303,8 @@
     "Series_Relations": [],
     "Summary": "To investigated the functional characteristics and molecular mechanisms underlying senescence in UV irradiated melanocytes. We performed gene expression profiling analysis using data obtained from scRNA-seq of UV-irradiated senescent melanocytes.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用单细胞RNA测序技术，对经紫外线照射诱导衰老的人类黑色素细胞进行基因表达谱分析，旨在探究衰老黑色素细胞的功能特征及其分子机制。研究物种为人类，样本为紫外线照射后的衰老黑色素细胞。该数据为探究细胞衰老在皮肤老化中的作用提供了单细胞水平的转录组资源，有助于理解黑色素细胞衰老相关的功能变化及其在皮肤老化进程中的潜在贡献。",
-    "AI_Summary": "该数据集利用单细胞RNA测序技术，对经紫外线照射诱导衰老的人类黑色素细胞进行基因表达谱分析，旨在探究衰老黑色素细胞的功能特征及其分子机制。研究物种为人类，样本为紫外线照射后的衰老黑色素细胞。该数据为探究细胞衰老在皮肤老化中的作用提供了单细胞水平的转录组资源，有助于理解黑色素细胞衰老相关的功能变化及其在皮肤老化进程中的潜在贡献。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE228471",
     "Submission_Date": "2023/04/03",
     "Relevance_Decision": "include",
@@ -7397,9 +7369,7 @@
     "Related_GSEs": [
       "GSE228470",
       "GSE228471"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE228470",
@@ -7420,8 +7390,8 @@
     "Series_Relations": [],
     "Summary": "To investigated the functional characteristics and molecular mechanisms underlying senescence in UV irradiated melanocytes. We performed gene expression profiling analysis using data obtained from RNA-seq of 3 normal melanocytes and 3 UV-irradiated senescent melanocytes.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用bulk RNA-seq技术，对3例正常人黑素细胞和3例经紫外线照射诱导衰老的黑素细胞进行基因表达谱分析，旨在探究紫外线照射所致黑素细胞衰老的功能特征及分子机制。该数据集为理解皮肤老化过程中黑素细胞衰老的转录组变化提供了基础数据，有助于揭示衰老相关黑素细胞功能改变的分子基础。",
-    "AI_Summary": "该研究利用bulk RNA-seq技术，对3例正常人黑素细胞和3例经紫外线照射诱导衰老的黑素细胞进行基因表达谱分析，旨在探究紫外线照射所致黑素细胞衰老的功能特征及分子机制。该数据集为理解皮肤老化过程中黑素细胞衰老的转录组变化提供了基础数据，有助于揭示衰老相关黑素细胞功能改变的分子基础。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE228470",
     "Submission_Date": "2023/04/03",
     "Relevance_Decision": "include",
@@ -7486,9 +7456,7 @@
     "Related_GSEs": [
       "GSE228470",
       "GSE228471"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE191055",
@@ -7608,8 +7576,8 @@
     "Series_Relations": [],
     "Summary": "We characterize the anti-inflammatory effect that IL-17 blockade has on epidermal aged cells",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于小鼠模型，通过bulk RNA-seq技术分析IL-17阻断对老年小鼠表皮细胞转录组的影响，共包含16个样本。研究旨在表征IL-17阻断对衰老表皮细胞的抗炎作用，属于内在皮肤老化研究。该数据可为理解免疫调控在皮肤衰老过程中的作用提供转录组层面的参考依据。",
-    "AI_Summary": "该数据集基于小鼠模型，通过bulk RNA-seq技术分析IL-17阻断对老年小鼠表皮细胞转录组的影响，共包含16个样本。研究旨在表征IL-17阻断对衰老表皮细胞的抗炎作用，属于内在皮肤老化研究。该数据可为理解免疫调控在皮肤衰老过程中的作用提供转录组层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190393",
     "Submission_Date": "2023/03/24",
     "Relevance_Decision": "include",
@@ -7676,9 +7644,7 @@
       "GSE190182",
       "GSE190393",
       "GSE193920"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE190182",
@@ -7699,8 +7665,8 @@
     "Series_Relations": [],
     "Summary": "We characterize the anti-inflammatory effect that IL-17 blockade has on epidermal aged cells",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于小鼠表皮细胞开展批量RNA测序，包含年轻与年老样本各4个，旨在表征IL-17阻断对衰老表皮细胞的抗炎作用。研究通过比较年轻与年老小鼠的转录组变化，为理解皮肤内在老化过程中炎症调控机制及IL-17信号通路的贡献提供了数据资源。",
-    "AI_Summary": "该数据集基于小鼠表皮细胞开展批量RNA测序，包含年轻与年老样本各4个，旨在表征IL-17阻断对衰老表皮细胞的抗炎作用。研究通过比较年轻与年老小鼠的转录组变化，为理解皮肤内在老化过程中炎症调控机制及IL-17信号通路的贡献提供了数据资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190182",
     "Submission_Date": "2023/03/24",
     "Relevance_Decision": "include",
@@ -7772,9 +7738,7 @@
       "GSE190182",
       "GSE190393",
       "GSE193920"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE200002",
@@ -7903,8 +7867,8 @@
     "Series_Relations": [],
     "Summary": "Profiling the skin microbiota composition from the face of healthy women. Exploring the differences between three age groups and between dry skin and not dry.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于健康女性面部皮肤微生物组测序数据，旨在探索皮肤老化相关的菌群变化。研究纳入15例人源皮肤样本，按年龄分为三组，并比较干燥与非干燥皮肤的微生物组成差异。该数据集为理解内在性皮肤老化过程中微生物群落的变化提供了基础数据支持，有助于后续分析老化相关皮肤微生态特征。",
-    "AI_Summary": "该研究基于健康女性面部皮肤微生物组测序数据，旨在探索皮肤老化相关的菌群变化。研究纳入15例人源皮肤样本，按年龄分为三组，并比较干燥与非干燥皮肤的微生物组成差异。该数据集为理解内在性皮肤老化过程中微生物群落的变化提供了基础数据支持，有助于后续分析老化相关皮肤微生态特征。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225848",
     "Submission_Date": "2023/02/24",
     "Relevance_Decision": "include",
@@ -7966,9 +7930,7 @@
     "Study_Family_Title": "Aging-related changes of facial skin microbiome in healthy women",
     "Related_GSEs": [
       "GSE225848"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE197588",
@@ -8568,8 +8530,8 @@
     "Series_Relations": [],
     "Summary": "This study is to elucidate the role of ROCK in oncogenis RAS induced senescence in mouse keratinocytes.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用小鼠皮肤角质细胞开展bulk RNA-seq分析，旨在阐明ROCK激酶在致癌RAS诱导的细胞衰老过程中的作用。实验共包含20个样本，涵盖RAS诱导衰老组、RAS联合ROCK抑制组及对照组，并设置多个时间点。该数据集为理解皮肤角质细胞衰老的分子调控机制提供了转录组层面的资源，对皮肤老化基础研究具有参考价值。",
-    "AI_Summary": "该研究利用小鼠皮肤角质细胞开展bulk RNA-seq分析，旨在阐明ROCK激酶在致癌RAS诱导的细胞衰老过程中的作用。实验共包含20个样本，涵盖RAS诱导衰老组、RAS联合ROCK抑制组及对照组，并设置多个时间点。该数据集为理解皮肤角质细胞衰老的分子调控机制提供了转录组层面的资源，对皮肤老化基础研究具有参考价值。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178545",
     "Submission_Date": "2022/10/27",
     "Relevance_Decision": "include",
@@ -8635,9 +8597,7 @@
     "Study_Family_Title": "RAS induced senescence of skin keratinocytes is mediated through Rho kinase",
     "Related_GSEs": [
       "GSE178545"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE192565",
@@ -9852,8 +9812,8 @@
     "Series_Relations": [],
     "Summary": "Ablative fractional laser treatment is considered the gold standard for skin rejuvenation. In order to understand how fractional laser works to rejuvenate skin, we performed microarray profiling on skin biopsies to identify temporal and dose-response changes in gene expression following fractional laser treatment.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用表达微阵列技术，对接受点阵激光治疗的人体皮肤活检样本进行转录组分析，共涉及140个样本，旨在探究剥脱性点阵激光促进皮肤年轻化的时间动态和剂量反应性基因表达变化。该数据集为理解激光诱导的伤口愈合与皮肤重塑机制提供了分子层面的参考，对皮肤老化干预研究具有重要价值。",
-    "AI_Summary": "该研究利用表达微阵列技术，对接受点阵激光治疗的人体皮肤活检样本进行转录组分析，共涉及140个样本，旨在探究剥脱性点阵激光促进皮肤年轻化的时间动态和剂量反应性基因表达变化。该数据集为理解激光诱导的伤口愈合与皮肤重塑机制提供了分子层面的参考，对皮肤老化干预研究具有重要价值。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168760",
     "Submission_Date": "2021/11/07",
     "Relevance_Decision": "include",
@@ -9914,9 +9874,7 @@
     "Study_Family_Title": "Transcriptomic Analysis of Wound Healing and Skin Rejuvenation Following Ablative Fractional Laser Treatment of Human Skin",
     "Related_GSEs": [
       "GSE168760"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE134893",
@@ -10033,8 +9991,8 @@
     "Series_Relations": [],
     "Summary": "Comparison of gene expression profiles from Mus musculus skin of two age groups. The RNA-seq data comprise 2 groups at ages: 2 and 9 months. Jena Centre for Systems Biology of Ageing - JenAge (www.jenage.de)",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用bulk RNA-seq技术对2月龄和9月龄两个年龄组的小鼠皮肤组织进行转录组测序，共包含10个皮肤样本，旨在比较不同年龄阶段小鼠皮肤组织的基因表达谱差异。作为内在皮肤老化研究的原始数据，该数据集为揭示哺乳动物皮肤自然衰老过程中的分子变化提供了基础表达谱资源，有助于后续筛选与皮肤老化相关的候选基因及信号通路。",
-    "AI_Summary": "该数据集利用bulk RNA-seq技术对2月龄和9月龄两个年龄组的小鼠皮肤组织进行转录组测序，共包含10个皮肤样本，旨在比较不同年龄阶段小鼠皮肤组织的基因表达谱差异。作为内在皮肤老化研究的原始数据，该数据集为揭示哺乳动物皮肤自然衰老过程中的分子变化提供了基础表达谱资源，有助于后续筛选与皮肤老化相关的候选基因及信号通路。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120570",
     "Submission_Date": "2021/10/19",
     "Relevance_Decision": "include",
@@ -10094,9 +10052,7 @@
     "Study_Family_Title": "Sequencing of Mus musculus skin of two different age groups",
     "Related_GSEs": [
       "GSE120570"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE111282",
@@ -10117,8 +10073,8 @@
     "Series_Relations": [],
     "Summary": "Comparison of temporal small RNA gene expression from Mus musculus skin. The RNA-seq data comprise 5 groups at ages: 2, 9, 15, 24 and 30 months. Jena Centre for Systems Biology of Ageing - JenAge (www.jenage.de)",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集对小鼠皮肤进行小RNA测序，样本来自2、9、15、24和30月龄五个年龄组，共25例，旨在比较不同年龄阶段皮肤中小RNA基因表达的时序变化。研究属于内在皮肤老化范畴，通过跨年龄组的转录组 profiling 为揭示皮肤衰老过程中非编码RNA调控变化提供基础数据，对理解皮肤内在老化机制具有参考价值。",
-    "AI_Summary": "该数据集对小鼠皮肤进行小RNA测序，样本来自2、9、15、24和30月龄五个年龄组，共25例，旨在比较不同年龄阶段皮肤中小RNA基因表达的时序变化。研究属于内在皮肤老化范畴，通过跨年龄组的转录组 profiling 为揭示皮肤衰老过程中非编码RNA调控变化提供基础数据，对理解皮肤内在老化机制具有参考价值。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111282",
     "Submission_Date": "2021/10/19",
     "Relevance_Decision": "include",
@@ -10178,9 +10134,7 @@
     "Study_Family_Title": "Sequencing of Mus musculus skin of five different age groups (smallRNA)",
     "Related_GSEs": [
       "GSE111282"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE185679",
@@ -10301,8 +10255,8 @@
     "Series_Relations": [],
     "Summary": "Senescence, a stable state of growth arrest, affects many physiological and pathophysiological processes, especially aging. Previous work has indicated that transcription factors (TFs) play a role in regulating senescence. However, a systematic study of regulatory TFs during replicative senescence (RS) using multi-omics analysis is still lacking. Here, we generated time-resolved RNA-seq, reduced representation bisulfite sequencing (RRBS) and ATAC-seq datasets during RS of mouse skin fibroblasts, which demonstrated that an enhanced inflammatory response and reduced proliferative capacity were the main characteristics of RS in both the transcriptome and epigenome. Through integrative analysis and genetic manipulation, we found that transcription factors E2F4, TEAD1 and AP-1 are key regulators of RS. Overexpression of E2f4 improved cellular proliferative capacity, attenuated SA-β-Gal activity and changed RS-associated differentially methylated sites (DMSs). Moreover, knockdown of Tead1 attenuated SA-β-Gal activity and partially altered the RS-associated transcriptome. In addition, knockdown of Atf3, one member of AP-1 superfamily TFs, reduced Cdkn2a (P16) expression in pre-senescent fibroblasts. Taken together, results of this study identified transcription factors regulating the senescence program through multi-omics analysis, providing potential therapeutic targets for anti-aging.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用小鼠皮肤成纤维细胞复制性衰老模型，通过时间分辨的RNA测序、简化代表性亚硫酸盐测序及ATAC-seq多组学分析，系统探究调控衰老进程的转录因子。样本包含不同衰老阶段及多种转录因子干预处理，共12例DNA甲基化数据。研究揭示了衰老过程中转录组和表观基因组的变化特征，并鉴定出E2F4、TEAD1和AP-1为复制性衰老的关键调控因子，为皮肤老化机制解析及抗衰老干预靶点提供了表观遗传层面的数据支撑。",
-    "AI_Summary": "该研究利用小鼠皮肤成纤维细胞复制性衰老模型，通过时间分辨的RNA测序、简化代表性亚硫酸盐测序及ATAC-seq多组学分析，系统探究调控衰老进程的转录因子。样本包含不同衰老阶段及多种转录因子干预处理，共12例DNA甲基化数据。研究揭示了衰老过程中转录组和表观基因组的变化特征，并鉴定出E2F4、TEAD1和AP-1为复制性衰老的关键调控因子，为皮肤老化机制解析及抗衰老干预靶点提供了表观遗传层面的数据支撑。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185416",
     "Submission_Date": "2021/10/08",
     "Relevance_Decision": "include",
@@ -10372,9 +10326,7 @@
     "Study_Family_Title": "Unveiling E2F4, TEAD1 and AP-1 as regulatory transcription factors of the replicative senescence program by multiomics analysis",
     "Related_GSEs": [
       "GSE185416"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE181022",
@@ -10496,8 +10448,8 @@
     "Series_Relations": [],
     "Summary": "Senescence, a stable state of growth arrest, affects many physiological and pathophysiological processes, especially aging. Previous work has indicated that transcription factors (TFs) play a role in regulating senescence. However, a systematic study of regulatory TFs during replicative senescence (RS) using multi-omics analysis is still lacking. Here, we generated time-resolved RNA-seq, reduced representation bisulfite sequencing (RRBS) and ATAC-seq datasets during RS of mouse skin fibroblasts, which demonstrated that an enhanced inflammatory response and reduced proliferative capacity were the main characteristics of RS in both the transcriptome and epigenome. Through integrative analysis and genetic manipulation, we found that transcription factors E2F4, TEAD1 and AP-1 are key regulators of RS. Overexpression of E2f4 improved cellular proliferative capacity, attenuated SA-β-Gal activity and changed RS-associated differentially methylated sites (DMSs). Moreover, knockdown of Tead1 attenuated SA-β-Gal activity and partially altered the RS-associated transcriptome. In addition, knockdown of Atf3, one member of AP-1 superfamily TFs, reduced Cdkn2a (P16) expression in pre-senescent fibroblasts. Taken together, results of this study identified transcription factors regulating the senescence program through multi-omics analysis, providing potential therapeutic targets for anti-aging.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于小鼠皮肤成纤维细胞复制性衰老模型，通过时间序列的RNA-seq、DNA甲基化测序及ATAC-seq多组学分析，系统探究调控衰老程序的转录因子。研究整合多组学数据并结合遗传操作，鉴定出E2F4、TEAD1和AP-1为复制性衰老的关键调控因子，为理解皮肤老化机制及寻找抗衰老干预靶点提供了数据资源。",
-    "AI_Summary": "该研究基于小鼠皮肤成纤维细胞复制性衰老模型，通过时间序列的RNA-seq、DNA甲基化测序及ATAC-seq多组学分析，系统探究调控衰老程序的转录因子。研究整合多组学数据并结合遗传操作，鉴定出E2F4、TEAD1和AP-1为复制性衰老的关键调控因子，为理解皮肤老化机制及寻找抗衰老干预靶点提供了数据资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE179880",
     "Submission_Date": "2021/10/01",
     "Relevance_Decision": "include",
@@ -10566,9 +10518,7 @@
     "Study_Family_Title": "Unveiling E2F4, TEAD1 and AP-1 as regulatory transcription factors of the replicative senescence program by multi-omics analysis",
     "Related_GSEs": [
       "GSE179880"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE145654",
@@ -12063,8 +12013,8 @@
     "Series_Relations": [],
     "Summary": "Skin undergoes changes in structure and function with age, including a shift in metabolic programs. This is particularly evident relative to mitochondrial function in skin cells. Dermal fibroblasts have been known to accumulate damage caused by both external and internal stressors, leading to altered bioenergetics that limits efficient synthesis of ATP and NAD+. To better understand the changes in mitochondrial function with age, metabolic profiles and transcriptomic profiles of primary dermal fibroblasts from varying aged donors were analysed.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用表达微阵列技术分析了来自不同年龄供体的原代真皮成纤维细胞的转录组，旨在探究皮肤老化过程中线粒体功能的变化。研究共涉及10个人类皮肤样本，属于内在皮肤老化情境下的基础机制探索。该数据集为理解衰老相关代谢重编程及线粒体功能障碍在皮肤老化中的作用提供了转录组层面的参考依据。",
-    "AI_Summary": "该研究利用表达微阵列技术分析了来自不同年龄供体的原代真皮成纤维细胞的转录组，旨在探究皮肤老化过程中线粒体功能的变化。研究共涉及10个人类皮肤样本，属于内在皮肤老化情境下的基础机制探索。该数据集为理解衰老相关代谢重编程及线粒体功能障碍在皮肤老化中的作用提供了转录组层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131938",
     "Submission_Date": "2020/10/26",
     "Relevance_Decision": "include",
@@ -12131,9 +12081,7 @@
     "Study_Family_Title": "Disrupted mitochondrial function in aged human dermal fibroblasts",
     "Related_GSEs": [
       "GSE131938"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE148221",
@@ -12249,8 +12197,8 @@
     "Series_Relations": [],
     "Summary": "Comparison of skin samples (neck skin, non photoexposed) from aged women with various perceived age We used microarray to identify molecular markers of the perceived age",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用表达微阵列技术分析了12名不同感知年龄女性的非光暴露颈部全层皮肤样本，旨在识别与皮肤内在老化相关的分子标志物。研究比较了不同感知年龄女性的皮肤基因表达谱，为探索皮肤老化分子机制及寻找潜在生物标志物提供了参考数据。",
-    "AI_Summary": "该数据集利用表达微阵列技术分析了12名不同感知年龄女性的非光暴露颈部全层皮肤样本，旨在识别与皮肤内在老化相关的分子标志物。研究比较了不同感知年龄女性的皮肤基因表达谱，为探索皮肤老化分子机制及寻找潜在生物标志物提供了参考数据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134204",
     "Submission_Date": "2020/07/31",
     "Relevance_Decision": "include",
@@ -12316,9 +12264,7 @@
     "Study_Family_Title": "Expression data from whole human skin samples",
     "Related_GSEs": [
       "GSE134204"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE151617",
@@ -12425,8 +12371,8 @@
     "Series_Relations": [],
     "Summary": "In the present study, we developed a highly accurate Skin-Specific DNAm age predictor, using DNAm data obtained from 508 human skin samples. Based on the analysis of 2,266 CpG sites, we accurately calculated the DNAm age of cultured skin cells, and human skin biopsies. Age estimation was sensitive to the biological age of the donor, cell passage, skin disease status, as well as treatment with senotherapeutic drugs.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于508例人类皮肤样本的DNA甲基化数据，开发了一种高精度的皮肤特异性甲基化年龄预测算法，并利用该算法对培养皮肤细胞及人体皮肤活检样本进行年龄评估。本数据集包含10例人类全层皮肤活检样本，分为100nM雷帕霉素处理组和对照组，每组各5例，属于DNA甲基化组学数据。研究旨在验证该算法对衰老相关药物干预的敏感性，为皮肤健康衰老研究提供技术平台和验证数据支持。",
-    "AI_Summary": "该研究基于508例人类皮肤样本的DNA甲基化数据，开发了一种高精度的皮肤特异性甲基化年龄预测算法，并利用该算法对培养皮肤细胞及人体皮肤活检样本进行年龄评估。本数据集包含10例人类全层皮肤活检样本，分为100nM雷帕霉素处理组和对照组，每组各5例，属于DNA甲基化组学数据。研究旨在验证该算法对衰老相关药物干预的敏感性，为皮肤健康衰老研究提供技术平台和验证数据支持。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151604",
     "Submission_Date": "2020/07/20",
     "Relevance_Decision": "include",
@@ -12490,9 +12436,7 @@
       "GSE151603",
       "GSE151604",
       "GSE151617"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE151603",
@@ -12801,8 +12745,8 @@
     "Series_Relations": [],
     "Summary": "In the present study, we developed a highly accurate Skin-Specific DNAm age predictor, using DNAm data obtained from 508 human skin samples. Based on the analysis of 2,266 CpG sites, we accurately calculated the DNAm age of cultured skin cells, and human skin biopsies. Age estimation was sensitive to the biological age of the donor, cell passage, skin disease status, as well as treatment with senotherapeutic drugs.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于508例人类皮肤样本的DNA甲基化数据，开发了一种高精度的皮肤特异性甲基化年龄预测算法，并利用16个全层皮肤活检样本进行验证。研究旨在建立适用于皮肤组织的生物学年龄评估平台，以筛选和验证健康衰老相关治疗手段。该数据集为皮肤内在老化研究提供了重要的表观遗传学分析工具，有助于评估供体生物学年龄、细胞传代及药物处理对皮肤衰老的影响。",
-    "AI_Summary": "该研究基于508例人类皮肤样本的DNA甲基化数据，开发了一种高精度的皮肤特异性甲基化年龄预测算法，并利用16个全层皮肤活检样本进行验证。研究旨在建立适用于皮肤组织的生物学年龄评估平台，以筛选和验证健康衰老相关治疗手段。该数据集为皮肤内在老化研究提供了重要的表观遗传学分析工具，有助于评估供体生物学年龄、细胞传代及药物处理对皮肤衰老的影响。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151600",
     "Submission_Date": "2020/07/20",
     "Relevance_Decision": "include",
@@ -12866,9 +12810,7 @@
       "GSE151603",
       "GSE151604",
       "GSE151617"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE132383",
@@ -12889,8 +12831,8 @@
     "Series_Relations": [],
     "Summary": "Intrinsic dysfunction of hair follicle dermal progenitors underlies phenotypic changes observed in aged dermis in rodents. The authors confirm similar age-related decline in function is present in adult human DPCs. RNA-Seq is utilized to identify further explanations for this functional decline in aged hDPCs.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用bulk RNA-seq技术，对18例人真皮乳头细胞样本进行转录组测序，旨在验证小分子激活剂并鉴定与年龄相关增殖能力下降有关的信号通路改变。研究确认了成人真皮乳头细胞存在与啮齿动物类似的年龄相关功能衰退，并进一步探索其分子机制，为皮肤附属器老化研究提供了有价值的数据资源。",
-    "AI_Summary": "该研究利用bulk RNA-seq技术，对18例人真皮乳头细胞样本进行转录组测序，旨在验证小分子激活剂并鉴定与年龄相关增殖能力下降有关的信号通路改变。研究确认了成人真皮乳头细胞存在与啮齿动物类似的年龄相关功能衰退，并进一步探索其分子机制，为皮肤附属器老化研究提供了有价值的数据资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132383",
     "Submission_Date": "2020/06/06",
     "Relevance_Decision": "include",
@@ -12957,9 +12899,7 @@
     "Study_Family_Title": "Validation of small molecule activators and identification of altered signaling pathways underlying the age-related decline in proliferative capacity in human dermal progenitors",
     "Related_GSEs": [
       "GSE132383"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE141620",
@@ -12980,8 +12920,8 @@
     "Series_Relations": [],
     "Summary": "This SuperSeries is composed of the SubSeries listed below.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集为一项针对皮肤黑色素细胞提前衰老机制的转录组学研究，物种为人源细胞及合成构建体，采用miRNA/ncRNA表达谱分析技术，共包含10个样本。研究通过模拟太阳紫外线辐射处理黑色素细胞，并设置不同辐射剂量及外泌体miRNA干预组合，旨在探究紫外线辐射与外泌体miRNA对黑色素细胞提前衰老的影响。该数据为理解光老化过程中黑色素细胞的分子调控机制提供了支持性证据。",
-    "AI_Summary": "该数据集为一项针对皮肤黑色素细胞提前衰老机制的转录组学研究，物种为人源细胞及合成构建体，采用miRNA/ncRNA表达谱分析技术，共包含10个样本。研究通过模拟太阳紫外线辐射处理黑色素细胞，并设置不同辐射剂量及外泌体miRNA干预组合，旨在探究紫外线辐射与外泌体miRNA对黑色素细胞提前衰老的影响。该数据为理解光老化过程中黑色素细胞的分子调控机制提供了支持性证据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141620",
     "Submission_Date": "2020/06/01",
     "Relevance_Decision": "include",
@@ -13047,9 +12987,7 @@
       "GSE141618",
       "GSE141619",
       "GSE141620"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE141619",
@@ -13070,8 +13008,8 @@
     "Series_Relations": [],
     "Summary": "The selection of specific miRNAs by exosomes and their release from cultured melanocytes after exposure to solar UVR (UVA+UVB) have activities in inducing these cells into a premature senescence. In this analysis, human TaqMan microRNA array cards A+B were used to measure the relative expression of miRNAs in exosomes isolated from the irradiated and un-irradiated melanocytes.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用人黑色素细胞经太阳紫外线照射后分离的外泌体，通过TaqMan microRNA阵列芯片检测miRNA表达谱，旨在探究外泌体miRNA在紫外线诱导黑色素细胞早衰中的作用。研究比较了照射与未照射样本中8例外泌体miRNA表达差异，为理解光老化过程中细胞间通讯及衰老调控机制提供了数据支持。",
-    "AI_Summary": "该研究利用人黑色素细胞经太阳紫外线照射后分离的外泌体，通过TaqMan microRNA阵列芯片检测miRNA表达谱，旨在探究外泌体miRNA在紫外线诱导黑色素细胞早衰中的作用。研究比较了照射与未照射样本中8例外泌体miRNA表达差异，为理解光老化过程中细胞间通讯及衰老调控机制提供了数据支持。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141619",
     "Submission_Date": "2020/06/01",
     "Relevance_Decision": "include",
@@ -13139,9 +13077,7 @@
       "GSE141618",
       "GSE141619",
       "GSE141620"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE141618",
@@ -13162,8 +13098,8 @@
     "Series_Relations": [],
     "Summary": "The selection of specific miRNAs by exosomes and their release from cultured melanocytes after exposure to solar UVR (UVA+UVB) have activities in inducing these cells into a premature senescence.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于合成构建体与人类黑素细胞，采用miRNA/ncRNA表达谱芯片技术，比较了经太阳紫外线照射与未照射的黑素细胞样本。研究旨在探索紫外线暴露后黑素细胞外泌体中特定miRNA的选择性包装与释放，及其在诱导细胞进入早熟性衰老过程中的作用。该数据为理解光老化中黑素细胞衰老的分子调控机制提供了转录组层面的参考依据。",
-    "AI_Summary": "该数据集基于合成构建体与人类黑素细胞，采用miRNA/ncRNA表达谱芯片技术，比较了经太阳紫外线照射与未照射的黑素细胞样本。研究旨在探索紫外线暴露后黑素细胞外泌体中特定miRNA的选择性包装与释放，及其在诱导细胞进入早熟性衰老过程中的作用。该数据为理解光老化中黑素细胞衰老的分子调控机制提供了转录组层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141618",
     "Submission_Date": "2020/06/01",
     "Relevance_Decision": "include",
@@ -13232,9 +13168,7 @@
       "GSE141618",
       "GSE141619",
       "GSE141620"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE115424",
@@ -13255,8 +13189,8 @@
     "Series_Relations": [],
     "Summary": "Advanced age drives the progressive degeneration of mammalian hair follicles (HF) and termination of its regeneration cycle. The role of hair follicle dermal stem cell (hfDSC) in this age-associated HF dysfunction remains largely unexplored. Here, we first characterize a novel function of hfDSCs in regenerating the full dermal papilla (DP) after laser ablation. Next, we performed long-term fate mapping, age-dependant in vivo clonal analysis and in vitro proliferation assay on hfDSCs to describe the age-related defects in mesenchymal stem cell self-renewal and differentiation capabilities. Moreover, single-cell RNA-sequencing of the HF mesenchymal population mapped the intrinsic transcriptional changes that may drive their age-related dysfunction. We highlight the requirement of hfDSCs for normal HF regeneration. Our findings characterize a novel function of mesenchymal stem cells, and how this crucial cell becomes dysfunctional with age to drive age-related hair loss.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用小鼠模型，通过单细胞RNA测序分析2月龄、12月龄和18月龄小鼠毛囊间充质细胞，旨在探究毛囊真皮干细胞衰老导致脱发的机制。研究描述了衰老过程中干细胞自我更新和分化能力的缺陷，并绘制了毛囊间充质群体的转录变化图谱，为理解皮肤附属器内在衰老机制提供了数据支持。",
-    "AI_Summary": "该研究利用小鼠模型，通过单细胞RNA测序分析2月龄、12月龄和18月龄小鼠毛囊间充质细胞，旨在探究毛囊真皮干细胞衰老导致脱发的机制。研究描述了衰老过程中干细胞自我更新和分化能力的缺陷，并绘制了毛囊间充质群体的转录变化图谱，为理解皮肤附属器内在衰老机制提供了数据支持。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115424",
     "Submission_Date": "2020/04/20",
     "Relevance_Decision": "include",
@@ -13320,9 +13254,7 @@
     "Study_Family_Title": "Dysfunction of hair follicle mesenchymal progenitors contributes to age related hair loss",
     "Related_GSEs": [
       "GSE115424"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE130973",
@@ -13640,8 +13572,8 @@
     "Series_Relations": [],
     "Summary": "We deleted different Notch pathway components in different sub-compartments of mouse skin, and performed RNA-seq to assess differentially regulated genes, 10 weeks after deletion.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用小鼠皮肤模型，通过条件性敲除Notch信号通路的不同组分，并结合bulk RNA-seq转录组测序，系统分析了皮脂腺干细胞在不同微环境下的基因表达变化。研究共包含18个样本，旨在探究皮肤稳态维持及衰老过程中，微环境特异性因子对皮脂腺干细胞的动态调控作用。该数据为理解皮肤附属器衰老的分子机制提供了转录组层面的参考依据。",
-    "AI_Summary": "该研究利用小鼠皮肤模型，通过条件性敲除Notch信号通路的不同组分，并结合bulk RNA-seq转录组测序，系统分析了皮脂腺干细胞在不同微环境下的基因表达变化。研究共包含18个样本，旨在探究皮肤稳态维持及衰老过程中，微环境特异性因子对皮脂腺干细胞的动态调控作用。该数据为理解皮肤附属器衰老的分子机制提供了转录组层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125737",
     "Submission_Date": "2019/08/20",
     "Relevance_Decision": "include",
@@ -13704,9 +13636,7 @@
     "Study_Family_Title": "Niche-specific factors dynamically regulate sebaceous gland stem cells during skin homeostasis and aging",
     "Related_GSEs": [
       "GSE125737"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE135934",
@@ -13814,8 +13744,8 @@
     "Series_Relations": [],
     "Summary": "Malignant melanoma might develop from melanocytic nevi in which the growth-arrested state has been broken. We analyzed the gene expression of young and senescent human melanocytes in culture. In this dataset we include the expression data of young and senescent human melanocytes.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于基因表达微阵列技术，分析了体外培养的年轻与衰老人类黑色素细胞的转录组差异，样本共8例，分别来自年轻和衰老状态的黑色素细胞。研究旨在探索黑色素细胞衰老相关的基因表达变化，为理解黑色素瘤可能源于生长停滞状态被打破的色素痣这一病理过程提供基础数据，对皮肤老化及黑色素瘤发生机制研究具有参考价值。",
-    "AI_Summary": "该研究基于基因表达微阵列技术，分析了体外培养的年轻与衰老人类黑色素细胞的转录组差异，样本共8例，分别来自年轻和衰老状态的黑色素细胞。研究旨在探索黑色素细胞衰老相关的基因表达变化，为理解黑色素瘤可能源于生长停滞状态被打破的色素痣这一病理过程提供基础数据，对皮肤老化及黑色素瘤发生机制研究具有参考价值。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83922",
     "Submission_Date": "2019/06/30",
     "Relevance_Decision": "include",
@@ -13879,9 +13809,7 @@
     "Study_Family_Title": "Expression data from young and senescent melanocytes",
     "Related_GSEs": [
       "GSE83922"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE83856",
@@ -13902,8 +13830,8 @@
     "Series_Relations": [],
     "Summary": "Autophagy is a recycling program for cells to adapt to metabolic needs and to stress. Defects in autophagy can affect metabolism, aging, proteostasis and inflammation. We used microarrays to determine the changes in global gene expression in murine melanocyte upon genetic inactivation of the essential autophagy gene Atg7 and as secondary aim wheter the gene regulation by ultraviolet A light is affected by the Atg7 knockout",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用表达微阵列芯片分析了小鼠黑色素细胞在自噬必需基因Atg7敲除及紫外线A照射下的全基因组表达变化，样本共8例，旨在探究自噬缺陷对黑色素细胞衰老相关分泌表型的影响。该数据为理解自噬在皮肤细胞衰老调控中的作用提供了转录组层面的参考依据。",
-    "AI_Summary": "该研究利用表达微阵列芯片分析了小鼠黑色素细胞在自噬必需基因Atg7敲除及紫外线A照射下的全基因组表达变化，样本共8例，旨在探究自噬缺陷对黑色素细胞衰老相关分泌表型的影响。该数据为理解自噬在皮肤细胞衰老调控中的作用提供了转录组层面的参考依据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83856",
     "Submission_Date": "2019/06/29",
     "Relevance_Decision": "include",
@@ -13969,9 +13897,7 @@
     "Study_Family_Title": "Autophagy deficient melanocytes display a senescence associated secretory phenotype that includes oxidized lipid mediators",
     "Related_GSEs": [
       "GSE83856"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE131789",
@@ -15123,8 +15049,8 @@
     "Series_Relations": [],
     "Summary": "Mesenchymal cells were isolated from day 5 dorsal skin wound beds of 7-weeks old and >24-months old using FACS. This experiment describes multiple unique subsets of wound bed myofibrolbasts capable of contributing to tissue repair.",
     "Overall_Design": "",
-    "AI_Summary_CN": "年轻与年老小鼠第5天皮肤创伤床中肌成纤维细胞的基因表达谱研究。该研究以7周龄和24月龄小鼠为对象，通过FACS分选创伤床间充质细胞，利用bulk RNA-seq分析16个样本，涵盖年轻与年老来源的CD29、AP-CD9High、AP-CD9Low及DN等细胞亚群，旨在揭示不同肌成纤维细胞亚群在组织修复中的转录特征，为理解皮肤老化对创伤愈合的影响提供分子层面的参考。",
-    "AI_Summary": "年轻与年老小鼠第5天皮肤创伤床中肌成纤维细胞的基因表达谱研究。该研究以7周龄和24月龄小鼠为对象，通过FACS分选创伤床间充质细胞，利用bulk RNA-seq分析16个样本，涵盖年轻与年老来源的CD29、AP-CD9High、AP-CD9Low及DN等细胞亚群，旨在揭示不同肌成纤维细胞亚群在组织修复中的转录特征，为理解皮肤老化对创伤愈合的影响提供分子层面的参考。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105790",
     "Submission_Date": "2018/11/06",
     "Relevance_Decision": "include",
@@ -15195,9 +15121,7 @@
     "Study_Family_Title": "Gene expression profiling of myofibroblasts in young and aged day 5 wound beds",
     "Related_GSEs": [
       "GSE105790"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE121460",
@@ -16147,8 +16071,8 @@
     "Series_Relations": [],
     "Summary": "We want to identifiy microRNAs modulated by aging in human primary keratinocytes prepared from skin samples from individuals of various age",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用人类原代角质形成细胞，通过miRNA/ncRNA表达谱分析，比较婴儿、年轻成人和老年个体皮肤样本中microRNA的表达差异，旨在鉴定与内在皮肤老化相关的microRNA。样本共12例，涵盖不同年龄段。该数据集为探索皮肤老化过程中表观遗传调控机制提供了基础数据，有助于理解老化相关基因表达变化的非编码RNA层面调控。",
-    "AI_Summary": "该研究利用人类原代角质形成细胞，通过miRNA/ncRNA表达谱分析，比较婴儿、年轻成人和老年个体皮肤样本中microRNA的表达差异，旨在鉴定与内在皮肤老化相关的microRNA。样本共12例，涵盖不同年龄段。该数据集为探索皮肤老化过程中表观遗传调控机制提供了基础数据，有助于理解老化相关基因表达变化的非编码RNA层面调控。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE101493",
     "Submission_Date": "2017/12/31",
     "Relevance_Decision": "include",
@@ -16218,9 +16142,7 @@
     "Study_Family_Title": "microRNA expression in human keratinocytes from infant, adult and ederly skin",
     "Related_GSEs": [
       "GSE101493"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE84521",
@@ -16543,8 +16465,8 @@
     "Series_Relations": [],
     "Summary": "This SuperSeries is composed of the SubSeries listed below.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用实时定量PCR技术，对来自婴幼儿（5个月和1岁）及78岁老年人的原代人真皮成纤维细胞进行基因表达谱分析，并检测了抗氧化剂GC4419处理对老年和幼年细胞的影响。研究旨在揭示内在性皮肤老化过程中真皮成纤维细胞的转录变化，为理解皮肤衰老的分子机制及潜在干预策略提供参考数据。",
-    "AI_Summary": "该数据集利用实时定量PCR技术，对来自婴幼儿（5个月和1岁）及78岁老年人的原代人真皮成纤维细胞进行基因表达谱分析，并检测了抗氧化剂GC4419处理对老年和幼年细胞的影响。研究旨在揭示内在性皮肤老化过程中真皮成纤维细胞的转录变化，为理解皮肤衰老的分子机制及潜在干预策略提供参考数据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100921",
     "Submission_Date": "2017/07/08",
     "Relevance_Decision": "include",
@@ -16615,9 +16537,7 @@
     "Related_GSEs": [
       "GSE100920",
       "GSE100921"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE100920",
@@ -16638,8 +16558,8 @@
     "Series_Relations": [],
     "Summary": "To analyze the age-associated changes in the nuclear encoded genes of the mitochondrial ETC following treatment with a Superoxide dismutase mimetic GC4419 using the mitochondrial energy metabolism profiler array from Qiagen.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用实时定量PCR技术，对来自5个月婴儿和78岁老人的原代人真皮成纤维细胞进行表达谱分析，旨在探究经超氧化物歧化酶模拟物GC4419处理后，与年龄相关的线粒体电子传递链核编码基因表达变化。研究采用年轻与年老样本的直接比较设计，属于内在皮肤老化领域，为理解真皮成纤维细胞在衰老过程中的线粒体功能调控提供了基础数据。",
-    "AI_Summary": "该数据集利用实时定量PCR技术，对来自5个月婴儿和78岁老人的原代人真皮成纤维细胞进行表达谱分析，旨在探究经超氧化物歧化酶模拟物GC4419处理后，与年龄相关的线粒体电子传递链核编码基因表达变化。研究采用年轻与年老样本的直接比较设计，属于内在皮肤老化领域，为理解真皮成纤维细胞在衰老过程中的线粒体功能调控提供了基础数据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100920",
     "Submission_Date": "2017/07/08",
     "Relevance_Decision": "include",
@@ -16711,9 +16631,7 @@
     "Related_GSEs": [
       "GSE100920",
       "GSE100921"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE99397",
@@ -16734,8 +16652,8 @@
     "Series_Relations": [],
     "Summary": "OIS is characterized by a stable proliferation arrest and secretion of pro-inflammatory cytokines and chemokines, the senescence-associated secretory phenotype (SASP). Proliferation arrest and the SASP collaborate to enact tumor suppression, the former by blocking cell proliferation and the latter by recruiting immune cells to clear damaged cells. However, the interactions of OIS cells with the immune system are still poorly defined. Here we show that engagement of OIS in primary human melanocytes, specifically by melanoma driver mutations NRASQ61K and BRAFV600E, causes expression of the MHC class II antigen presentation apparatus, via secreted IL1ß signaling and expression of CIITA, a master regulator of MHC class II gene transcription.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于小鼠模型，通过bulk RNA-seq技术分析了9个样本，旨在研究表达致癌基因的衰老黑色素细胞如何上调MHC II类分子、迁移至淋巴结并激活T细胞。研究比较了衰老细胞与对照细胞，揭示了衰老黑色素细胞通过IL1β信号和CIITA表达调控MHC II类抗原呈递装置的机制。该数据为理解细胞衰老与免疫系统互作、以及衰老在肿瘤抑制和免疫监视中的作用提供了重要参考。",
-    "AI_Summary": "该数据集基于小鼠模型，通过bulk RNA-seq技术分析了9个样本，旨在研究表达致癌基因的衰老黑色素细胞如何上调MHC II类分子、迁移至淋巴结并激活T细胞。研究比较了衰老细胞与对照细胞，揭示了衰老黑色素细胞通过IL1β信号和CIITA表达调控MHC II类抗原呈递装置的机制。该数据为理解细胞衰老与免疫系统互作、以及衰老在肿瘤抑制和免疫监视中的作用提供了重要参考。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99397",
     "Submission_Date": "2017/06/09",
     "Relevance_Decision": "include",
@@ -16800,9 +16718,7 @@
     "Study_Family_Title": "Oncogene-Expressing senescent melanocytes upregulate MHC Class II, re-localize to the lymph nodes and activate T cells",
     "Related_GSEs": [
       "GSE99397"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE97034",
@@ -16918,8 +16834,8 @@
     "Series_Relations": [],
     "Summary": "Mouse skin fibroblasts (MSFs) were obtained from a FASST (Fibroblasts Accelerate Stromal-Supported Tumorigenesis) mouse. This mouse model allows for spatial and temporal control for senescence induction by using a stromal specific Cre-recombinase driven by the pro-collagen-alpha II promoter. The stromal specific Cre activates expression of the p27IRESGFP transgene that is expressed from the ROSA locus. We cultured the MSFs in vitro, induced senescence using 10uM tamoxifen added to the media. Non-senescent cells were treated with equal volume of vehicle alone (ethanol). Upon tamoxifen treatment, cells were moved to a modular incubation chamber and maintained at 3% oxygen at 37 degrees celcius for 12 days total before collection. At the time of collection, cells were trypsynized and pelleted by centrifugation. The cells were lysed using Trysol reagent and RNA was isolated using a RiboPure RNA isolation kit (Ambion).",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用FASST小鼠模型获取皮肤成纤维细胞，通过他莫昔芬诱导细胞衰老，并以乙醇处理作为非衰老对照，开展bulk RNA-seq测序，共6个样本。研究旨在从转录组水平揭示衰老皮肤成纤维细胞与正常细胞的基因表达差异，为理解皮肤衰老的细胞机制提供数据资源。",
-    "AI_Summary": "该数据集利用FASST小鼠模型获取皮肤成纤维细胞，通过他莫昔芬诱导细胞衰老，并以乙醇处理作为非衰老对照，开展bulk RNA-seq测序，共6个样本。研究旨在从转录组水平揭示衰老皮肤成纤维细胞与正常细胞的基因表达差异，为理解皮肤衰老的细胞机制提供数据资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78128",
     "Submission_Date": "2017/02/10",
     "Relevance_Decision": "include",
@@ -16985,9 +16901,7 @@
     "Study_Family_Title": "RNA-sequencing of non-senescent and senescent mouse skin fibroblast",
     "Related_GSEs": [
       "GSE78128"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE85358",
@@ -17106,8 +17020,8 @@
     "Series_Relations": [],
     "Summary": "Analysis of growing or oncogene-induced senescent primary mouse keratinocytes 6 days post infection.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用表达微阵列技术，对原代小鼠角质形成细胞在癌基因诱导衰老第6天的状态进行分析，样本包括表达载体对照和Ras癌基因诱导的衰老细胞，共7个样本。研究旨在从转录组水平揭示皮肤表皮细胞衰老过程中的基因表达变化，为理解皮肤老化中细胞衰老的分子机制提供基础数据。",
-    "AI_Summary": "该数据集利用表达微阵列技术，对原代小鼠角质形成细胞在癌基因诱导衰老第6天的状态进行分析，样本包括表达载体对照和Ras癌基因诱导的衰老细胞，共7个样本。研究旨在从转录组水平揭示皮肤表皮细胞衰老过程中的基因表达变化，为理解皮肤老化中细胞衰老的分子机制提供基础数据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93564",
     "Submission_Date": "2017/01/13",
     "Relevance_Decision": "include",
@@ -17172,9 +17086,7 @@
     "Study_Family_Title": "Oncogene-induced senescence in primary mouse keratinocytes",
     "Related_GSEs": [
       "GSE93564"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE74283",
@@ -17494,8 +17406,8 @@
     "Series_Relations": [],
     "Summary": "Background: Comparison of temporal gene expression profiles. The RNA-seq data comprises 3 age groups: 2, 15 and 30 months for mouse skin; 5, 24 and 42 months for zebrafish skin. Illumina 50bp single-stranded single-read RNA sequencing Jena Centre for Systems Biology of Ageing - JenAge (www.jenage.de)",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用bulk RNA-seq技术，对斑马鱼和小鼠皮肤进行跨物种转录组分析，涵盖小鼠2、15、30月龄及斑马鱼5、24、42月龄三个年龄组，共35个皮肤样本。研究旨在比较不同物种皮肤在自然衰老过程中的时间性基因表达谱变化，为揭示皮肤内在衰老的保守分子特征提供跨物种参考数据。",
-    "AI_Summary": "该数据集利用bulk RNA-seq技术，对斑马鱼和小鼠皮肤进行跨物种转录组分析，涵盖小鼠2、15、30月龄及斑马鱼5、24、42月龄三个年龄组，共35个皮肤样本。研究旨在比较不同物种皮肤在自然衰老过程中的时间性基因表达谱变化，为揭示皮肤内在衰老的保守分子特征提供跨物种参考数据。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46916",
     "Submission_Date": "2015/12/01",
     "Relevance_Decision": "include",
@@ -17555,9 +17467,7 @@
     "Study_Family_Title": "RNA-seq of Danio rerio and Mus musculus skin for three different age groups",
     "Related_GSEs": [
       "GSE46916"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE67288",
@@ -17578,8 +17488,8 @@
     "Series_Relations": [],
     "Summary": "Exon level expression analysis for the HGPS pathological aging study data set to analyze the effect of progerin expression on alternative splicing in keratinocytes of HGPS mice. Analysis of the effect of pathological aging (transgenic progerin expression) on alternative splicing (AS) using exon microarrays to interrogate the differential exon usage of the entire genome of HGPS mice (postnatal day 24 and 35) and their wild-type litter mates. Our results suggests that early expression of progerin impairs developmental splicing but that as progerin accumulates, the number of genes with AS increases, similar to what is observed in aging wild-type mice. This dataset is one of the 2 datasets in the overall study. An additional data set series is available with exon expression analysis of aging wild-type mice to analyze the effect of age on alternative splicing during physiological aging. The two datasets are linked together in the SuperSeries GSE67289. A link to the SuperSeries is available at the bottom of this page.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用外显子表达芯片分析了表达早老蛋白progerin的HGPS转基因小鼠（出生后第24天和第35天）表皮角质形成细胞中全基因组的选择性剪接变化，并与同窝野生型小鼠进行比较，物种为小鼠，共16个样本。研究旨在探究病理性衰老模型中progerin表达对发育期及累积期选择性剪接的影响。该数据为皮肤早衰模型下表皮角质形成细胞剪接调控研究提供了转录组层面的参考，有助于理解皮肤内在衰老的分子机制。",
-    "AI_Summary": "该数据集利用外显子表达芯片分析了表达早老蛋白progerin的HGPS转基因小鼠（出生后第24天和第35天）表皮角质形成细胞中全基因组的选择性剪接变化，并与同窝野生型小鼠进行比较，物种为小鼠，共16个样本。研究旨在探究病理性衰老模型中progerin表达对发育期及累积期选择性剪接的影响。该数据为皮肤早衰模型下表皮角质形成细胞剪接调控研究提供了转录组层面的参考，有助于理解皮肤内在衰老的分子机制。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67288",
     "Submission_Date": "2015/11/01",
     "Relevance_Decision": "include",
@@ -17641,9 +17551,7 @@
     "Study_Family_Title": "The effect of progerin expression on alternative splicing in keratinocytes of HGPS mice",
     "Related_GSEs": [
       "GSE67288"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE67098",
@@ -18129,8 +18037,8 @@
     "Series_Relations": [],
     "Summary": "Aging signatures developed from a longitudinal study design are dominated by reduced transcription of genes involved in protein synthesis Aging is a multifactorial process where the impact of singular components still remains unclear. Furthermore, previous studies were focused on measuring specific traits such as DNA -methylation and used categorical group-wise designs, unable to capture intra-individual signature changes. Here we have developed a new method for a longitudinal, age-related analysis combining the merits of a pair-wise design with the statistical power of gene set enrichment analysis. We present an integrated analysis, including transcriptional changes and genome-wide epigenetic changes in DNA- methylation, H3K4- and H3K27- histone methylation in promoter regions. We tested our method on a rare collection of paired skin fibroblast samples from male middle age to old age transitions and obtained functional, age-related clusters. By using a set of only ten individuals, we could demonstrate a high overlap of functional terms to previously established tissue-independent age signatures including extracellular matrix, apoptosis and oxidative stress. Importantly, we identify protein translation-related processes as the main cluster of age-driven, specific down regulation.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集基于10名男性供体的配对原代皮肤成纤维细胞样本，采用纵向配对设计，对中年至老年转变期进行转录组测序及DNA甲基化、H3K4和H3K27组蛋白甲基化的全基因组分析，共20个样本。研究旨在建立整合多组学层面的衰老相关基因表达与表观遗传变化特征，发现蛋白质翻译相关过程是随年龄增长显著下调的主要功能簇，为内在皮肤衰老的分子机制研究提供参考。",
-    "AI_Summary": "该数据集基于10名男性供体的配对原代皮肤成纤维细胞样本，采用纵向配对设计，对中年至老年转变期进行转录组测序及DNA甲基化、H3K4和H3K27组蛋白甲基化的全基因组分析，共20个样本。研究旨在建立整合多组学层面的衰老相关基因表达与表观遗传变化特征，发现蛋白质翻译相关过程是随年龄增长显著下调的主要功能簇，为内在皮肤衰老的分子机制研究提供参考。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51518",
     "Submission_Date": "2014/10/23",
     "Relevance_Decision": "include",
@@ -18199,9 +18107,7 @@
     "Related_GSEs": [
       "GSE51517",
       "GSE51518"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE51517",
@@ -18222,8 +18128,8 @@
     "Series_Relations": [],
     "Summary": "Aging signatures developed from a longitudinal study design are dominated by reduced transcription of genes involved in protein synthesis. Aging is a multifactorial process where the impact of singular components still remains unclear. Furthermore, previous studies were focused on measuring specific traits such as DNA -methylation and used categorical group-wise designs, unable to capture intra-individual signature changes. Here we have developed a new method for a longitudinal, age-related analysis combining the merits of a pair-wise design with the statistical power of gene set enrichment analysis. We present an integrated analysis, including transcriptional changes and genome-wide epigenetic changes in DNA- methylation, H3K4- and H3K27- histone methylation in promoter regions. We tested our method on a rare collection of paired skin fibroblast samples from male middle age to old age transitions and obtained functional, age-related clusters. By using a set of only ten individuals, we could demonstrate a high overlap of functional terms to previously established tissue-independent age signatures including extracellular matrix, apoptosis and oxidative stress. Importantly, we identify protein translation-related processes as the main cluster of age-driven, specific down regulation.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究基于人类原代皮肤成纤维细胞，采用配对设计比较早龄与晚龄供体样本，整合分析DNA甲基化、H3K4me3和H3K27me3组蛋白修饰及转录变化，共56个样本。研究旨在揭示内在性皮肤衰老相关的表观遗传和转录组特征，为理解皮肤老化分子机制提供参考。",
-    "AI_Summary": "该研究基于人类原代皮肤成纤维细胞，采用配对设计比较早龄与晚龄供体样本，整合分析DNA甲基化、H3K4me3和H3K27me3组蛋白修饰及转录变化，共56个样本。研究旨在揭示内在性皮肤衰老相关的表观遗传和转录组特征，为理解皮肤老化分子机制提供参考。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51517",
     "Submission_Date": "2014/10/23",
     "Relevance_Decision": "include",
@@ -18294,9 +18200,7 @@
     "Related_GSEs": [
       "GSE51517",
       "GSE51518"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE60795",
@@ -19246,8 +19150,8 @@
     "Series_Relations": [],
     "Summary": "The development of malignant melanoma is a highly complex process which is still poorly understood despite extensive research. A majority of human melanomas are found to express a handful of oncogenic proteins, such as mutant RAS and BRAF. However, these oncogenes are also found in nevi, and it is now a well-accepted fact that their expression alone leads to senescence. This renders the understanding of senescence escape mechanisms an important criterion to understand tumor development. Here, we describe the ability of the transcription factor MYC to drive the evasion of reactive oxygen stress-induced melanocyte senescence, caused by activated receptor tyrosine kinase signaling. Conversely, MIZ1, the growth suppressing interaction partner of MYC, is involved in mediating melanocyte senescence. Both, MYC overexpression and Miz1 knockdown led to a strong reduction of endogenous reactive oxygen species (ROS), DNA damage and senescence. We identified the cystathionase (CTH) gene product as mediator of the ROS-related MYC and MIZ1 effects. Blocking CTH enzymatic activity in MYC-overexpressing and Miz1 knockdown cells increased intracellular stress and senescence. Importantly, pharmacological inhibition of cystathionase in human melanoma cells also reconstituted senescence in many cell lines, and CTH knockdown reduced tumorigenic effects such as proliferation, H2O2 resistance and soft agar growth. Thus, we identified cystathionase as new MYC target gene with an important function in MYC-mediated senescence evasion.",
     "Overall_Design": "",
-    "AI_Summary_CN": "该研究利用小鼠黑色素细胞表达微阵列芯片，通过比较MYC过表达、MIZ1敲低及对照样本，探讨转录因子MYC和MIZ1调控细胞衰老的机制。研究旨在揭示黑色素细胞衰老逃逸的分子基础，为皮肤老化及黑色素瘤发生机制提供线索。该数据集提供了衰老相关基因表达变化的转录组证据，有助于理解黑色素细胞衰老调控网络。",
-    "AI_Summary": "该研究利用小鼠黑色素细胞表达微阵列芯片，通过比较MYC过表达、MIZ1敲低及对照样本，探讨转录因子MYC和MIZ1调控细胞衰老的机制。研究旨在揭示黑色素细胞衰老逃逸的分子基础，为皮肤老化及黑色素瘤发生机制提供线索。该数据集提供了衰老相关基因表达变化的转录组证据，有助于理解黑色素细胞衰老调控网络。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30473",
     "Submission_Date": "2012/07/03",
     "Relevance_Decision": "include",
@@ -19314,9 +19218,7 @@
     "Study_Family_Title": "Myc and Miz-1 control melanocyte senescence by regulating intracellular cystathionase levels",
     "Related_GSEs": [
       "GSE30473"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE35322",
@@ -19616,8 +19518,8 @@
     "Series_Relations": [],
     "Summary": "Gene expression approach to differences in stress response between human skin fibroblasts derived from chronologically young (~20 years) and old (~90 years) subjects. Expression of CDKN2A was most different between fibroblasts from young and old subjects and",
     "Overall_Design": "",
-    "AI_Summary_CN": "该数据集利用表达微阵列技术，分析了来自约20岁年轻与约90岁年长个体的原代人皮肤成纤维细胞在应激反应中的基因表达差异，共包含36个样本。研究旨在从转录组水平揭示内在性皮肤老化过程中真皮成纤维细胞的功能变化。该数据为理解皮肤老化的分子机制提供了年轻与年老细胞基因表达谱的参考资源。",
-    "AI_Summary": "该数据集利用表达微阵列技术，分析了来自约20岁年轻与约90岁年长个体的原代人皮肤成纤维细胞在应激反应中的基因表达差异，共包含36个样本。研究旨在从转录组水平揭示内在性皮肤老化过程中真皮成纤维细胞的功能变化。该数据为理解皮肤老化的分子机制提供了年轻与年老细胞基因表达谱的参考资源。",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
     "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28300",
     "Submission_Date": "2011/04/01",
     "Relevance_Decision": "include",
@@ -19685,9 +19587,7 @@
     "Study_Family_Title": "Microarray-based identification of age-dependent differences in gene expression of human dermal fibroblasts",
     "Related_GSEs": [
       "GSE28300"
-    ],
-    "AI_Summary_Model": "deepseek-v4-flash",
-    "AI_Summary_Generated_At": "2026-09-01T08:51:22+00:00"
+    ]
   },
   {
     "Accession": "GSE17046",
